@@ -22,7 +22,7 @@
   "scripts": {
     "start": "concurrently \"npm run start:backend\" \"npm run start:frontend\"",
     "start:backend": "nodemon server/server.js",
-    "start:frontend": "PORT=3000 react-scripts start"
+    "start:frontend": "react-scripts start"
   },
   "eslintConfig": {
     "extends": [

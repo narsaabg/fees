@@ -16,11 +16,9 @@ const Exchanges = () => {
 
   const [isSidebarVisible,setIsSideBarVisible] = useState(false);
   const sidebarRef = useRef(null);
-  const { exchange } = useParams();
+  const { exchange } = useParams();  
 
   const [isExchange,setIsExchange] = useState(false);
-
-  console.log(exchange)
 
   const showSidebar = () =>{
     setIsSideBarVisible(!isSidebarVisible);
@@ -43,7 +41,7 @@ const Exchanges = () => {
     return () => {
       document.removeEventListener('click', handleClickOutside);
     };
-  }, []);
+  }, [exchange]);
 
 
   return (

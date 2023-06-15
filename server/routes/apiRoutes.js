@@ -1,26 +1,21 @@
 const express = require('express');
 const router = express.Router();
+const bodyParser = require('body-parser');
 
-// Import your controller functions
+router.use(bodyParser.json());
+
+// coin detail routes start
 const {
-  // getCoins,
-//   getExchanges,
-//   getCoinDetail,
-//   getExchangeDetail,
-createCoinDetails,
-coinDetail,
+  getCoinExchanges,
+  getExchangeCoins,
+  exchangeCoinsUpsert
 } = require('../controllers/CoinDetailController');
 
-// Define your routes
-router.get('/1', createCoinDetails);
-router.get('/coin-detail', coinDetail);
+router.get('/coin/exchanges', getCoinExchanges);
+router.get('/exchange/coins', getExchangeCoins);
+router.get('/exchange-coins-upsert', exchangeCoinsUpsert);
+// coin detail routes end
 
 
-
-
-// router.get('/coins', getCoins);
-// router.get('/exchanges', getExchanges);
-// router.put('/coins/:id', getCoinDetail);
-// router.delete('/exchanges/:id', getExchangeDetail);
 
 module.exports = router;

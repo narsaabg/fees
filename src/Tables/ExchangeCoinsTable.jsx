@@ -1,5 +1,6 @@
 import React from "react";
 import { useState,useEffect } from "react";
+import { useParams } from 'react-router-dom';
 import api from "../api";
 import TR from "../TR/TR4";
 
@@ -7,13 +8,19 @@ const ExchangeCoinsTable = () => {
 
   const [data, setData] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
+  const [page_no,setPage] = useState(1);
+  const { exchange,page } = useParams();
 
   const fetchData = async () => {
+    console.log(exchange+' '+page)
+    const params = {
+              exchange: exchange,
+              page: page
+            };
     try {
-      const response = await api.get(`/api/coin-detail`);
+      const response = await api.get(`/api/exchange/coins`,{params:params});
       const data = response.data;
-      setData(response.data);
-      console.log(data);
+      setData(data.coins);
       setIsLoading(false);
     } catch (error) {
       setIsLoading(false);
@@ -35,9 +42,9 @@ const ExchangeCoinsTable = () => {
               <tr className="css-0">
                 <th className="css-1wpjpgn" />
                 <th className="css-1kcukf7">Coin</th>
-                <th className="css-fdqha2">Network</th>
-                <th className="css-fdqha2">Min Withdrawal</th>
-                <th className="css-fdqha2">Withdrawal Fee</th>
+                <th className="css-fdqha2" style={{textAlign: 'center'}}>Network</th>
+                <th className="css-fdqha2" style={{textAlign: 'end'}}>Min Withdrawal</th>
+                <th className="css-fdqha2" style={{textAlign: 'end'}}>Withdrawal Fee</th>
                 <th data-is-numeric="true" className="css-1dlal87"> <a className="chakra-link css-1cvy0v">Price</a> </th>
               </tr>
             </thead>

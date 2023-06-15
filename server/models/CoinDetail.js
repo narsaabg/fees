@@ -1,5 +1,10 @@
 const mongoose = require('mongoose');
 
+/**
+ * coin_detail collection schema
+ * @author Lovedeep
+ * @created 12/06/2023
+ */
 const coinDetailSchema = new mongoose.Schema({
   _id: { type: mongoose.Schema.Types.ObjectId, auto: true },
   coin_id: {
@@ -30,15 +35,84 @@ const coinDetailSchema = new mongoose.Schema({
 
 const CoinDetail = mongoose.model('coin_detail', coinDetailSchema);
 
-// Define the getAllCoins method on the CoinDetail model
-CoinDetail.getCoinDetail = async function () {
+/**
+ * Method is used to get the coins by exchnage Id
+ * @author Lovedeep
+ * @created 14/06/2023 11:03
+ * @changeLog
+ * -- Pagination added 15.06.2023
+ * 
+ * @param {*} exchangeId 
+ * @returns 
+ */
+CoinDetail.getExchangeCoins = async function (exchangeId, page, limit) {
   try {
-    const coins = await this.find();
-    return coins;
+    const skipAmount = (page - 1) * limit; 
+
+    const [coins, totalCount] = await Promise.all([
+        this.find({ exchange_id: exchangeId })
+            .skip(skipAmount)
+            .limit(limit),
+        this.countDocuments({ exchange_id: exchangeId })
+      ]);
+
+      const totalPages = Math.ceil(totalCount / limit);
+
+    return {
+      coins,
+      totalCoins: totalCount,
+      totalPages,
+      currentPage: page
+    };
+
   } catch (error) {
     console.error('Error retrieving coins:', error);
     throw error;
   }
 };
+
+/**
+ * Method is used to get the exchanges of coin listed on
+ * @author Lovedeep
+ * @created 14/06/2023 11:07
+ * 
+ * @param {*} coinId 
+ * @returns 
+ */
+CoinDetail.getCoinExchanges = async function (coinId) {
+  try {
+    const exchanges = await this.find({ exchange_id: coinId });
+    return exchanges;
+  } catch (error) {
+    console.error('Error retrieving coins:', error);
+    throw error;
+  }
+};
+
+/** 
+ * Update Multiple Json data collection at once
+ * @author Lovedeep 
+ * @created 14/06/2023 23:00
+ */
+CoinDetail.upsertData = async (jsonData) =>  {
+  try {
+    for (const data of jsonData) {
+      const { exchange_id, coin_id } = data;
+
+      const filter = { exchange_id, coin_id };
+      const update = { $set: data };
+      const options = { upsert: true };
+      
+      const savedCoinDetails = await CoinDetail.findOneAndUpdate(filter, update, options);
+      if (savedCoinDetails === null) {
+        console.log(`Document added: ${coin_id} - ${exchange_id}`);
+      } else {
+        console.log(`Document updated: ${coin_id} - ${exchange_id}`);
+      }
+    }
+  } catch (error) {
+    console.error('An error occurred during insertion:', error);
+  }
+}
 
 module.exports = CoinDetail;

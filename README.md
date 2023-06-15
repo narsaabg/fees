@@ -12,6 +12,15 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+090446
+<!-- 786F52  -->
+FEB95F
+F71735
+C2095A
+
+090c08-474056-757083-8a95a5
+7cfef0-6bffb8-2ceaa3-28965a
+
 ### `npm start`
 
 Runs the app in the development mode.\

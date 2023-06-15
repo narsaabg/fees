@@ -4,16 +4,20 @@ import MobileHeader from './Components/MobileHeader';
 import BrowserHeader from './Components/BrowserHeader';
 import Card from './Components/Card';
 import Pagination from './Components/Pagination';
-import Table from './Tables/ExchangeCoinsTable';
+import CoinExchangesTable from './Tables/CoinExchangesTable';
+import CoinsTable from './Tables/CoinsTable';
 import Footer from './Components/Footer';
 import MobileSidebar from './Components/MobileSidebar';
 import { useState,useRef,useEffect } from 'react';
 import api from './api';
+import { useParams } from 'react-router-dom';
 
 const Coins = () => { 
 
   const [isSidebarVisible,setIsSideBarVisible] = useState(false);
   const sidebarRef = useRef(null);
+  const { coin_id } = useParams();
+  const [isCoin,setIsCoin] = useState(false);
 
   const showSidebar = () =>{
     setIsSideBarVisible(!isSidebarVisible);
@@ -28,6 +32,10 @@ const Coins = () => {
   };
   
   useEffect(() => {
+    if(coin_id){
+      setIsCoin(true);
+    }
+
     document.addEventListener('click', handleClickOutside);
     return () => {
       document.removeEventListener('click', handleClickOutside);
@@ -55,7 +63,7 @@ const Coins = () => {
 						    <div className="css-1ei1k4u"> </div>
                 <div className="chakra-tabs css-1h73gvd" style={{display: 'block', position: 'relative'}}>
                   <div className="chakra-tabs__tab-panels css-8atqhb" style={{width: '100%'}}> 
-                    <Table />
+                    { !isCoin ? <CoinsTable /> : <CoinExchangesTable coin_id={coin_id}/> }
                     <Pagination />
                   </div>
                 </div>

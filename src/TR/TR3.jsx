@@ -1,7 +1,7 @@
 import React from "react";
 
 // CoinExchanges  Table
-const TR = ({data}) => {
+const TR3 = ({data}) => {
 
     console.log(data);
     return (
@@ -29,12 +29,10 @@ const TR = ({data}) => {
                     }
                 </select>
             </td>
-            <td className="css-pr32fc"><span>5%</span></td>
-            <td className="css-e30lz9"><a className="chakra-link css-5kc5f2" href="/block/257591">25-91</a></td>
-            <td data-is-numeric="true" className="css-e30lz9"><span className="css-75zybh"><p className="chakra-text css-1gdcvrl">0.00021905</p></span></td>
-            <td data-is-numeric="true" className="css-e30lz9"><span className="css-75zybh"><p className="chakra-text css-1gdcvrl">43</p></span></td>
+            <td data-is-numeric="true" className="css-e30lz9" style={{textAlign:'center'}}><span className="css-75zybh"><p className="chakra-text css-1gdcvrl">0.00021905</p></span></td>
+            <td data-is-numeric="true" className="css-e30lz9" style={{textAlign:'center'}}><span className="css-75zybh"><p className="chakra-text css-1gdcvrl">0.00021905</p></span></td>
         </tr>
     )
 }
 
-export default TR;
+export default TR3;

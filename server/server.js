@@ -2,6 +2,7 @@ const express = require('express');
 const app = express();
 const cors = require('cors');
 const mongoose = require('mongoose');
+const bodyParser = require('body-parser');
 require('dotenv').config();
 
 mongoose.connect(process.env.MONGO_DB, {
@@ -28,7 +29,7 @@ const apiRoutes = require('./routes/apiRoutes');
 
 // cors options
 const corsOptions = {
-    origin: 'http://localhost:5000',
+    origin: 'http://localhost:3000',
 };
 
 // Register your API routes

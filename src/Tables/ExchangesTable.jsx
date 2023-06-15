@@ -8,22 +8,9 @@ const ExchangesTable = () => {
   const [data, setData] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
 
-  const fetchData = async () => {
-    try {
-      const response = await api.get(`/api/coin-detail`);
-      const data = response.data;
-      setData(response.data);
-      console.log(data);
-      setIsLoading(false);
-    } catch (error) {
-      setIsLoading(false);
-      console.error('Error fetching data:', error);
-    }
-  };
-
   useEffect(() => {
     if (isLoading) {
-      fetchData();
+      // fetchData();
     }
   }, []);
 

@@ -7,14 +7,14 @@ const TR = ({data}) => {
     
     const onNetworkChange = (e) => {
         const selectedOption = e.target.value;
-  const withdrawalFee = e.target.options[e.target.selectedIndex].getAttribute('data-withdrawal_fee');
-  const minWithdrawal = e.target.options[e.target.selectedIndex].getAttribute('data-min_withdrawal');
+        const withdrawalFee = e.target.options[e.target.selectedIndex].getAttribute('data-withdrawal_fee');
+        const minWithdrawal = e.target.options[e.target.selectedIndex].getAttribute('data-min_withdrawal');
 
-  console.log(withdrawalFee);
-  console.log(minWithdrawal);
+        console.log(withdrawalFee);
+        console.log(minWithdrawal);
 
-  setWithdrawalFee(withdrawalFee);
-  setMinWithdrawal(minWithdrawal);
+        setWithdrawalFee(withdrawalFee);
+        setMinWithdrawal(minWithdrawal);
 
     }
 

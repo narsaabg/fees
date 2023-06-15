@@ -11,8 +11,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/coins" element={<Coins />} />
+        <Route path="/coins/:coin" element={<Coins />} />
         <Route path="/exchanges" element={<Exchanges />} />
-        <Route path="/exchanges/:exchange" element={<Exchanges />} />
+        <Route path="/exchange/:exchange/:page?" element={<Exchanges />} />
       </Routes>
     </Router>
   );

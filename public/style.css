@@ -926,6 +926,7 @@ html {
         text-align: start;
         font-size: var(--chakra-fontSizes-sm);
         vertical-align: top;
+        text-align: center;
         padding-inline-start: 6px;
         padding-inline-end: 6px;
         padding-top: var(--chakra-space-4);
@@ -943,6 +944,7 @@ html {
     .css-13u33h9 {
         display: inline-block;
         vertical-align: top;
+        width: 60%;
         -webkit-box-align: center;
         align-items: center;
         max-width: 100%;
@@ -2959,7 +2961,7 @@ margin-top: var(--chakra-space-6);
     min-width: 950px;
 }
 .css-rfi0do {
-    margin-top: 5px;
+    margin-top: 5px !important;
     display: flex;
     -webkit-box-pack: start;
     justify-content: flex-start;

@@ -1,14 +1,24 @@
 import react, { useState } from 'react'
 import SearchModal from './SearchModal';
+import api from '../api';
 
 const MobileHeader = ({showSidebar}) => {
     const [searchInput,setSearchInput] = useState('');
     const [isModalVisible,setIsModalVisible] = useState(false);
 
+    const upSertData = async () => {
+      try {
+        const response = await api.get(`/api/exchange-coins-upsert`);
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      }
+    };
+
     const search = (e) => {
         console.log(e.target.value)
         const input = e.target.value;
         setSearchInput(input);
+        upSertData();
         if(input.length > 0){
             setIsModalVisible(true);
         }else{

@@ -1,19 +1,18 @@
 import React from "react";
 import { useState,useEffect } from "react";
 import api from "../api";
-import TR from "../TR/TR1";
+import TR3 from "../TR/TR3";
 
-const CoinExchangesTable = () => {
+const CoinExchangesTable = ({coin_id}) => {
 
   const [data, setData] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
 
   const fetchData = async () => {
     try {
-      const response = await api.get(`/api/coin-detail`);
+      const response = await api.get(`/api/coin/exchanges`,{coin_id});
       const data = response.data;
-      setData(response.data);
-      console.log(data);
+      setData(data);
       setIsLoading(false);
     } catch (error) {
       setIsLoading(false);
@@ -35,15 +34,16 @@ const CoinExchangesTable = () => {
               <tr className="css-0">
                 <th className="css-1wpjpgn" />
                 <th className="css-1kcukf7">Exchange</th>
-                <th className="css-fdqha2">WITHDRAWAL FEE</th>
-                <th className="css-1dlal87">MIN WITHDRAWAL</th>
+                <th className="css-1kcukf7">Network</th>
+                <th className="css-fdqha2" style={{textAlign:'center'}}>Withdrawal Fee</th>
+                <th className="css-1dlal87" style={{textAlign:'center'}}>Min Withdrawal</th>
                </tr>
             </thead>
             <tbody className="css-0">
             {
               data && data.length > 0 && data.map(function (m, n) {
                 return (
-                  <TR data={m} key={n} />
+                  <TR3 data={m} key={n} />
                 );
               })
             }

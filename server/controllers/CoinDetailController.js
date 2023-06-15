@@ -1,65 +1,66 @@
 const CoinDetail = require('../models/CoinDetail');
+const binance = require('../../src/JSON/binance');
+const limit = 100;
 
-console.log(CoinDetail);
-
-const createCoinDetails = async (req, res) => {
-  try {
-    const coinData = [
-      {
-    exchange_id: 'binance',
-    coin_id: '1INCH',
-    coin: '1inch',
-    network: ['BEP20', 'ERC20'],
-    withdrawal_fee: [0.32, 20],
-    min_withdrawal: [0.16, 10]
-  },
-  {
-    exchange_id: 'binance',
-    coin_id: 'AGLD',
-    coin: 'Adventure Gold',
-    network: ['ERC20'],
-    withdrawal_fee: [13],
-    min_withdrawal: [6.9]
-  },
-  {
-    exchange_id: 'binance',
-    coin_id: 'ATEM',
-    coin: 'ATEM',
-    network: ['BEP20', 'ERC20'],
-    withdrawal_fee: [0.5, 1],
-    min_withdrawal: [0.2, 0.4]
-  },
-  {
-    exchange_id: 'binance',
-    coin_id: 'AUDIO',
-    coin: 'Audius',
-    network: ['ERC20'],
-    withdrawal_fee: [32],
-    min_withdrawal: [16]
-  },
-];
-
-    const savedCoinDetails = await CoinDetail.create(coinData);
-    res.json(savedCoinDetails);
-  } catch (error) {
-    console.error('Error creating coin details:', error);
-    res.status(500).json({ error: 'Failed to create coin details' });
-  }
-};
-
-// get coin detail
-
-const coinDetail = async (req, res) => {
+/**
+ * Method is used to get the coins on exchange
+ * @author Lovedeep
+ * @created 14/06/2023
+ * 
+ * @param {*} req 
+ * @param {*} res 
+ */
+const getExchangeCoins = async (req, res) => {
+    const { exchange, page } = req.query;
+    let page_no = page || 1;
     try {
-      const coins = await CoinDetail.getCoinDetail();
+      const coins = await CoinDetail.getExchangeCoins(exchange,page_no,limit);
       res.json(coins);
     } catch (error) {
       console.error('Error retrieving coins:', error);
       res.status(500).json({ error: 'Internal server error' });
     }
-  };
+};
+
+/**
+ * Method is used to get the exchanges of coin listed on
+ * @author Lovedeep
+ * @created 14/06/2023
+ * 
+ * @param {*} req 
+ * @param {*} res 
+ */
+const getCoinExchanges = async (req, res) => {
+  const coinData = req.body;
+  try {
+    const coins = await CoinDetail.getCoinExchanges(coinData.coin_id);
+    res.json(coins);
+  } catch (error) {
+    console.error('Error retrieving coins:', error);
+    res.status(500).json({ error: 'Internal server error' });
+  }
+};
+
+/**
+ * update or insert data from json 
+ * @author Lovedeep
+ * @created 14/06/2023
+ * 
+ * @param {*} req 
+ * @param {*} res 
+ */
+const exchangeCoinsUpsert = async (req, res) => {
+  try {
+    const coins = await CoinDetail.upsertData(binance);
+    res.json(coins);
+  } catch (error) {
+    console.error('Error retrieving coins:', error);
+    res.status(500).json({ error: 'Internal server error' });
+  }
+};
 
 module.exports = {
-  createCoinDetails,
-  coinDetail,
+  getExchangeCoins,
+  getCoinExchanges,
+  exchangeCoinsUpsert
 };
