@@ -1,38 +1,8 @@
 import React from "react";
-import { useState,useEffect } from "react";
-import { useParams } from 'react-router-dom';
-import api from "../api";
 import TR from "../TR/TR4";
 
-const ExchangeCoinsTable = () => {
-
-  const [data, setData] = useState(null);
-  const [isLoading, setIsLoading] = useState(true);
-  const [page_no,setPage] = useState(1);
-  const { exchange,page } = useParams();
-
-  const fetchData = async () => {
-    console.log(exchange+' '+page)
-    const params = {
-              exchange: exchange,
-              page: page
-            };
-    try {
-      const response = await api.get(`/api/exchange/coins`,{params:params});
-      const data = response.data;
-      setData(data.coins);
-      setIsLoading(false);
-    } catch (error) {
-      setIsLoading(false);
-      console.error('Error fetching data:', error);
-    }
-  };
-
-  useEffect(() => {
-    if (isLoading) {
-      fetchData();
-    }
-  }, []);
+const ExchangeCoinsTable = ({data}) => {
+  
 
     return (
         <div tabIndex={0} role="tabpanel" aria-labelledby="tabs-:r6q:--tab-0" id="tabs-:r6q:--tabpanel-0" className="chakra-tabs__tab-panel css-1qbr3jw">

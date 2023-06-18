@@ -1,5 +1,4 @@
 import './App.css';
-import axios from 'axios';
 import MobileHeader from './Components/MobileHeader';
 import BrowserHeader from './Components/BrowserHeader';
 import Card from './Components/Card';
@@ -12,12 +11,14 @@ import { useState,useRef,useEffect } from 'react';
 import api from './api';
 import { useParams } from 'react-router-dom';
 
-const Exchanges = () => { 
+const Exchanges = ({sttc}) => { 
 
   const [isSidebarVisible,setIsSideBarVisible] = useState(false);
   const sidebarRef = useRef(null);
-  const { exchange } = useParams();  
-
+  const { exchange } = useParams();
+  const [page , setPage] = useState(1);
+  const [data, setData] = useState(null); 
+  const [pagination, setPagination] = useState(null); 
   const [isExchange,setIsExchange] = useState(false);
 
   const showSidebar = () =>{
@@ -31,17 +32,35 @@ const Exchanges = () => {
       setIsSideBarVisible(false);
     }
   };
+
+  const fetchExchangeCoins = async () => {
+    const params = { exchange: exchange, page: page };
+    console.log(params);
+    try {
+      const response = await api.get(`/api/exchange/coins`,{params:params});
+      const data = response.data;
+      setData(data.coins);
+      setPagination(data);
+    } catch (error) {
+      console.error('Error fetching data:', error);
+    }
+  };
   
+  const loadPagination = (page) => {
+    setPage(page); 
+  }
+
   useEffect(() => {
     if(exchange){
         setIsExchange(true);
+        fetchExchangeCoins();
     }
 
     document.addEventListener('click', handleClickOutside);
     return () => {
       document.removeEventListener('click', handleClickOutside);
     };
-  }, [exchange]);
+  }, [exchange,page]);
 
 
   return (
@@ -57,15 +76,15 @@ const Exchanges = () => {
             <main className="css-fezzec css-c9c2l4" style={{display: 'block'}}>
 
               <div className="css-glegxw">
-              <Card />
+              <Card sttc={sttc}/>
               </div>
 
               <div className="css-10klw3m" style={{height: '100%'}}>
 						    <div className="css-1ei1k4u"> </div>
                 <div className="chakra-tabs css-1h73gvd" style={{display: 'block', position: 'relative'}}>
                   <div className="chakra-tabs__tab-panels css-8atqhb" style={{width: '100%'}}> 
-                    { !isExchange ? <ExchangesTable />  : <ExchangeCoinsTable /> }
-                    <Pagination />
+                    { !isExchange ? <ExchangesTable />  : <ExchangeCoinsTable data={data} /> }
+                    <Pagination pagination={pagination} loadPagination={loadPagination}/>
                   </div>
                 </div>
               </div>

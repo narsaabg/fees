@@ -17,5 +17,22 @@ router.get('/exchange-coins-upsert', exchangeCoinsUpsert);
 // coin detail routes end
 
 
+// coin routes
+const {
+  coinCronJob,
+  getCoins
+} = require('../controllers/CoinController');
+
+router.get('/coin/cron-job',coinCronJob);
+router.get('/coins',getCoins);
+//coin routes end
+
+// common routes
+const {
+  getStatistics
+} = require('../controllers/CommonController');
+
+router.get('/statistics',getStatistics);
+// common routes end
 
 module.exports = router;

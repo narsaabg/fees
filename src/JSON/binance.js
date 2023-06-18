@@ -1,7 +1,7 @@
 const binance = [
     {
         "exchange_id": "binance",
-        "coin_id": "1INCH",
+        "symbol": "1INCH",
         "coin": "1inch",
         "network": [
             "BEP20",
@@ -18,7 +18,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "AGLD",
+        "symbol": "AGLD",
         "coin": "Adventure Gold",
         "network": [
             "ERC20"
@@ -32,7 +32,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "ATEM",
+        "symbol": "ATEM",
         "coin": "ATEM",
         "network": [
             "BEP20",
@@ -49,7 +49,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "AUDIO",
+        "symbol": "AUDIO",
         "coin": "Audius",
         "network": [
             "ERC20"
@@ -63,7 +63,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "AR",
+        "symbol": "AR",
         "coin": "Arweave",
         "network": [
             "Arweave"
@@ -77,7 +77,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "ACA",
+        "symbol": "ACA",
         "coin": "Acala Token",
         "network": [
             "Acala"
@@ -91,7 +91,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "ARDR",
+        "symbol": "ARDR",
         "coin": "Ardor",
         "network": [
             "Ardor"
@@ -105,7 +105,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "ACH",
+        "symbol": "ACH",
         "coin": "Alchemy Pay",
         "network": [
             "BEP20",
@@ -122,7 +122,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "ACM",
+        "symbol": "ACM",
         "coin": "AC Milan Fan Token",
         "network": [
             "Chiliz Chain (CHZ)"
@@ -136,7 +136,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "ADA",
+        "symbol": "ADA",
         "coin": "Cardano",
         "network": [
             "BEP20",
@@ -156,7 +156,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "ADD",
+        "symbol": "ADD",
         "coin": "ADD",
         "network": [
             "EOS"
@@ -170,7 +170,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "ADX",
+        "symbol": "ADX",
         "coin": "Ambire AdEx",
         "network": [
             "BEP20",
@@ -187,7 +187,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "ATOM",
+        "symbol": "ATOM",
         "coin": "Cosmos",
         "network": [
             "BEP20",
@@ -207,7 +207,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "API3",
+        "symbol": "API3",
         "coin": "API3",
         "network": [
             "ERC20"
@@ -221,7 +221,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "AUCTION",
+        "symbol": "AUCTION",
         "coin": "Auction",
         "network": [
             "BEP20",
@@ -238,7 +238,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "AMB",
+        "symbol": "AMB",
         "coin": "AirDAO",
         "network": [
             "Ambrosus",
@@ -255,7 +255,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "AERGO",
+        "symbol": "AERGO",
         "coin": "Aergo",
         "network": [
             "ERC20"
@@ -269,7 +269,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "AMP",
+        "symbol": "AMP",
         "coin": "AMP",
         "network": [
             "ERC20"
@@ -283,7 +283,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "ANC",
+        "symbol": "ANC",
         "coin": "Anchor Protocol",
         "network": [
             "Terra Classic"
@@ -297,7 +297,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "ANT",
+        "symbol": "ANT",
         "coin": "Aragon",
         "network": [
             "ERC20"
@@ -311,7 +311,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "ALICE",
+        "symbol": "ALICE",
         "coin": "My Neighbor Alice",
         "network": [
             "BEP20",
@@ -328,7 +328,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "APE",
+        "symbol": "APE",
         "coin": "ApeCoin",
         "network": [
             "BEP20",
@@ -345,7 +345,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "ARPA",
+        "symbol": "ARPA",
         "coin": "ARPA Network",
         "network": [
             "BEP20",
@@ -365,7 +365,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "ALCX",
+        "symbol": "ALCX",
         "coin": "Alchemix",
         "network": [
             "ERC20"
@@ -379,7 +379,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "APT",
+        "symbol": "APT",
         "coin": "Aptos",
         "network": [
             "APT"
@@ -393,7 +393,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "ASTR",
+        "symbol": "ASTR",
         "coin": "Astar",
         "network": [
             "Astar Network"
@@ -407,7 +407,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "ARB",
+        "symbol": "ARB",
         "coin": "Arbitrum",
         "network": [
             "Arbitrum One",
@@ -424,7 +424,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "ARK",
+        "symbol": "ARK",
         "coin": "Ark",
         "network": [
             "Ark"
@@ -438,7 +438,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "ANKR",
+        "symbol": "ANKR",
         "coin": "Ankr",
         "network": [
             "BEP20",
@@ -458,7 +458,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "ALGO",
+        "symbol": "ALGO",
         "coin": "Algorand",
         "network": [
             "Algorand"
@@ -472,7 +472,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "ASR",
+        "symbol": "ASR",
         "coin": "AS Roma Fan Token",
         "network": [
             "BEP20",
@@ -489,7 +489,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "AST",
+        "symbol": "AST",
         "coin": "AirSwap",
         "network": [
             "ERC20"
@@ -503,7 +503,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "ATA",
+        "symbol": "ATA",
         "coin": "Automata",
         "network": [
             "BEP20",
@@ -520,7 +520,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "ATD",
+        "symbol": "ATD",
         "coin": "Atidium",
         "network": [
             "EOS"
@@ -534,7 +534,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "ATM",
+        "symbol": "ATM",
         "coin": "Atlético de Madrid Fan Token",
         "network": [
             "BEP20",
@@ -551,7 +551,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "ALPHA",
+        "symbol": "ALPHA",
         "coin": "Stella",
         "network": [
             "BEP20",
@@ -568,7 +568,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "AVA",
+        "symbol": "AVA",
         "coin": "Travala.com",
         "network": [
             "BEP20",
@@ -588,7 +588,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "AAVE",
+        "symbol": "AAVE",
         "coin": "Aave",
         "network": [
             "BEP20",
@@ -608,7 +608,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "AXS",
+        "symbol": "AXS",
         "coin": "Axie Infinity",
         "network": [
             "BEP20",
@@ -628,7 +628,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "ALPINE",
+        "symbol": "ALPINE",
         "coin": "Alpine F1 Team Fan Token",
         "network": [
             "BEP20"
@@ -642,7 +642,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "AVAX",
+        "symbol": "AVAX",
         "coin": "Avalanche",
         "network": [
             "BEP20",
@@ -663,7 +663,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "ALPACA",
+        "symbol": "ALPACA",
         "coin": "Alpaca Finance",
         "network": [
             "BEP20",
@@ -680,7 +680,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "AGIX",
+        "symbol": "AGIX",
         "coin": "SingularityNET Token",
         "network": [
             "ERC20"
@@ -694,7 +694,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "AKRO",
+        "symbol": "AKRO",
         "coin": "Akropolis",
         "network": [
             "ERC20"
@@ -708,7 +708,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "BCH",
+        "symbol": "BCH",
         "coin": "Bitcoin Cash",
         "network": [
             "BEP20",
@@ -731,7 +731,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "BASED",
+        "symbol": "BASED",
         "coin": "Based",
         "network": [
             "Fantom"
@@ -745,7 +745,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "BEL",
+        "symbol": "BEL",
         "coin": "Bella Protocol",
         "network": [
             "BEP20",
@@ -765,7 +765,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "BRUSH",
+        "symbol": "BRUSH",
         "coin": "PaintSwap",
         "network": [
             "Fantom"
@@ -779,7 +779,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "BCHA",
+        "symbol": "BCHA",
         "coin": "Bitcoin Cash ABC",
         "network": [
             "BEP20"
@@ -793,7 +793,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "BLINK",
+        "symbol": "BLINK",
         "coin": "Blockmason Link",
         "network": [
             "BEP2",
@@ -810,7 +810,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "BURGER",
+        "symbol": "BURGER",
         "coin": "BurgerCities",
         "network": [
             "BEP20",
@@ -827,7 +827,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "BLZ",
+        "symbol": "BLZ",
         "coin": "Bluzelle",
         "network": [
             "BEP20",
@@ -844,7 +844,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "BOBA",
+        "symbol": "BOBA",
         "coin": "BOBA token",
         "network": [
             "ERC20"
@@ -858,7 +858,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "BNC",
+        "symbol": "BNC",
         "coin": "Bifrost",
         "network": [
             "BIFROSTKUSAMA"
@@ -872,7 +872,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "BNB",
+        "symbol": "BNB",
         "coin": "BNB",
         "network": [
             "BEP20",
@@ -892,7 +892,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "BADGER",
+        "symbol": "BADGER",
         "coin": "Badger DAO",
         "network": [
             "ERC20"
@@ -906,7 +906,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "BNT",
+        "symbol": "BNT",
         "coin": "Bancor",
         "network": [
             "BEP20",
@@ -923,7 +923,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "BNX",
+        "symbol": "BNX",
         "coin": "BinaryX",
         "network": [
             "BEP20"
@@ -937,7 +937,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "BOO",
+        "symbol": "BOO",
         "coin": "Spookyswap",
         "network": [
             "Fantom"
@@ -951,7 +951,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "BDOT",
+        "symbol": "BDOT",
         "coin": "BDOT",
         "network": [
             "STAKING"
@@ -965,7 +965,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "BAKE",
+        "symbol": "BAKE",
         "coin": "BakeryToken",
         "network": [
             "BEP20",
@@ -982,7 +982,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "BTTOLD",
+        "symbol": "BTTOLD",
         "coin": "BitTorrent OLD",
         "network": [
             "BEP20",
@@ -1002,7 +1002,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "BETH",
+        "symbol": "BETH",
         "coin": "BETH",
         "network": [
             "BEP20"
@@ -1016,7 +1016,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "BETA",
+        "symbol": "BETA",
         "coin": "Beta Finance",
         "network": [
             "BEP20",
@@ -1033,7 +1033,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "BUSD",
+        "symbol": "BUSD",
         "coin": "BUSD",
         "network": [
             "BEP20",
@@ -1066,7 +1066,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "BSW",
+        "symbol": "BSW",
         "coin": "Biswap",
         "network": [
             "BEP20"
@@ -1080,7 +1080,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "BAND",
+        "symbol": "BAND",
         "coin": "BAND",
         "network": [
             "BEP20",
@@ -1103,7 +1103,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "BTC",
+        "symbol": "BTC",
         "coin": "Bitcoin",
         "network": [
             "BEP20",
@@ -1129,7 +1129,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "BTS",
+        "symbol": "BTS",
         "coin": "BitShares",
         "network": [
             "BitShares"
@@ -1143,7 +1143,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "BTTC",
+        "symbol": "BTTC",
         "coin": "BitTorrent",
         "network": [
             "BEP20",
@@ -1160,7 +1160,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "BOLT",
+        "symbol": "BOLT",
         "coin": "BOLT",
         "network": [
             "ERC20"
@@ -1174,7 +1174,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "BOND",
+        "symbol": "BOND",
         "coin": "BarnBridge",
         "network": [
             "ERC20"
@@ -1188,7 +1188,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "BICO",
+        "symbol": "BICO",
         "coin": "Biconomy",
         "network": [
             "ERC20"
@@ -1202,7 +1202,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "BIDR",
+        "symbol": "BIDR",
         "coin": "BIDR",
         "network": [
             "BEP20",
@@ -1219,7 +1219,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "BGBP",
+        "symbol": "BGBP",
         "coin": "BGBP",
         "network": [
             "ERC20"
@@ -1233,7 +1233,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "BIFI",
+        "symbol": "BIFI",
         "coin": "Beefy.Finance",
         "network": [
             "BEP20",
@@ -1253,7 +1253,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "BAL",
+        "symbol": "BAL",
         "coin": "Balancer",
         "network": [
             "BEP20",
@@ -1270,7 +1270,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "BAR",
+        "symbol": "BAR",
         "coin": "FC Barcelona Fan Token BAR",
         "network": [
             "Chiliz Chain (CHZ)"
@@ -1284,7 +1284,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "BAT",
+        "symbol": "BAT",
         "coin": "Basic Attention Token",
         "network": [
             "BEP20",
@@ -1304,7 +1304,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "CFX",
+        "symbol": "CFX",
         "coin": "Conflux Network",
         "network": [
             "BEP20",
@@ -1324,7 +1324,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "CHR",
+        "symbol": "CHR",
         "coin": "Chromia",
         "network": [
             "BEP20",
@@ -1341,7 +1341,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "CHZ",
+        "symbol": "CHZ",
         "coin": "Chiliz",
         "network": [
             "BEP2",
@@ -1358,7 +1358,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "CKB",
+        "symbol": "CKB",
         "coin": "CKB",
         "network": [
             "Nervos Network"
@@ -1372,7 +1372,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "CLV",
+        "symbol": "CLV",
         "coin": "Clover Finance",
         "network": [
             "BEP20",
@@ -1389,7 +1389,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "CHESS",
+        "symbol": "CHESS",
         "coin": "Tranchess",
         "network": [
             "BEP20"
@@ -1403,7 +1403,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "COS",
+        "symbol": "COS",
         "coin": "Contentos",
         "network": [
             "BEP20",
@@ -1423,7 +1423,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "CITY",
+        "symbol": "CITY",
         "coin": "Manchester City Fan Token",
         "network": [
             "BEP20",
@@ -1440,7 +1440,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "CELR",
+        "symbol": "CELR",
         "coin": "Celer Network",
         "network": [
             "BEP20",
@@ -1457,7 +1457,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "CELO",
+        "symbol": "CELO",
         "coin": "Celo",
         "network": [
             "CELO"
@@ -1471,7 +1471,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "CRV",
+        "symbol": "CRV",
         "coin": "Curve",
         "network": [
             "ERC20"
@@ -1485,7 +1485,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "CTK",
+        "symbol": "CTK",
         "coin": "Shentu",
         "network": [
             "BEP20",
@@ -1502,7 +1502,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "CAKE",
+        "symbol": "CAKE",
         "coin": "PancakeSwap",
         "network": [
             "BEP20",
@@ -1519,7 +1519,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "CVC",
+        "symbol": "CVC",
         "coin": "Civic",
         "network": [
             "ERC20"
@@ -1533,7 +1533,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "CVP",
+        "symbol": "CVP",
         "coin": "PowerPool",
         "network": [
             "BEP20",
@@ -1550,7 +1550,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "CVX",
+        "symbol": "CVX",
         "coin": "Convex Finance",
         "network": [
             "ERC20"
@@ -1564,7 +1564,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "CTSI",
+        "symbol": "CTSI",
         "coin": "Cartesi",
         "network": [
             "BEP20",
@@ -1581,7 +1581,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "C98",
+        "symbol": "C98",
         "coin": "Coin98",
         "network": [
             "BEP20",
@@ -1598,7 +1598,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "COCOS",
+        "symbol": "COCOS",
         "coin": "Cocos-BCX",
         "network": [
             "BEP20",
@@ -1618,7 +1618,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "COMBO",
+        "symbol": "COMBO",
         "coin": "COMBO",
         "network": [
             "BEP20",
@@ -1635,7 +1635,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "CTXC",
+        "symbol": "CTXC",
         "coin": "Cortex",
         "network": [
             "Cortex",
@@ -1652,7 +1652,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "COMP",
+        "symbol": "COMP",
         "coin": "Compound",
         "network": [
             "BEP20",
@@ -1672,7 +1672,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "CAN",
+        "symbol": "CAN",
         "coin": "CanYaCoin",
         "network": [
             "BEP2",
@@ -1689,7 +1689,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "CREAM",
+        "symbol": "CREAM",
         "coin": "Cream Finance",
         "network": [
             "BEP20",
@@ -1706,7 +1706,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "CBM",
+        "symbol": "CBM",
         "coin": "Crypto Bonus Miles Token",
         "network": [
             "ERC20"
@@ -1720,7 +1720,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "COTI",
+        "symbol": "COTI",
         "coin": "COTI",
         "network": [
             "BEP20",
@@ -1740,7 +1740,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "DGB",
+        "symbol": "DGB",
         "coin": "DigiByte",
         "network": [
             "DigiByte"
@@ -1754,7 +1754,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "DGD",
+        "symbol": "DGD",
         "coin": "DigixDAO",
         "network": [
             "ERC20"
@@ -1768,7 +1768,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "DIA",
+        "symbol": "DIA",
         "coin": "DIA",
         "network": [
             "BEP20",
@@ -1785,7 +1785,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "DF",
+        "symbol": "DF",
         "coin": "dForce",
         "network": [
             "BEP20",
@@ -1802,7 +1802,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "DON",
+        "symbol": "DON",
         "coin": "Donnie Finance",
         "network": [
             "IOST"
@@ -1816,7 +1816,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "DOT",
+        "symbol": "DOT",
         "coin": "Polkadot",
         "network": [
             "BEP20",
@@ -1836,7 +1836,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "DEGO",
+        "symbol": "DEGO",
         "coin": "Dego Finance",
         "network": [
             "BEP20",
@@ -1853,7 +1853,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "DREP",
+        "symbol": "DREP",
         "coin": "DREP",
         "network": [
             "BEP20",
@@ -1870,7 +1870,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "DOCK",
+        "symbol": "DOCK",
         "coin": "DOCK",
         "network": [
             "DOCK"
@@ -1884,7 +1884,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "DENT",
+        "symbol": "DENT",
         "coin": "DENT",
         "network": [
             "ERC20"
@@ -1898,7 +1898,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "DODO",
+        "symbol": "DODO",
         "coin": "DODO",
         "network": [
             "BEP20",
@@ -1915,7 +1915,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "DOGE",
+        "symbol": "DOGE",
         "coin": "Dogecoin",
         "network": [
             "BEP20",
@@ -1935,7 +1935,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "DUSK",
+        "symbol": "DUSK",
         "coin": "Dusk Network",
         "network": [
             "BEP20",
@@ -1955,7 +1955,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "DEGOOLD",
+        "symbol": "DEGOOLD",
         "coin": "Old Dego Finance Token",
         "network": [
             "BEP20"
@@ -1969,7 +1969,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "DEXE",
+        "symbol": "DEXE",
         "coin": "DeXe",
         "network": [
             "BEP20",
@@ -1986,7 +1986,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "DAI",
+        "symbol": "DAI",
         "coin": "Dai",
         "network": [
             "BEP20",
@@ -2009,7 +2009,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "DAR",
+        "symbol": "DAR",
         "coin": "Mines of Dalarnia",
         "network": [
             "BEP20",
@@ -2026,7 +2026,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "DASH",
+        "symbol": "DASH",
         "coin": "Dash",
         "network": [
             "Dash"
@@ -2040,7 +2040,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "DCR",
+        "symbol": "DCR",
         "coin": "Decred",
         "network": [
             "Decred"
@@ -2054,7 +2054,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "DATA",
+        "symbol": "DATA",
         "coin": "Streamr",
         "network": [
             "BEP20",
@@ -2074,7 +2074,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "DYDX",
+        "symbol": "DYDX",
         "coin": "dYdX",
         "network": [
             "ERC20"
@@ -2088,7 +2088,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "ELF",
+        "symbol": "ELF",
         "coin": "aelf",
         "network": [
             "BEP20",
@@ -2111,7 +2111,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "ENJ",
+        "symbol": "ENJ",
         "coin": "Enjin Coin",
         "network": [
             "ERC20"
@@ -2125,7 +2125,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "ENS",
+        "symbol": "ENS",
         "coin": "Ethereum Name Service",
         "network": [
             "ERC20"
@@ -2139,7 +2139,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "EON",
+        "symbol": "EON",
         "coin": "EOS Network",
         "network": [
             "ERC20"
@@ -2153,7 +2153,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "ELON",
+        "symbol": "ELON",
         "coin": "Dogelon",
         "network": [
             "BEP20",
@@ -2170,7 +2170,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "EOS",
+        "symbol": "EOS",
         "coin": "EOS",
         "network": [
             "BEP20",
@@ -2190,7 +2190,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "EPX",
+        "symbol": "EPX",
         "coin": "Ellipsis",
         "network": [
             "BEP20"
@@ -2204,7 +2204,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "ERN",
+        "symbol": "ERN",
         "coin": "Ethernity Chain",
         "network": [
             "ERC20"
@@ -2218,7 +2218,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "ETC",
+        "symbol": "ETC",
         "coin": "Ethereum Classic",
         "network": [
             "BEP20",
@@ -2238,7 +2238,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "ETH",
+        "symbol": "ETH",
         "coin": "Ethereum",
         "network": [
             "BEP20",
@@ -2264,7 +2264,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "EGLD",
+        "symbol": "EGLD",
         "coin": "MultiversX",
         "network": [
             "BEP20",
@@ -2281,7 +2281,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "ETHW",
+        "symbol": "ETHW",
         "coin": "Ethereum PoW",
         "network": [
             "BEP2",
@@ -2303,7 +2303,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "ETHBNT",
+        "symbol": "ETHBNT",
         "coin": "BNT Smart Token Relay",
         "network": [
             "ERC20"
@@ -2317,7 +2317,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "EDG",
+        "symbol": "EDG",
         "coin": "Edgeware",
         "network": [
             "Edgeware"
@@ -2331,7 +2331,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "EDU",
+        "symbol": "EDU",
         "coin": "Open Campus",
         "network": [
             "BEP20"
@@ -2345,7 +2345,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "ENTRP",
+        "symbol": "ENTRP",
         "coin": "Hut34 Entropy",
         "network": [
             "BEP2",
@@ -2362,7 +2362,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "EFI",
+        "symbol": "EFI",
         "coin": "Efinity Token",
         "network": [
             "Efinity",
@@ -2379,7 +2379,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "FARM",
+        "symbol": "FARM",
         "coin": "Harvest Finance",
         "network": [
             "BEP20",
@@ -2396,7 +2396,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "FLM",
+        "symbol": "FLM",
         "coin": "Flamingo",
         "network": [
             "NEO N3",
@@ -2413,7 +2413,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "FLOKI",
+        "symbol": "FLOKI",
         "coin": "FLOKI",
         "network": [
             "BEP20",
@@ -2430,7 +2430,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "FIDA",
+        "symbol": "FIDA",
         "coin": "Bonfida",
         "network": [
             "Solana"
@@ -2444,7 +2444,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "FOR",
+        "symbol": "FOR",
         "coin": "ForTube",
         "network": [
             "BEP20",
@@ -2461,7 +2461,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "FUSDC",
+        "symbol": "FUSDC",
         "coin": "Fantom USD Coin",
         "network": [
             "Fantom"
@@ -2475,7 +2475,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "FUSDT",
+        "symbol": "FUSDT",
         "coin": "Frapped USDT",
         "network": [
             "Fantom"
@@ -2489,7 +2489,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "FLOW",
+        "symbol": "FLOW",
         "coin": "Flow",
         "network": [
             "BEP20",
@@ -2506,7 +2506,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "FTM",
+        "symbol": "FTM",
         "coin": "Fantom",
         "network": [
             "BEP20",
@@ -2529,7 +2529,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "FTT",
+        "symbol": "FTT",
         "coin": "FTX Token",
         "network": [
             "ERC20"
@@ -2543,7 +2543,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "FUN",
+        "symbol": "FUN",
         "coin": "FunToken",
         "network": [
             "ERC20"
@@ -2557,7 +2557,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "FXS",
+        "symbol": "FXS",
         "coin": "Frax Share",
         "network": [
             "BEP20",
@@ -2574,7 +2574,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "FLUX",
+        "symbol": "FLUX",
         "coin": "Flux",
         "network": [
             "BEP20",
@@ -2591,7 +2591,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "FRONT",
+        "symbol": "FRONT",
         "coin": "Frontier",
         "network": [
             "BEP20",
@@ -2608,7 +2608,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "FIRO",
+        "symbol": "FIRO",
         "coin": "Firo",
         "network": [
             "BEP20",
@@ -2625,7 +2625,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "FORTH",
+        "symbol": "FORTH",
         "coin": "Ampleforth Governance Token",
         "network": [
             "ERC20"
@@ -2639,7 +2639,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "FET",
+        "symbol": "FET",
         "coin": "Fetch.ai",
         "network": [
             "BEP20",
@@ -2659,7 +2659,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "FIL",
+        "symbol": "FIL",
         "coin": "Filecoin",
         "network": [
             "BEP20",
@@ -2682,7 +2682,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "FIO",
+        "symbol": "FIO",
         "coin": "FIO Protocol",
         "network": [
             "FIO Protocol"
@@ -2696,7 +2696,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "FIS",
+        "symbol": "FIS",
         "coin": "Stafi",
         "network": [
             "BEP20",
@@ -2713,7 +2713,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "GLM",
+        "symbol": "GLM",
         "coin": "Golem",
         "network": [
             "ERC20"
@@ -2727,7 +2727,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "GMT",
+        "symbol": "GMT",
         "coin": "Green Metaverse Token",
         "network": [
             "BEP20",
@@ -2747,7 +2747,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "GMX",
+        "symbol": "GMX",
         "coin": "GMX",
         "network": [
             "AVAX C",
@@ -2765,7 +2765,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "GNO",
+        "symbol": "GNO",
         "coin": "Gnosis",
         "network": [
             "ERC20"
@@ -2779,7 +2779,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "GNS",
+        "symbol": "GNS",
         "coin": "Gains Network",
         "network": [
             "Arbitrum One",
@@ -2796,7 +2796,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "GRT",
+        "symbol": "GRT",
         "coin": "The Graph",
         "network": [
             "Arbitrum One",
@@ -2816,7 +2816,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "GRS",
+        "symbol": "GRS",
         "coin": "Groestlcoin",
         "network": [
             "Groestlcoin"
@@ -2830,7 +2830,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "GQ",
+        "symbol": "GQ",
         "coin": "Outer Ring MMO",
         "network": [
             "BEP20"
@@ -2844,7 +2844,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "GTC",
+        "symbol": "GTC",
         "coin": "Gitcoin",
         "network": [
             "ERC20"
@@ -2858,7 +2858,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "GYEN",
+        "symbol": "GYEN",
         "coin": "GYEN",
         "network": [
             "ERC20"
@@ -2872,7 +2872,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "GLMR",
+        "symbol": "GLMR",
         "coin": "Glimmer",
         "network": [
             "Moonbeam",
@@ -2889,7 +2889,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "GAL",
+        "symbol": "GAL",
         "coin": "Galxe",
         "network": [
             "BEP20",
@@ -2906,7 +2906,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "GAS",
+        "symbol": "GAS",
         "coin": "NeoGas",
         "network": [
             "NEO N3",
@@ -2923,7 +2923,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "GHST",
+        "symbol": "GHST",
         "coin": "Aavegotchi",
         "network": [
             "ERC20",
@@ -2940,7 +2940,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "GFT",
+        "symbol": "GFT",
         "coin": "Gifto",
         "network": [
             "BEP20"
@@ -2954,7 +2954,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "GALA",
+        "symbol": "GALA",
         "coin": "Gala",
         "network": [
             "ERC20"
@@ -2968,7 +2968,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "HOT",
+        "symbol": "HOT",
         "coin": "Holo",
         "network": [
             "ERC20"
@@ -2982,7 +2982,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "HARD",
+        "symbol": "HARD",
         "coin": "Kava Lend",
         "network": [
             "BEP20",
@@ -2999,7 +2999,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "HOOK",
+        "symbol": "HOOK",
         "coin": "Hooked Protocol",
         "network": [
             "BEP20"
@@ -3013,7 +3013,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "HIGH",
+        "symbol": "HIGH",
         "coin": "Highstreet",
         "network": [
             "BEP20",
@@ -3030,7 +3030,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "HIFI",
+        "symbol": "HIFI",
         "coin": "Hifi Finance",
         "network": [
             "ERC20"
@@ -3044,7 +3044,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "HNST",
+        "symbol": "HNST",
         "coin": "Honest",
         "network": [
             "BEP2",
@@ -3061,7 +3061,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "HBAR",
+        "symbol": "HBAR",
         "coin": "Hedera Hashgraph",
         "network": [
             "Hedera Hashgraph"
@@ -3075,7 +3075,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "HFT",
+        "symbol": "HFT",
         "coin": "Hashflow",
         "network": [
             "BEP20",
@@ -3092,7 +3092,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "HIVE",
+        "symbol": "HIVE",
         "coin": "Hive",
         "network": [
             "HIVE"
@@ -3106,7 +3106,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "IRIS",
+        "symbol": "IRIS",
         "coin": "IRISnet",
         "network": [
             "IRISnet"
@@ -3120,7 +3120,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "IDRT",
+        "symbol": "IDRT",
         "coin": "Rupiah Token",
         "network": [
             "BEP20",
@@ -3143,7 +3143,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "ID",
+        "symbol": "ID",
         "coin": "Space ID",
         "network": [
             "BEP20",
@@ -3160,7 +3160,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "IQ",
+        "symbol": "IQ",
         "coin": "IQ",
         "network": [
             "EOS",
@@ -3177,7 +3177,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "IOTX",
+        "symbol": "IOTX",
         "coin": "IoTeX",
         "network": [
             "BEP20",
@@ -3200,7 +3200,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "IOST",
+        "symbol": "IOST",
         "coin": "IOST",
         "network": [
             "IOST",
@@ -3217,7 +3217,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "IOTA",
+        "symbol": "IOTA",
         "coin": "MIOTA",
         "network": [
             "BEP20",
@@ -3234,7 +3234,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "ICP",
+        "symbol": "ICP",
         "coin": "Internet Computer",
         "network": [
             "Internet Computer"
@@ -3248,7 +3248,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "ICX",
+        "symbol": "ICX",
         "coin": "ICON",
         "network": [
             "ICON"
@@ -3262,7 +3262,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "IHC",
+        "symbol": "IHC",
         "coin": "Inflation Hedging Coin",
         "network": [
             "BEP20"
@@ -3276,7 +3276,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "IDEX",
+        "symbol": "IDEX",
         "coin": "IDEX",
         "network": [
             "BEP20",
@@ -3293,7 +3293,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "ILV",
+        "symbol": "ILV",
         "coin": "Illuvium",
         "network": [
             "BEP20",
@@ -3310,7 +3310,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "IMX",
+        "symbol": "IMX",
         "coin": "ImmutableX",
         "network": [
             "ERC20"
@@ -3324,7 +3324,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "INJ",
+        "symbol": "INJ",
         "coin": "Injective",
         "network": [
             "BEP20",
@@ -3344,7 +3344,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "INS",
+        "symbol": "INS",
         "coin": "Insolar",
         "network": [
             "ERC20"
@@ -3358,7 +3358,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "JST",
+        "symbol": "JST",
         "coin": "JUST",
         "network": [
             "BEP20",
@@ -3375,7 +3375,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "JUV",
+        "symbol": "JUV",
         "coin": "Juventus Fan Token",
         "network": [
             "BEP20",
@@ -3392,7 +3392,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "JASMY",
+        "symbol": "JASMY",
         "coin": "JasmyCoin",
         "network": [
             "BEP20",
@@ -3409,7 +3409,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "JEX",
+        "symbol": "JEX",
         "coin": "Jex Token",
         "network": [
             "ERC20"
@@ -3423,7 +3423,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "JOE",
+        "symbol": "JOE",
         "coin": "JOE",
         "network": [
             "AVAX C",
@@ -3441,7 +3441,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "KLAY",
+        "symbol": "KLAY",
         "coin": "Klaytn",
         "network": [
             "Klaytn"
@@ -3455,7 +3455,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "KDA",
+        "symbol": "KDA",
         "coin": "Kadena",
         "network": [
             "Kadena",
@@ -3472,7 +3472,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "KEY",
+        "symbol": "KEY",
         "coin": "Selfkey",
         "network": [
             "ERC20"
@@ -3486,7 +3486,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "KP3R",
+        "symbol": "KP3R",
         "coin": "Keep3rV1",
         "network": [
             "ERC20"
@@ -3500,7 +3500,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "KAVA",
+        "symbol": "KAVA",
         "coin": "Kava",
         "network": [
             "KAVA",
@@ -3517,7 +3517,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "KEYFI",
+        "symbol": "KEYFI",
         "coin": "KeyFi",
         "network": [
             "ERC20"
@@ -3531,7 +3531,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "KMD",
+        "symbol": "KMD",
         "coin": "Komodo",
         "network": [
             "BEP20",
@@ -3548,7 +3548,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "KNC",
+        "symbol": "KNC",
         "coin": "KyberNetwork",
         "network": [
             "BEP20",
@@ -3565,7 +3565,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "KSM",
+        "symbol": "KSM",
         "coin": "Kusama",
         "network": [
             "BEP20",
@@ -3582,7 +3582,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "LUNC",
+        "symbol": "LUNC",
         "coin": "Terra Classic",
         "network": [
             "Terra Classic"
@@ -3596,7 +3596,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "LUNA",
+        "symbol": "LUNA",
         "coin": "Terra",
         "network": [
             "Terra"
@@ -3610,7 +3610,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "LQDR",
+        "symbol": "LQDR",
         "coin": "Liquid Driver",
         "network": [
             "Fantom"
@@ -3624,7 +3624,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "LAZIO",
+        "symbol": "LAZIO",
         "coin": "Lazio Fan Token",
         "network": [
             "BEP20"
@@ -3638,7 +3638,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "LBA",
+        "symbol": "LBA",
         "coin": "Lend Borrow Asset",
         "network": [
             "BEP2",
@@ -3655,7 +3655,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "LOOKS",
+        "symbol": "LOOKS",
         "coin": "LooksRare",
         "network": [
             "BEP20",
@@ -3672,7 +3672,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "LDO",
+        "symbol": "LDO",
         "coin": "Lido DAO",
         "network": [
             "ERC20"
@@ -3686,7 +3686,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "LOKA",
+        "symbol": "LOKA",
         "coin": "League of Kingdoms",
         "network": [
             "ERC20"
@@ -3700,7 +3700,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "LIT",
+        "symbol": "LIT",
         "coin": "Litentry",
         "network": [
             "BEP20",
@@ -3717,7 +3717,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "LOOM",
+        "symbol": "LOOM",
         "coin": "Loom Network",
         "network": [
             "BEP20",
@@ -3734,7 +3734,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "LIF3",
+        "symbol": "LIF3",
         "coin": "LIF3",
         "network": [
             "Fantom"
@@ -3748,7 +3748,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "LQTY",
+        "symbol": "LQTY",
         "coin": "Liquity",
         "network": [
             "ERC20"
@@ -3762,7 +3762,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "LEVER",
+        "symbol": "LEVER",
         "coin": "LeverFi",
         "network": [
             "ERC20"
@@ -3776,7 +3776,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "LPT",
+        "symbol": "LPT",
         "coin": "Livepeer",
         "network": [
             "ERC20"
@@ -3790,7 +3790,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "LRC",
+        "symbol": "LRC",
         "coin": "Loopring",
         "network": [
             "BEP20",
@@ -3807,7 +3807,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "LSK",
+        "symbol": "LSK",
         "coin": "Lisk",
         "network": [
             "Lisk"
@@ -3821,7 +3821,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "LTC",
+        "symbol": "LTC",
         "coin": "Litecoin",
         "network": [
             "BEP20",
@@ -3841,7 +3841,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "LTO",
+        "symbol": "LTO",
         "coin": "LTO Network",
         "network": [
             "BEP20",
@@ -3864,7 +3864,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "LTT",
+        "symbol": "LTT",
         "coin": "Lord Token",
         "network": [
             "BEP20"
@@ -3878,7 +3878,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "LINA",
+        "symbol": "LINA",
         "coin": "Linear",
         "network": [
             "BEP20",
@@ -3895,7 +3895,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "LINK",
+        "symbol": "LINK",
         "coin": "ChainLink",
         "network": [
             "BEP20",
@@ -3915,7 +3915,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "MIMATIC",
+        "symbol": "MIMATIC",
         "coin": "MAI",
         "network": [
             "Fantom"
@@ -3929,7 +3929,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "MINA",
+        "symbol": "MINA",
         "coin": "Mina",
         "network": [
             "Mina"
@@ -3943,7 +3943,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "MBL",
+        "symbol": "MBL",
         "coin": "MovieBloc",
         "network": [
             "BEP20",
@@ -3960,7 +3960,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "MTLX",
+        "symbol": "MTLX",
         "coin": "Mettalex",
         "network": [
             "ERC20"
@@ -3974,7 +3974,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "MULTI",
+        "symbol": "MULTI",
         "coin": "Multichain",
         "network": [
             "BEP20"
@@ -3988,7 +3988,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "MC",
+        "symbol": "MC",
         "coin": "Merit Circle",
         "network": [
             "BEP20",
@@ -4005,7 +4005,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "MDT",
+        "symbol": "MDT",
         "coin": "Measurable Data Token",
         "network": [
             "BEP20",
@@ -4022,7 +4022,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "MDX",
+        "symbol": "MDX",
         "coin": "Mdex",
         "network": [
             "BEP20"
@@ -4036,7 +4036,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "MAGIC",
+        "symbol": "MAGIC",
         "coin": "Magic",
         "network": [
             "Arbitrum One"
@@ -4050,7 +4050,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "MATIC",
+        "symbol": "MATIC",
         "coin": "Polygon",
         "network": [
             "BEP20",
@@ -4073,7 +4073,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "MBOX",
+        "symbol": "MBOX",
         "coin": "MOBOX",
         "network": [
             "BEP20"
@@ -4087,7 +4087,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "MIR",
+        "symbol": "MIR",
         "coin": "Mirror Protocol",
         "network": [
             "BEP20"
@@ -4101,7 +4101,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "MANA",
+        "symbol": "MANA",
         "coin": "Decentraland",
         "network": [
             "BEP20",
@@ -4118,7 +4118,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "MEETONE",
+        "symbol": "MEETONE",
         "coin": "MEETONE",
         "network": [
             "EOS"
@@ -4132,7 +4132,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "MKR",
+        "symbol": "MKR",
         "coin": "Maker",
         "network": [
             "BEP20",
@@ -4152,7 +4152,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "MLN",
+        "symbol": "MLN",
         "coin": "Enzyme",
         "network": [
             "ERC20"
@@ -4166,7 +4166,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "MAPS",
+        "symbol": "MAPS",
         "coin": "MAPS",
         "network": [
             "ERC20"
@@ -4180,7 +4180,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "MASK",
+        "symbol": "MASK",
         "coin": "Mask Network",
         "network": [
             "BEP20",
@@ -4197,7 +4197,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "MOB",
+        "symbol": "MOB",
         "coin": "MobileCoin",
         "network": [
             "MobileCoin"
@@ -4211,7 +4211,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "MDXT",
+        "symbol": "MDXT",
         "coin": "MANDALA EXCHANGE TOKEN",
         "network": [
             "ERC20"
@@ -4225,7 +4225,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "MTL",
+        "symbol": "MTL",
         "coin": "Metal",
         "network": [
             "ERC20"
@@ -4239,7 +4239,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "MNTC",
+        "symbol": "MNTC",
         "coin": "MNTCoin",
         "network": [
             "BEP20"
@@ -4253,7 +4253,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "MOVR",
+        "symbol": "MOVR",
         "coin": "Moonriver",
         "network": [
             "Moonriver"
@@ -4267,7 +4267,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "NEAR",
+        "symbol": "NEAR",
         "coin": "NEAR Protocol",
         "network": [
             "BEP20",
@@ -4287,7 +4287,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "NSBT",
+        "symbol": "NSBT",
         "coin": "Neutrino Token",
         "network": [
             "Waves"
@@ -4301,7 +4301,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "NBT",
+        "symbol": "NBT",
         "coin": "NanoByte Token",
         "network": [
             "BEP20"
@@ -4315,7 +4315,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "NEO",
+        "symbol": "NEO",
         "coin": "NEO",
         "network": [
             "Neo Legacy",
@@ -4332,7 +4332,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "NFT",
+        "symbol": "NFT",
         "coin": "APENFT",
         "network": [
             "BEP20",
@@ -4349,7 +4349,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "NULS",
+        "symbol": "NULS",
         "coin": "Nuls",
         "network": [
             "BEP20",
@@ -4366,7 +4366,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "NKN",
+        "symbol": "NKN",
         "coin": "NKN",
         "network": [
             "ERC20"
@@ -4380,7 +4380,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "NMR",
+        "symbol": "NMR",
         "coin": "Numeraire",
         "network": [
             "ERC20"
@@ -4394,7 +4394,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "NEXO",
+        "symbol": "NEXO",
         "coin": "Nexo",
         "network": [
             "ERC20",
@@ -4411,7 +4411,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "NVT",
+        "symbol": "NVT",
         "coin": "NerveNetwork",
         "network": [
             "Nuls"
@@ -4425,7 +4425,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "OCEAN",
+        "symbol": "OCEAN",
         "coin": "Ocean Protocol",
         "network": [
             "BEP20",
@@ -4442,7 +4442,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "OAX",
+        "symbol": "OAX",
         "coin": "openANX",
         "network": [
             "BEP20",
@@ -4459,7 +4459,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "OGN",
+        "symbol": "OGN",
         "coin": "OriginToken",
         "network": [
             "BEP20",
@@ -4476,7 +4476,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "OGV",
+        "symbol": "OGV",
         "coin": "Origin Dollar Governance",
         "network": [
             "ERC20"
@@ -4490,7 +4490,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "OG",
+        "symbol": "OG",
         "coin": "OG Fan Token",
         "network": [
             "BEP20",
@@ -4507,7 +4507,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "OM",
+        "symbol": "OM",
         "coin": "MANTRA",
         "network": [
             "BEP20",
@@ -4524,7 +4524,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "OP",
+        "symbol": "OP",
         "coin": "Optimism",
         "network": [
             "Optimism"
@@ -4538,7 +4538,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "OMG",
+        "symbol": "OMG",
         "coin": "OMG Network",
         "network": [
             "ERC20"
@@ -4552,7 +4552,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "ONE",
+        "symbol": "ONE",
         "coin": "Harmony",
         "network": [
             "Harmony",
@@ -4569,7 +4569,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "ONG",
+        "symbol": "ONG",
         "coin": "Ontology Gas",
         "network": [
             "Ontology"
@@ -4583,7 +4583,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "ONT",
+        "symbol": "ONT",
         "coin": "Ontology",
         "network": [
             "BEP20",
@@ -4603,7 +4603,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "ONX",
+        "symbol": "ONX",
         "coin": "OnX.Finance",
         "network": [
             "ERC20"
@@ -4617,7 +4617,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "OSMO",
+        "symbol": "OSMO",
         "coin": "Osmosis",
         "network": [
             "Osmosis"
@@ -4631,7 +4631,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "ORN",
+        "symbol": "ORN",
         "coin": "Orion Protocol",
         "network": [
             "BEP20",
@@ -4648,7 +4648,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "OMOLD",
+        "symbol": "OMOLD",
         "coin": "Old MANTRA DAO",
         "network": [
             "ERC20"
@@ -4662,7 +4662,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "OOKI",
+        "symbol": "OOKI",
         "coin": "OokiDAO",
         "network": [
             "ERC20",
@@ -4679,7 +4679,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "OXT",
+        "symbol": "OXT",
         "coin": "Orchid",
         "network": [
             "ERC20"
@@ -4693,7 +4693,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "PAXG",
+        "symbol": "PAXG",
         "coin": "PAX Gold",
         "network": [
             "ERC20"
@@ -4707,7 +4707,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "PAX",
+        "symbol": "PAX",
         "coin": "Paxos Standard",
         "network": [
             "BEP20",
@@ -4724,7 +4724,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "PGALA",
+        "symbol": "PGALA",
         "coin": "Old pNetwork Gala",
         "network": [
             "BEP20"
@@ -4738,7 +4738,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "POWR",
+        "symbol": "POWR",
         "coin": "PowerLedger",
         "network": [
             "ERC20"
@@ -4752,7 +4752,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "PHA",
+        "symbol": "PHA",
         "coin": "Phala.Network",
         "network": [
             "BEP20",
@@ -4769,7 +4769,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "PHB",
+        "symbol": "PHB",
         "coin": "Phoenix",
         "network": [
             "BEP20"
@@ -4783,7 +4783,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "PURSE",
+        "symbol": "PURSE",
         "coin": "Pundi X PURSE",
         "network": [
             "BEP20"
@@ -4797,7 +4797,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "PUNDIX",
+        "symbol": "PUNDIX",
         "coin": "Pundi X",
         "network": [
             "ERC20"
@@ -4811,7 +4811,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "PLA",
+        "symbol": "PLA",
         "coin": "PlayDapp",
         "network": [
             "ERC20",
@@ -4828,7 +4828,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "PNT",
+        "symbol": "PNT",
         "coin": "pNetwork",
         "network": [
             "BEP20",
@@ -4845,7 +4845,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "PIVX",
+        "symbol": "PIVX",
         "coin": "PIVX",
         "network": [
             "PIVX"
@@ -4859,7 +4859,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "POLYX",
+        "symbol": "POLYX",
         "coin": "Polymesh",
         "network": [
             "POLYX"
@@ -4873,7 +4873,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "PEPE",
+        "symbol": "PEPE",
         "coin": "Pepe",
         "network": [
             "ERC20"
@@ -4887,7 +4887,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "PSG",
+        "symbol": "PSG",
         "coin": "Paris Saint-Germain Fan Token",
         "network": [
             "BEP20",
@@ -4904,7 +4904,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "PERL",
+        "symbol": "PERL",
         "coin": "Perlin",
         "network": [
             "BEP20",
@@ -4921,7 +4921,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "PERP",
+        "symbol": "PERP",
         "coin": "Perpetual Protocol",
         "network": [
             "BEP20",
@@ -4938,7 +4938,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "PEOPLE",
+        "symbol": "PEOPLE",
         "coin": "ConstitutionDAO",
         "network": [
             "BEP20",
@@ -4955,7 +4955,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "PROS",
+        "symbol": "PROS",
         "coin": "Prosper",
         "network": [
             "BEP20",
@@ -4972,7 +4972,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "PROM",
+        "symbol": "PROM",
         "coin": "Prometeus",
         "network": [
             "BEP20",
@@ -4989,7 +4989,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "PORTO",
+        "symbol": "PORTO",
         "coin": "FC Porto Fan Token",
         "network": [
             "BEP20"
@@ -5003,7 +5003,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "PYR",
+        "symbol": "PYR",
         "coin": "Vulcan Forged PYR",
         "network": [
             "ERC20",
@@ -5020,7 +5020,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "PARA",
+        "symbol": "PARA",
         "coin": "Parallel Finance",
         "network": [
             "Parallel Finance"
@@ -5034,7 +5034,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "POND",
+        "symbol": "POND",
         "coin": "Marlin",
         "network": [
             "BEP20",
@@ -5054,7 +5054,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "POLS",
+        "symbol": "POLS",
         "coin": "Polkastarter",
         "network": [
             "BEP20",
@@ -5071,7 +5071,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "QUICK",
+        "symbol": "QUICK",
         "coin": "QuickSwap",
         "network": [
             "ERC20",
@@ -5088,7 +5088,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "QKC",
+        "symbol": "QKC",
         "coin": "QuarkChain",
         "network": [
             "BEP20",
@@ -5105,7 +5105,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "QISWAP",
+        "symbol": "QISWAP",
         "coin": "QiSwap",
         "network": [
             "Qtum"
@@ -5119,7 +5119,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "QNT",
+        "symbol": "QNT",
         "coin": "Quant",
         "network": [
             "ERC20"
@@ -5133,7 +5133,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "QI",
+        "symbol": "QI",
         "coin": "BENQI",
         "network": [
             "BEP20",
@@ -5151,7 +5151,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "QUINT",
+        "symbol": "QUINT",
         "coin": "QUINT",
         "network": [
             "BEP20"
@@ -5165,7 +5165,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "QTUM",
+        "symbol": "QTUM",
         "coin": "Qtum",
         "network": [
             "Qtum"
@@ -5179,7 +5179,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "RAY",
+        "symbol": "RAY",
         "coin": "Raydium",
         "network": [
             "Solana"
@@ -5193,7 +5193,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "REI",
+        "symbol": "REI",
         "coin": "REI Network",
         "network": [
             "REI Network"
@@ -5207,7 +5207,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "REN",
+        "symbol": "REN",
         "coin": "Ren",
         "network": [
             "ERC20"
@@ -5221,7 +5221,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "REQ",
+        "symbol": "REQ",
         "coin": "Request Network",
         "network": [
             "ERC20"
@@ -5235,7 +5235,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "RARE",
+        "symbol": "RARE",
         "coin": "SuperRare",
         "network": [
             "ERC20"
@@ -5249,7 +5249,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "RIF",
+        "symbol": "RIF",
         "coin": "RSK Infrastructure Framework",
         "network": [
             "RSK"
@@ -5263,7 +5263,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "RLC",
+        "symbol": "RLC",
         "coin": "iExecRLC",
         "network": [
             "ERC20"
@@ -5277,7 +5277,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "ROSE",
+        "symbol": "ROSE",
         "coin": "Oasis Network",
         "network": [
             "Oasis Network"
@@ -5291,7 +5291,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "RDNTOLD",
+        "symbol": "RDNTOLD",
         "coin": "Radiant Capital OLD",
         "network": [
             "Arbitrum One"
@@ -5305,7 +5305,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "RPL",
+        "symbol": "RPL",
         "coin": "Rocket Pool",
         "network": [
             "ERC20"
@@ -5319,7 +5319,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "RSR",
+        "symbol": "RSR",
         "coin": "Reserve Rights",
         "network": [
             "ERC20"
@@ -5333,7 +5333,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "REEF",
+        "symbol": "REEF",
         "coin": "Reef",
         "network": [
             "BEP20",
@@ -5353,7 +5353,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "RVN",
+        "symbol": "RVN",
         "coin": "Ravencoin",
         "network": [
             "Ravencoin"
@@ -5367,7 +5367,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "RUNE",
+        "symbol": "RUNE",
         "coin": "THORChain",
         "network": [
             "THORChain"
@@ -5381,7 +5381,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "RDNT",
+        "symbol": "RDNT",
         "coin": "Radiant Capital",
         "network": [
             "BEP20",
@@ -5398,7 +5398,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "RNDR",
+        "symbol": "RNDR",
         "coin": "Render Token",
         "network": [
             "ERC20"
@@ -5412,7 +5412,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "RAD",
+        "symbol": "RAD",
         "coin": "Radicle",
         "network": [
             "ERC20"
@@ -5426,7 +5426,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "STPT",
+        "symbol": "STPT",
         "coin": "Standard Tokenization Protocol",
         "network": [
             "ERC20"
@@ -5440,7 +5440,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "SANTOS",
+        "symbol": "SANTOS",
         "coin": "Santos FC Fan Token",
         "network": [
             "BEP20"
@@ -5454,7 +5454,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "SFM",
+        "symbol": "SFM",
         "coin": "SafeMoon",
         "network": [
             "BEP20"
@@ -5468,7 +5468,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "SFP",
+        "symbol": "SFP",
         "coin": "SafePal",
         "network": [
             "BEP20"
@@ -5482,7 +5482,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "SGB",
+        "symbol": "SGB",
         "coin": "Songbird",
         "network": [
             "Songbird"
@@ -5496,7 +5496,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "STORJ",
+        "symbol": "STORJ",
         "coin": "Storj",
         "network": [
             "ERC20"
@@ -5510,7 +5510,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "SGT",
+        "symbol": "SGT",
         "coin": "snglsDAO Governance Token",
         "network": [
             "ERC20"
@@ -5524,7 +5524,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "SAND",
+        "symbol": "SAND",
         "coin": "The Sandbox",
         "network": [
             "BEP20",
@@ -5544,7 +5544,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "SCRT",
+        "symbol": "SCRT",
         "coin": "Secret",
         "network": [
             "BEP20",
@@ -5561,7 +5561,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "SKL",
+        "symbol": "SKL",
         "coin": "SKALE Network",
         "network": [
             "ERC20"
@@ -5575,7 +5575,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "SOLO",
+        "symbol": "SOLO",
         "coin": "Sologenic",
         "network": [
             "BEP20"
@@ -5589,7 +5589,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "STEEM",
+        "symbol": "STEEM",
         "coin": "Steem",
         "network": [
             "Steem"
@@ -5603,7 +5603,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "SLP",
+        "symbol": "SLP",
         "coin": "Smooth Love Potion",
         "network": [
             "BEP20",
@@ -5623,7 +5623,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "SNM",
+        "symbol": "SNM",
         "coin": "SONM",
         "network": [
             "BEP20",
@@ -5640,7 +5640,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "SNT",
+        "symbol": "SNT",
         "coin": "Status",
         "network": [
             "ERC20"
@@ -5654,7 +5654,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "SNX",
+        "symbol": "SNX",
         "coin": "Synthetix Network Token",
         "network": [
             "BEP20",
@@ -5677,7 +5677,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "SOL",
+        "symbol": "SOL",
         "coin": "Solana",
         "network": [
             "BEP20",
@@ -5694,7 +5694,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "SPELL",
+        "symbol": "SPELL",
         "coin": "Spell Token",
         "network": [
             "AVAX C",
@@ -5712,7 +5712,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "SRM",
+        "symbol": "SRM",
         "coin": "Serum",
         "network": [
             "ERC20",
@@ -5729,7 +5729,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "SPIRIT",
+        "symbol": "SPIRIT",
         "coin": "SpiritSwap",
         "network": [
             "Fantom"
@@ -5743,7 +5743,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "SSV",
+        "symbol": "SSV",
         "coin": "SSV Token",
         "network": [
             "ERC20"
@@ -5757,7 +5757,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "STG",
+        "symbol": "STG",
         "coin": "Stargate Finance",
         "network": [
             "AVAX C",
@@ -5787,7 +5787,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "SHIB",
+        "symbol": "SHIB",
         "coin": "SHIBA INU",
         "network": [
             "BEP20",
@@ -5804,7 +5804,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "STX",
+        "symbol": "STX",
         "coin": "Stacks",
         "network": [
             "Stacks"
@@ -5818,7 +5818,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "SUI",
+        "symbol": "SUI",
         "coin": "Sui",
         "network": [
             "Sui"
@@ -5832,7 +5832,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "SUN",
+        "symbol": "SUN",
         "coin": "SUN",
         "network": [
             "BEP20",
@@ -5849,7 +5849,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "SUSHI",
+        "symbol": "SUSHI",
         "coin": "Sushi",
         "network": [
             "BEP20",
@@ -5869,7 +5869,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "SC",
+        "symbol": "SC",
         "coin": "Siacoin",
         "network": [
             "Siacoin"
@@ -5883,7 +5883,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "SXP",
+        "symbol": "SXP",
         "coin": "Solar",
         "network": [
             "Solar"
@@ -5897,7 +5897,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "SYN",
+        "symbol": "SYN",
         "coin": "Synapse",
         "network": [
             "BEP20",
@@ -5930,7 +5930,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "SYS",
+        "symbol": "SYS",
         "coin": "Syscoin",
         "network": [
             "Syscoin"
@@ -5944,7 +5944,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "STRAX",
+        "symbol": "STRAX",
         "coin": "Stratis",
         "network": [
             "Stratis"
@@ -5958,7 +5958,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "SUPER",
+        "symbol": "SUPER",
         "coin": "SuperFarm",
         "network": [
             "BEP20",
@@ -5975,7 +5975,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "STMX",
+        "symbol": "STMX",
         "coin": "StormX",
         "network": [
             "ERC20"
@@ -5989,7 +5989,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "T",
+        "symbol": "T",
         "coin": "Threshold",
         "network": [
             "ERC20"
@@ -6003,7 +6003,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "TAROT",
+        "symbol": "TAROT",
         "coin": "TAROT",
         "network": [
             "Fantom"
@@ -6017,7 +6017,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "TREEB",
+        "symbol": "TREEB",
         "coin": "Retreeb",
         "network": [
             "Fantom"
@@ -6031,7 +6031,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "TUSD",
+        "symbol": "TUSD",
         "coin": "TrueUSD",
         "network": [
             "BEP20",
@@ -6054,7 +6054,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "TKO",
+        "symbol": "TKO",
         "coin": "Tokocrypto",
         "network": [
             "BEP20"
@@ -6068,7 +6068,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "TFUEL",
+        "symbol": "TFUEL",
         "coin": "Theta Fuel",
         "network": [
             "Theta Token"
@@ -6082,7 +6082,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "TROY",
+        "symbol": "TROY",
         "coin": "Troy",
         "network": [
             "BEP20",
@@ -6102,7 +6102,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "TLM",
+        "symbol": "TLM",
         "coin": "Alien Worlds",
         "network": [
             "BEP20",
@@ -6119,7 +6119,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "TOMB",
+        "symbol": "TOMB",
         "coin": "Tomb",
         "network": [
             "Fantom"
@@ -6133,7 +6133,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "TOMO",
+        "symbol": "TOMO",
         "coin": "TomoChain",
         "network": [
             "TomoChain",
@@ -6153,7 +6153,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "TRB",
+        "symbol": "TRB",
         "coin": "Tellor Tributes",
         "network": [
             "ERC20"
@@ -6167,7 +6167,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "TRU",
+        "symbol": "TRU",
         "coin": "TrueFi",
         "network": [
             "BEP20",
@@ -6184,7 +6184,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "TRX",
+        "symbol": "TRX",
         "coin": "TRON",
         "network": [
             "BEP20",
@@ -6207,7 +6207,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "TORN",
+        "symbol": "TORN",
         "coin": "Tornado Cash",
         "network": [
             "BEP20",
@@ -6224,7 +6224,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "TVK",
+        "symbol": "TVK",
         "coin": "Virtua",
         "network": [
             "ERC20"
@@ -6238,7 +6238,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "TWT",
+        "symbol": "TWT",
         "coin": "Trust Wallet Token",
         "network": [
             "BEP20",
@@ -6255,7 +6255,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "THETA",
+        "symbol": "THETA",
         "coin": "Theta Token",
         "network": [
             "Theta Token"
@@ -6269,7 +6269,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "TBCC",
+        "symbol": "TBCC",
         "coin": "TBCC",
         "network": [
             "BEP20"
@@ -6283,7 +6283,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "USDCE",
+        "symbol": "USDCE",
         "coin": "Avalanche C-Chain USD Coin",
         "network": [
             "AVAX C",
@@ -6298,7 +6298,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "UMA",
+        "symbol": "UMA",
         "coin": "UMA",
         "network": [
             "ERC20"
@@ -6312,7 +6312,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "UND",
+        "symbol": "UND",
         "coin": "Unification",
         "network": [
             "BEP2",
@@ -6329,7 +6329,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "UNI",
+        "symbol": "UNI",
         "coin": "Uniswap",
         "network": [
             "BEP20",
@@ -6349,7 +6349,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "UNFI",
+        "symbol": "UNFI",
         "coin": "Unifi Protocol DAO",
         "network": [
             "BEP20",
@@ -6366,7 +6366,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "UTK",
+        "symbol": "UTK",
         "coin": "Utrust",
         "network": [
             "ERC20",
@@ -6383,7 +6383,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "USTC",
+        "symbol": "USTC",
         "coin": "TerraClassicUSD",
         "network": [
             "Terra Classic"
@@ -6397,7 +6397,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "USDTE",
+        "symbol": "USDTE",
         "coin": "Tether USD",
         "network": [
             "AVAX C",
@@ -6412,7 +6412,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "USDT",
+        "symbol": "USDT",
         "coin": "TetherUS",
         "network": [
             "BEP20",
@@ -6463,7 +6463,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "USDP",
+        "symbol": "USDP",
         "coin": "Pax Dollar",
         "network": [
             "BEP20",
@@ -6480,7 +6480,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "USDC",
+        "symbol": "USDC",
         "coin": "USD Coin",
         "network": [
             "BEP20",
@@ -6522,7 +6522,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "UFT",
+        "symbol": "UFT",
         "coin": "UniLend",
         "network": [
             "BEP20",
@@ -6539,7 +6539,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "VITE",
+        "symbol": "VITE",
         "coin": "VITE",
         "network": [
             "BEP20",
@@ -6556,7 +6556,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "VELO",
+        "symbol": "VELO",
         "coin": "VELO",
         "network": [
             "BEP20",
@@ -6573,7 +6573,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "VTHO",
+        "symbol": "VTHO",
         "coin": "VeThor Token",
         "network": [
             "VeChain"
@@ -6587,7 +6587,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "VRT",
+        "symbol": "VRT",
         "coin": "Venus Reward Token",
         "network": [
             "BEP20"
@@ -6601,7 +6601,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "VOXEL",
+        "symbol": "VOXEL",
         "coin": "Voxies",
         "network": [
             "Polygon"
@@ -6615,7 +6615,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "VIDT",
+        "symbol": "VIDT",
         "coin": "VIDT DAO",
         "network": [
             "BEP20",
@@ -6632,7 +6632,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "VAB",
+        "symbol": "VAB",
         "coin": "Vabble",
         "network": [
             "ERC20"
@@ -6646,7 +6646,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "VAI",
+        "symbol": "VAI",
         "coin": "Vai",
         "network": [
             "BEP20"
@@ -6660,7 +6660,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "VET",
+        "symbol": "VET",
         "coin": "VeChain",
         "network": [
             "BEP20",
@@ -6677,7 +6677,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "VGX",
+        "symbol": "VGX",
         "coin": "Voyager Token",
         "network": [
             "ERC20"
@@ -6691,7 +6691,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "VIB",
+        "symbol": "VIB",
         "coin": "Viberate",
         "network": [
             "ERC20"
@@ -6705,7 +6705,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "VRAB",
+        "symbol": "VRAB",
         "coin": "Verasity",
         "network": [
             "BEP2",
@@ -6722,7 +6722,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "WING",
+        "symbol": "WING",
         "coin": "Wing Token",
         "network": [
             "Ontology"
@@ -6736,7 +6736,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "WNXM",
+        "symbol": "WNXM",
         "coin": "Wrapped NXM",
         "network": [
             "ERC20"
@@ -6750,7 +6750,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "WOO",
+        "symbol": "WOO",
         "coin": "WOO Network",
         "network": [
             "BEP20",
@@ -6767,7 +6767,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "WAVES",
+        "symbol": "WAVES",
         "coin": "Waves",
         "network": [
             "BEP20",
@@ -6784,7 +6784,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "WRX",
+        "symbol": "WRX",
         "coin": "WazirX",
         "network": [
             "BEP20",
@@ -6804,7 +6804,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "WTC",
+        "symbol": "WTC",
         "coin": "Walton",
         "network": [
             "Walton",
@@ -6821,7 +6821,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "WSOL",
+        "symbol": "WSOL",
         "coin": "Wrapped SOL",
         "network": [
             "Solana"
@@ -6835,7 +6835,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "WBNB",
+        "symbol": "WBNB",
         "coin": "Wrapped BNB",
         "network": [
             "BEP20"
@@ -6849,7 +6849,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "WETH",
+        "symbol": "WETH",
         "coin": "Wrapped Ether",
         "network": [
             "ERC20",
@@ -6866,7 +6866,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "WBETH",
+        "symbol": "WBETH",
         "coin": "Wrapped Beacon ETH (WBETH)",
         "network": [
             "BEP20",
@@ -6883,7 +6883,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "WBTC",
+        "symbol": "WBTC",
         "coin": "Wrapped Bitcoin",
         "network": [
             "ERC20"
@@ -6897,7 +6897,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "WAN",
+        "symbol": "WAN",
         "coin": "Wanchain",
         "network": [
             "Wanchain"
@@ -6911,7 +6911,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "WAXP",
+        "symbol": "WAXP",
         "coin": "WAX",
         "network": [
             "ERC20",
@@ -6928,7 +6928,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "WIN",
+        "symbol": "WIN",
         "coin": "WINkLink",
         "network": [
             "BEP20",
@@ -6948,7 +6948,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "XNO",
+        "symbol": "XNO",
         "coin": "Nano",
         "network": [
             "NANO"
@@ -6962,7 +6962,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "XPR",
+        "symbol": "XPR",
         "coin": "Proton",
         "network": [
             "ERC20"
@@ -6976,7 +6976,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "XRP",
+        "symbol": "XRP",
         "coin": "Ripple",
         "network": [
             "BEP20",
@@ -6999,7 +6999,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "XTZ",
+        "symbol": "XTZ",
         "coin": "Tezos",
         "network": [
             "BEP20",
@@ -7019,7 +7019,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "XVG",
+        "symbol": "XVG",
         "coin": "Verge",
         "network": [
             "Verge"
@@ -7033,7 +7033,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "XVS",
+        "symbol": "XVS",
         "coin": "Venus",
         "network": [
             "BEP20"
@@ -7047,7 +7047,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "XYM",
+        "symbol": "XYM",
         "coin": "Symbol",
         "network": [
             "Symbol"
@@ -7061,7 +7061,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "XEC",
+        "symbol": "XEC",
         "coin": "eCash",
         "network": [
             "BEP20",
@@ -7078,7 +7078,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "XEM",
+        "symbol": "XEM",
         "coin": "NEM",
         "network": [
             "NEM"
@@ -7092,7 +7092,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "XLM",
+        "symbol": "XLM",
         "coin": "Stellar Lumens",
         "network": [
             "BEP20",
@@ -7109,7 +7109,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "XMR",
+        "symbol": "XMR",
         "coin": "Monero",
         "network": [
             "Monero"
@@ -7123,7 +7123,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "YFII",
+        "symbol": "YFII",
         "coin": "DFI.Money",
         "network": [
             "BEP20",
@@ -7143,7 +7143,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "YFI",
+        "symbol": "YFI",
         "coin": "yearn.finance",
         "network": [
             "BEP20",
@@ -7163,7 +7163,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "YGG",
+        "symbol": "YGG",
         "coin": "Yield Guild Games",
         "network": [
             "BEP20",
@@ -7180,7 +7180,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "ZRX",
+        "symbol": "ZRX",
         "coin": "0x",
         "network": [
             "ERC20"
@@ -7194,7 +7194,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "ZCX",
+        "symbol": "ZCX",
         "coin": "ZEN Exchange Token",
         "network": [
             "ERC20"
@@ -7208,7 +7208,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "ZEC",
+        "symbol": "ZEC",
         "coin": "Zcash",
         "network": [
             "BEP20",
@@ -7228,7 +7228,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "ZEN",
+        "symbol": "ZEN",
         "coin": "Horizen",
         "network": [
             "Horizen"
@@ -7242,7 +7242,7 @@ const binance = [
     },
     {
         "exchange_id": "binance",
-        "coin_id": "ZIL",
+        "symbol": "ZIL",
         "coin": "Zilliqa",
         "network": [
             "BEP20",

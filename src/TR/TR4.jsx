@@ -10,9 +10,6 @@ const TR = ({data}) => {
         const withdrawalFee = e.target.options[e.target.selectedIndex].getAttribute('data-withdrawal_fee');
         const minWithdrawal = e.target.options[e.target.selectedIndex].getAttribute('data-min_withdrawal');
 
-        console.log(withdrawalFee);
-        console.log(minWithdrawal);
-
         setWithdrawalFee(withdrawalFee);
         setMinWithdrawal(minWithdrawal);
 
@@ -27,8 +24,8 @@ const TR = ({data}) => {
                 </div>
             </td>
             <td className="css-ex33ci">
-                <div className="chakra-stack css-1a1xprz"> <img src="https://storage.googleapis.com/conduit-public-dls/CoreZorb.svg" style={{width: '25px'}} />
-                <div className="css-z2fbxz" style={{marginTop: '0px'}}><a target="_self" className="chakra-link css-emf8ld" href="#"><span>{data.coin_id}</span></a></div>
+                <div className="chakra-stack css-1a1xprz"> <img src={data.image} style={{width: '25px'}} />
+                <div className="css-z2fbxz" style={{marginTop: '0px'}}><a target="_self" className="chakra-link css-emf8ld" href="#"><span>{data.symbol}</span></a></div>
                 </div>
             </td>
             <td className="css-pr32fc">

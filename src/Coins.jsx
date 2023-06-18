@@ -1,5 +1,4 @@
 import './App.css';
-import axios from 'axios';
 import MobileHeader from './Components/MobileHeader';
 import BrowserHeader from './Components/BrowserHeader';
 import Card from './Components/Card';
@@ -12,12 +11,15 @@ import { useState,useRef,useEffect } from 'react';
 import api from './api';
 import { useParams } from 'react-router-dom';
 
-const Coins = () => { 
+const Coins = ({sttc}) => { 
 
   const [isSidebarVisible,setIsSideBarVisible] = useState(false);
   const sidebarRef = useRef(null);
   const { coin_id } = useParams();
   const [isCoin,setIsCoin] = useState(false);
+  const [page , setPage] = useState(1);
+  const [coins, setCoins] = useState(null); 
+  const [pagination, setPagination] = useState(null); 
 
   const showSidebar = () =>{
     setIsSideBarVisible(!isSidebarVisible);
@@ -30,18 +32,36 @@ const Coins = () => {
       setIsSideBarVisible(false);
     }
   };
+
+  const fetchCoins = async () => {
+    const params = {page: page };
+    console.log(params);
+    try {
+      const response = await api.get(`/api/coins`,{params:params});
+      const data = response.data;
+      setCoins(data.coins);
+      setPagination(data);
+    } catch (error) {
+      console.error('Error fetching data:', error);
+    }
+  };
   
   useEffect(() => {
     if(coin_id){
       setIsCoin(true);
+    }else{
+    fetchCoins();
     }
 
     document.addEventListener('click', handleClickOutside);
     return () => {
       document.removeEventListener('click', handleClickOutside);
     };
-  }, []);
+  }, [coin_id,page]);
 
+  const loadPagination = (page) => {
+    setPage(page); 
+  }
 
   return (
     <div className="App">
@@ -56,15 +76,15 @@ const Coins = () => {
             <main className="css-fezzec css-c9c2l4" style={{display: 'block'}}>
 
               <div className="css-glegxw">
-              <Card />
+              <Card sttc={sttc}/>
               </div>
 
               <div className="css-10klw3m" style={{height: '100%'}}>
 						    <div className="css-1ei1k4u"> </div>
                 <div className="chakra-tabs css-1h73gvd" style={{display: 'block', position: 'relative'}}>
                   <div className="chakra-tabs__tab-panels css-8atqhb" style={{width: '100%'}}> 
-                    { !isCoin ? <CoinsTable /> : <CoinExchangesTable coin_id={coin_id}/> }
-                    <Pagination />
+                    { !isCoin ? <CoinsTable coins={coins}/> : <CoinExchangesTable coin_id={coin_id}/> }
+                    <Pagination pagination={pagination} loadPagination={loadPagination}/>
                   </div>
                 </div>
               </div>

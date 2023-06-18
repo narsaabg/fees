@@ -5,14 +5,17 @@ const BrowserHeader = () => {
     const Menu = [{
           'name':'Home',
           'style':'paddingLeft:0px',
+          'link' : '/'
         },
         {
           'name':'Coin',
           'style':'',
+          'link':'/coins',
         },
         {
           'name':'Exchanges',
           'style':'',
+          'link':'/exchanges',
         }];
 
     const searchWeb = (e) => {
@@ -28,7 +31,7 @@ const BrowserHeader = () => {
               {
                 Menu.map(function(r,t){
                     return (
-                      <li key={t} style={{paddingLeft:'0px'}}>{r.name}</li>
+                      <li key={t} style={{paddingLeft:'0px'}}><a href={r.link}>{r.name}</a></li>
                     )
                 })
               }

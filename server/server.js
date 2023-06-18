@@ -29,7 +29,7 @@ const apiRoutes = require('./routes/apiRoutes');
 
 // cors options
 const corsOptions = {
-    origin: 'http://localhost:3000',
+    origin: 'http://localhost:8001',
 };
 
 // Register your API routes

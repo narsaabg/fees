@@ -9,6 +9,10 @@ const coinDetailSchema = new mongoose.Schema({
   _id: { type: mongoose.Schema.Types.ObjectId, auto: true },
   coin_id: {
     type: String,
+    // required: true
+  },
+  symbol: {
+    type: String,
     required: true
   },
   exchange_id: {
@@ -30,7 +34,8 @@ const coinDetailSchema = new mongoose.Schema({
   min_withdrawal: {
     type: [Number],
     required: true
-  }
+  },
+  image : String
 }, { timestamps: true }, { _id: true });
 
 const CoinDetail = mongoose.model('coin_detail', coinDetailSchema);
@@ -97,17 +102,17 @@ CoinDetail.getCoinExchanges = async function (coinId) {
 CoinDetail.upsertData = async (jsonData) =>  {
   try {
     for (const data of jsonData) {
-      const { exchange_id, coin_id } = data;
+      const { exchange_id, symbol } = data;
 
-      const filter = { exchange_id, coin_id };
+      const filter = { exchange_id, symbol };
       const update = { $set: data };
       const options = { upsert: true };
       
       const savedCoinDetails = await CoinDetail.findOneAndUpdate(filter, update, options);
       if (savedCoinDetails === null) {
-        console.log(`Document added: ${coin_id} - ${exchange_id}`);
+        console.log(`Document added: ${symbol} - ${exchange_id}`);
       } else {
-        console.log(`Document updated: ${coin_id} - ${exchange_id}`);
+        console.log(`Document updated: ${symbol} - ${exchange_id}`);
       }
     }
   } catch (error) {

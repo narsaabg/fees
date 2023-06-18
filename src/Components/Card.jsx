@@ -1,16 +1,25 @@
-import React,{useState} from "react";
+import React,{useEffect, useState} from "react";
 
-const Card = () => {
+const Card = ({sttc}) => {
+    console.log(sttc);
     const [coin , setCoin] = useState([{
         'title':'Coins',
-        'count':'1,233'
     },{
         'title':'Exchanges',
-        'count':'23'
     },{
         'title':'Gwei',
         'count':'23'
     }]);
+    const [cCount,setCCount] = useState(0);
+    const [eCount,setECount] = useState(0);
+
+    useEffect(()=>{
+          if(sttc){
+            setCCount(sttc.coin.count);
+            setECount(sttc.exchange.count);
+          }  
+    },[sttc]);
+
     return (
         <>
             <div className="css-19ypa6d">
@@ -25,7 +34,7 @@ const Card = () => {
                 </svg>
                 <div className="css-2kgh3g" style={{display: 'flex', flexDirection: 'column', WebkitBoxAlign: 'start', alignItems: 'start'}}>
                     <p className="chakra-text css-1lh8eyo" style={{color: 'var(--chakra-colors-gray-500)', fontSize: 'var(--chakra-fontSizes-xs)', lineHeight: '16px'}}>{coin[0].title}</p>
-                    <p className="chakra-text css-10v4ets" style={{fontWeight: 500, fontSize: 'var(--chakra-fontSizes-md)', color: 'var(--chakra-colors-black)'}}>{coin[0].count}</p>
+                    <p className="chakra-text css-10v4ets" style={{fontWeight: 500, fontSize: 'var(--chakra-fontSizes-md)', color: 'var(--chakra-colors-black)'}}>{cCount}</p>
                 </div>
             </div>
             <div className="css-19ypa6d">
@@ -34,7 +43,7 @@ const Card = () => {
                 </svg>
                 <div className="css-2kgh3g" style={{display: 'flex', flexDirection: 'column', WebkitBoxAlign: 'start', alignItems: 'start'}}>
                     <p className="chakra-text css-1lh8eyo" style={{color: 'var(--chakra-colors-gray-500)', fontSize: 'var(--chakra-fontSizes-xs)', lineHeight: '16px'}}>{coin[1].title}</p>
-                    <p className="chakra-text css-10v4ets" style={{fontWeight: 500, fontSize: 'var(--chakra-fontSizes-md)', color: 'var(--chakra-colors-black)'}}>{coin[1].count}</p>
+                    <p className="chakra-text css-10v4ets" style={{fontWeight: 500, fontSize: 'var(--chakra-fontSizes-md)', color: 'var(--chakra-colors-black)'}}>{eCount}</p>
                 </div>
             </div>
             <div className="css-19ypa6d">
