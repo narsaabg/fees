@@ -27,6 +27,16 @@ router.get('/coin/cron-job',coinCronJob);
 router.get('/coins',getCoins);
 //coin routes end
 
+// coin routes
+const {
+  exchangeCronJob,
+  getExchanges
+} = require('../controllers/ExchangeController');
+
+router.get('/exchanges/cron-job',exchangeCronJob);
+router.get('/exchanges',getExchanges);
+//coin routes end
+
 // common routes
 const {
   getStatistics

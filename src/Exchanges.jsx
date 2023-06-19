@@ -18,6 +18,7 @@ const Exchanges = ({sttc}) => {
   const { exchange } = useParams();
   const [page , setPage] = useState(1);
   const [data, setData] = useState(null); 
+  const [exchanges, setExchanges] = useState(null); 
   const [pagination, setPagination] = useState(null); 
   const [isExchange,setIsExchange] = useState(false);
 
@@ -45,6 +46,19 @@ const Exchanges = ({sttc}) => {
       console.error('Error fetching data:', error);
     }
   };
+
+  const fetchExchanges = async () => {
+    const params = {page: page };
+    console.log(params);
+    try {
+      const response = await api.get(`/api/exchanges`,{params:params});
+      const data = response.data;
+      setExchanges(data.exchanges);
+      setPagination(data);
+    } catch (error) {
+      console.error('Error fetching data:', error);
+    }
+  } 
   
   const loadPagination = (page) => {
     setPage(page); 
@@ -54,6 +68,8 @@ const Exchanges = ({sttc}) => {
     if(exchange){
         setIsExchange(true);
         fetchExchangeCoins();
+    }else{
+      fetchExchanges();
     }
 
     document.addEventListener('click', handleClickOutside);
@@ -83,7 +99,7 @@ const Exchanges = ({sttc}) => {
 						    <div className="css-1ei1k4u"> </div>
                 <div className="chakra-tabs css-1h73gvd" style={{display: 'block', position: 'relative'}}>
                   <div className="chakra-tabs__tab-panels css-8atqhb" style={{width: '100%'}}> 
-                    { !isExchange ? <ExchangesTable />  : <ExchangeCoinsTable data={data} /> }
+                    { !isExchange ? <ExchangesTable exchanges={exchanges}/>  : <ExchangeCoinsTable data={data} /> }
                     <Pagination pagination={pagination} loadPagination={loadPagination}/>
                   </div>
                 </div>

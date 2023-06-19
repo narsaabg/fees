@@ -6,7 +6,7 @@ const COINGECKO_API_URL = process.env.COINGECKO_API_URL;
 
 const exchangeSchema = new mongoose.Schema({
     _id: { type: mongoose.Schema.Types.ObjectId, auto: true },
-    exchange_id: { type: String, required: true },
+    id: { type: String, required: true },
     name: { type: String, default: null },
     coins_listed: { type: Number, default: null },
     country: { type: String, default: null },
@@ -64,31 +64,29 @@ Exchange.getExchanges = async function (page, limit) {
    * 
    * @param {*} page 
    */
-  Exchange.insertFilteredCoins = async function (page) {
+  Exchange.insertFilteredExchanges = async function (page) {
     try {
       // Fetch coins from API
       const response = await axios.get(
-        `${COINGECKO_API_URL}/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=${page}&sparkline=false&locale=en`
+        `${COINGECKO_API_URL}/v3/exchanges?per_page=50`
       );
       const exchangesFromAPI = response.data;
   
-      for (const coin of exchangesFromAPI) {
-        const coinDetail = await CoinDetail.findOne({ symbol: coin.symbol.toUpperCase(),coin:coin.name });
+      for (const exchange of exchangesFromAPI) {
+        const coinDetail = await CoinDetail.findOne({ exchange_id: exchange.id});
         
         if (coinDetail) {
-            coinDetail.coin_id = coin.id;
-            await coinDetail.save();
 
-            coin.slug = `${coin.id}-withdrawal-fee`;
-            const existingCoin = await Exchange.findOne({ id: coin.id });
+          exchange.slug = `${exchange.id}-withdrawal-fee`;
+            const existingCoin = await Exchange.findOne({ id: exchange.id });
           if (existingCoin) {
             // Update existing coin
-            await Exchange.updateOne({ id: coin.id }, coin);
-            console.log(`Coin updated: ${coin.id}`);
+            await Exchange.updateOne({ id: exchange.id }, exchange);
+            console.log(`Coin updated: ${exchange.id}`);
           } else {
             // Insert new coin
-            await Exchange.create(coin);
-            console.log(`Coin inserted: ${coin.id}`);
+            await Exchange.create(exchange);
+            console.log(`Coin inserted: ${exchange.id}`);
           }
         }
       }
