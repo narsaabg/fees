@@ -14,8 +14,8 @@ const getExchangeCoins = async (req, res) => {
     const { exchange, page } = req.query;
     let page_no = page || 1;
     try {
-      const coins = await CoinDetail.getExchangeCoins(exchange,page_no,limit);
-      res.json(coins);
+      const exchanges = await CoinDetail.getExchangeCoins(exchange,page_no,limit);
+      res.json(exchanges);
     } catch (error) {
       console.error('Error retrieving coins:', error);
       res.status(500).json({ error: 'Internal server error' });
@@ -31,14 +31,16 @@ const getExchangeCoins = async (req, res) => {
  * @param {*} res 
  */
 const getCoinExchanges = async (req, res) => {
-  const coinData = req.body;
-  try {
-    const coins = await CoinDetail.getCoinExchanges(coinData.coin_id);
-    res.json(coins);
-  } catch (error) {
-    console.error('Error retrieving coins:', error);
-    res.status(500).json({ error: 'Internal server error' });
-  }
+    const { coin, page } = req.query;
+    let page_no = page || 1;
+    console.log(coin);
+    try {
+      const coins = await CoinDetail.getCoinExchanges(coin,page_no,limit);
+      res.json(coins);
+    } catch (error) {
+      console.error('Error retrieving coins:', error);
+      res.status(500).json({ error: 'Internal server error' });
+    }
 };
 
 /**

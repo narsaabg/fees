@@ -84,10 +84,26 @@ CoinDetail.getExchangeCoins = async function (exchangeId, page, limit) {
  * @param {*} coinId 
  * @returns 
  */
-CoinDetail.getCoinExchanges = async function (coinId) {
+CoinDetail.getCoinExchanges = async function (coinId, page, limit) {
   try {
-    const exchanges = await this.find({ exchange_id: coinId });
-    return exchanges;
+    const skipAmount = (page - 1) * limit; 
+
+    const [exchanges, totalCount] = await Promise.all([
+        this.find({ coin_id: coinId })
+            .skip(skipAmount)
+            .limit(limit),
+        this.countDocuments({ coin_id: coinId })
+      ]);
+
+      const totalPages = Math.ceil(totalCount / limit);
+
+    return {
+      exchanges,
+      totalCoins: totalCount,
+      totalPages,
+      currentPage: page
+    };
+
   } catch (error) {
     console.error('Error retrieving coins:', error);
     throw error;

@@ -30,7 +30,7 @@ const getCoins = async (req, res) => {
  * @param {*} res 
  */
 const coinCronJob = async(req, res) => {
-    const {page } = req.query;
+    const {page } = req.query;                                                                                                                                
     console.log(page);
     try {
       const coins = await Coin.insertFilteredCoins(page);

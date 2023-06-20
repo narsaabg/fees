@@ -75,8 +75,7 @@ Coin.insertFilteredCoins = async function (page) {
       const coinsFromAPI = response.data;
   
       for (const coin of coinsFromAPI) {
-        const coinDetail = await CoinDetail.findOne({ symbol: coin.symbol.toUpperCase(),coin:coin.name });
-        
+        const coinDetail = await CoinDetail.findOne({ symbol: coin.symbol.toUpperCase()});
         if (coinDetail) {
             coinDetail.coin_id = coin.id;
             coinDetail.image = coin.image;

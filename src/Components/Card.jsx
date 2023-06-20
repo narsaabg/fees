@@ -1,7 +1,6 @@
 import React,{useEffect, useState} from "react";
 
 const Card = ({sttc}) => {
-    console.log(sttc);
     const [coin , setCoin] = useState([{
         'title':'Coins',
     },{

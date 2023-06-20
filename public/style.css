@@ -1293,8 +1293,8 @@ html {
     @media screen and (min-width: 768px) {
         .css-fezzec.css-c9c2l4 {
             padding-top: 0% !important;
-            padding-left: 3%;
-            padding-right: 3%;
+            padding-left: 10%;
+            padding-right: 10%;
             margin: 4px;
         }
     }
@@ -1897,9 +1897,6 @@ html {
 }
 
 @media screen and (min-width: 1000px){
-.css-fezzec {
-    display: block;
-}
 }
 .css-fezzec {
     -webkit-padding-start: var(--chakra-space-12);
@@ -2825,6 +2822,7 @@ margin-top: var(--chakra-space-6);
     font-family: var(--chakra-fonts-body);
     font-weight: 500;
     text-transform: none;
+    border-top-right-radius: 8px;
     text-align: start;
     overflow: hidden;
     color: var(--chakra-colors-blackAlpha-700);
@@ -2926,6 +2924,7 @@ margin-top: var(--chakra-space-6);
     width: 22%;
 }
 .css-1wpjpgn{
+    border-top-left-radius: 8px;
     font-family: var(--chakra-fonts-body);
     font-weight: 500;
     text-transform: none;
@@ -3597,6 +3596,8 @@ margin-top: var(--chakra-space-6);
 @media screen and (min-width: 1000px){ 
   .css-fezzec { 
     display: block;
+    padding-left: 10%;
+    padding-right: 10%;
   } 
 
   .css-4epjj6 { 

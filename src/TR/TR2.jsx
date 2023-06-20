@@ -14,7 +14,7 @@ const TR = ({data}) => {
             </td>
             <td className="css-ex33ci">
                 <div className="chakra-stack css-1a1xprz"> <img src={data.image} style={{width: '25px'}} />
-                <div className="css-z2fbxz" style={{marginTop: '0px'}}><a target="_self" className="chakra-link css-emf8ld" href="#"><span>{data.name}</span></a></div>
+                <div className="css-z2fbxz" style={{marginTop: '0px'}}><a target="_self" className="chakra-link css-emf8ld" href={'/exchanges/'+data.id}><span>{data.name}</span></a></div>
                 </div>
             </td>
             <td className="css-pr32fc"><span>{data.coin_listed}</span></td>

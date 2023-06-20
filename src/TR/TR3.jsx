@@ -1,9 +1,21 @@
-import React from "react";
+import React,{useState} from "react";
 
 // CoinExchanges  Table
 const TR3 = ({data}) => {
 
-    console.log(data);
+    const [withdrawalFee,setWithdrawalFee] = useState(data.withdrawal_fee[0]);
+    const [minWithdrawal,setMinWithdrawal] = useState(data.min_withdrawal[0]);
+    
+    const onNetworkChange = (e) => {
+        const selectedOption = e.target.value;
+        const withdrawalFee = e.target.options[e.target.selectedIndex].getAttribute('data-withdrawal_fee');
+        const minWithdrawal = e.target.options[e.target.selectedIndex].getAttribute('data-min_withdrawal');
+
+        setWithdrawalFee(withdrawalFee);
+        setMinWithdrawal(minWithdrawal);
+
+    }
+
     return (
         <tr className="css-11ri2jo" style={{opacity: 1, transform: 'none'}}>
             <td className="css-18hygz9">
@@ -14,23 +26,31 @@ const TR3 = ({data}) => {
             </td>
             <td className="css-ex33ci">
                 <div className="chakra-stack css-1a1xprz"> <img src="https://storage.googleapis.com/conduit-public-dls/CoreZorb.svg" style={{width: '25px'}} />
-                <div className="css-z2fbxz" style={{marginTop: '0px'}}><a target="_self" className="chakra-link css-emf8ld" href="#"><span>{data.coin_id}</span></a></div>
+                <div className="css-z2fbxz" style={{marginTop: '0px'}}><a target="_self" className="chakra-link css-emf8ld" href="#"><span>{data.exchange_id}</span></a></div>
                 </div>
             </td>
             <td className="css-pr32fc">
-                <select name="network"  className="css-13u33h9">
+                <select name="network"  className="css-13u33h9" onChange={(e)=>onNetworkChange(e)}>
                     {
                         data.network.map(function(m,n){
                             return (
-                                <option value>{m}</option>
+                                <option data-withdrawal_fee={data.withdrawal_fee[n]} data-min_withdrawal={data.min_withdrawal[n]}>{m}</option>
                             )
                         })
                     
                     }
                 </select>
             </td>
-            <td data-is-numeric="true" className="css-e30lz9" style={{textAlign:'center'}}><span className="css-75zybh"><p className="chakra-text css-1gdcvrl">0.00021905</p></span></td>
-            <td data-is-numeric="true" className="css-e30lz9" style={{textAlign:'center'}}><span className="css-75zybh"><p className="chakra-text css-1gdcvrl">0.00021905</p></span></td>
+            <td data-is-numeric="true" className="css-e30lz9">
+                <span className="css-75zybh">
+                    <p className="chakra-text css-1gdcvrl">{minWithdrawal}</p>
+                </span>
+            </td>
+            <td data-is-numeric="true" className="css-e30lz9">
+                <span className="css-75zybh">
+                    <p className="chakra-text css-1gdcvrl">{withdrawalFee}</p>
+                </span>
+            </td>
         </tr>
     )
 }

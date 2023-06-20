@@ -29,7 +29,7 @@ function App() {
         <Route path="/coins" element={<Coins sttc={sttc}/>} />
         <Route path="/coins/:coin" element={<Coins sttc={sttc}/>} />
         <Route path="/exchanges" element={<Exchanges sttc={sttc}/>} />
-        <Route path="/exchange/:exchange/:page?" element={<Exchanges sttc={sttc}/>} />
+        <Route path="/exchanges/:exchange" element={<Exchanges sttc={sttc}/>} />
       </Routes>
     </Router>
   );
