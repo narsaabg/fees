@@ -15,12 +15,13 @@ const Coins = ({sttc}) => {
 
   const [isSidebarVisible,setIsSideBarVisible] = useState(false);
   const sidebarRef = useRef(null);
-  const { coin } = useParams();
+  const { slug } = useParams();
   const [isCoin,setIsCoin] = useState(false);
   const [page , setPage] = useState(1);
   const [data, setData] = useState(null); 
   const [coins, setCoins] = useState(null); 
   const [pagination, setPagination] = useState(null); 
+  const [coin, setCoin] = useState(null); 
 
   const showSidebar = () =>{
     setIsSideBarVisible(!isSidebarVisible);
@@ -60,11 +61,14 @@ const Coins = ({sttc}) => {
   };
   
   useEffect(() => {
-    if(coin){
-      console.log('ff');
-      console.log(coin)
+    if(slug){
+      var parts = slug.split('-');
+      var result = parts.slice(0, -2).join('-');
+      setCoin(result);
       setIsCoin(true);
-      fetchCoinExchanges();
+      if(coin){
+        fetchCoinExchanges();
+      }
     }else{
       fetchCoins();
     }
@@ -73,7 +77,7 @@ const Coins = ({sttc}) => {
     return () => {
       document.removeEventListener('click', handleClickOutside);
     };
-  }, [coin,page]);
+  }, [page,coin]);
 
   const loadPagination = (page) => {
     setPage(page); 

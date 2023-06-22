@@ -25,7 +25,7 @@ const TR3 = ({data}) => {
                 </div>
             </td>
             <td className="css-ex33ci">
-                <div className="chakra-stack css-1a1xprz"> <img src="https://storage.googleapis.com/conduit-public-dls/CoreZorb.svg" style={{width: '25px'}} />
+                <div className="chakra-stack css-1a1xprz"> <img src={data.exchange_image} style={{width: '25px'}} />
                 <div className="css-z2fbxz" style={{marginTop: '0px'}}><a target="_self" className="chakra-link css-emf8ld" href="#"><span>{data.exchange_id}</span></a></div>
                 </div>
             </td>

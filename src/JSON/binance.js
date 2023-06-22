@@ -15,7 +15,7 @@ const binance = [
             0.16,
             10
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "AGLD",
@@ -29,7 +29,7 @@ const binance = [
         "min_withdrawal": [
             6.9
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "ATEM",
@@ -46,7 +46,7 @@ const binance = [
             0.2,
             0.4
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "AUDIO",
@@ -60,7 +60,7 @@ const binance = [
         "min_withdrawal": [
             16
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "AR",
@@ -74,7 +74,7 @@ const binance = [
         "min_withdrawal": [
             0.03
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "ACA",
@@ -88,7 +88,7 @@ const binance = [
         "min_withdrawal": [
             0.2
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "ARDR",
@@ -102,7 +102,7 @@ const binance = [
         "min_withdrawal": [
             2
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "ACH",
@@ -119,7 +119,7 @@ const binance = [
             2.3,
             146
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "ACM",
@@ -133,7 +133,7 @@ const binance = [
         "min_withdrawal": [
             0
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "ADA",
@@ -153,7 +153,7 @@ const binance = [
             0.8,
             0.45
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "ADD",
@@ -167,7 +167,7 @@ const binance = [
         "min_withdrawal": [
             100
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "ADX",
@@ -184,7 +184,7 @@ const binance = [
             0.47,
             22
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "ATOM",
@@ -204,7 +204,7 @@ const binance = [
             0.004,
             0.014
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "API3",
@@ -218,7 +218,7 @@ const binance = [
         "min_withdrawal": [
             3.1
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "AUCTION",
@@ -235,7 +235,7 @@ const binance = [
             0.015,
             0.79
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "AMB",
@@ -252,7 +252,7 @@ const binance = [
             1,
             369
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "AERGO",
@@ -266,7 +266,7 @@ const binance = [
         "min_withdrawal": [
             32
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "AMP",
@@ -280,7 +280,7 @@ const binance = [
         "min_withdrawal": [
             1530
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "ANC",
@@ -294,7 +294,7 @@ const binance = [
         "min_withdrawal": [
             2.5
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "ANT",
@@ -308,7 +308,7 @@ const binance = [
         "min_withdrawal": [
             1.01
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "ALICE",
@@ -325,7 +325,7 @@ const binance = [
             0.047,
             3.09
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "APE",
@@ -342,7 +342,7 @@ const binance = [
             0.018,
             1.2
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "ARPA",
@@ -362,7 +362,7 @@ const binance = [
             2.44,
             62
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "ALCX",
@@ -376,7 +376,7 @@ const binance = [
         "min_withdrawal": [
             0.21
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "APT",
@@ -390,7 +390,7 @@ const binance = [
         "min_withdrawal": [
             0.01
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "ASTR",
@@ -404,7 +404,7 @@ const binance = [
         "min_withdrawal": [
             2
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "ARB",
@@ -421,7 +421,7 @@ const binance = [
             0.019,
             2.96
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "ARK",
@@ -435,7 +435,7 @@ const binance = [
         "min_withdrawal": [
             0.2
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "ANKR",
@@ -455,7 +455,7 @@ const binance = [
             5.57,
             142
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "ALGO",
@@ -469,7 +469,7 @@ const binance = [
         "min_withdrawal": [
             0.008
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "ASR",
@@ -486,7 +486,7 @@ const binance = [
             0.02,
             0
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "AST",
@@ -500,7 +500,7 @@ const binance = [
         "min_withdrawal": [
             29
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "ATA",
@@ -517,7 +517,7 @@ const binance = [
             0.52,
             31
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "ATD",
@@ -531,7 +531,7 @@ const binance = [
         "min_withdrawal": [
             10
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "ATM",
@@ -548,7 +548,7 @@ const binance = [
             0.02,
             0
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "ALPHA",
@@ -565,7 +565,7 @@ const binance = [
             0.67,
             29
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "AVA",
@@ -585,7 +585,7 @@ const binance = [
             0.28,
             7.3
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "AAVE",
@@ -605,7 +605,7 @@ const binance = [
             0.0022,
             0.056
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "AXS",
@@ -625,7 +625,7 @@ const binance = [
             0.56,
             0.005
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "ALPINE",
@@ -639,7 +639,7 @@ const binance = [
         "min_withdrawal": [
             0.028
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "AVAX",
@@ -660,7 +660,7 @@ const binance = [
             0.008,
             0.008
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "ALPACA",
@@ -677,7 +677,7 @@ const binance = [
             0.28,
             0.12
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "AGIX",
@@ -691,7 +691,7 @@ const binance = [
         "min_withdrawal": [
             13
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "AKRO",
@@ -705,7 +705,7 @@ const binance = [
         "min_withdrawal": [
             745
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "BCH",
@@ -728,7 +728,7 @@ const binance = [
             0.0012,
             0.03
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "BASED",
@@ -742,7 +742,7 @@ const binance = [
         "min_withdrawal": [
             8
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "BEL",
@@ -762,7 +762,7 @@ const binance = [
             0.2,
             5.15
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "BRUSH",
@@ -776,7 +776,7 @@ const binance = [
         "min_withdrawal": [
             20
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "BCHA",
@@ -790,7 +790,7 @@ const binance = [
         "min_withdrawal": [
             0.0028
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "BLINK",
@@ -807,7 +807,7 @@ const binance = [
             50,
             50
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "BURGER",
@@ -824,7 +824,7 @@ const binance = [
             0.12,
             0.32
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "BLZ",
@@ -841,7 +841,7 @@ const binance = [
             0.79,
             58
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "BOBA",
@@ -855,7 +855,7 @@ const binance = [
         "min_withdrawal": [
             20
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "BNC",
@@ -869,7 +869,7 @@ const binance = [
         "min_withdrawal": [
             0.1
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "BNB",
@@ -889,7 +889,7 @@ const binance = [
             0.0005,
             0
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "BADGER",
@@ -903,7 +903,7 @@ const binance = [
         "min_withdrawal": [
             1.51
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "BNT",
@@ -920,7 +920,7 @@ const binance = [
             0.19,
             8.76
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "BNX",
@@ -934,7 +934,7 @@ const binance = [
         "min_withdrawal": [
             0.082
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "BOO",
@@ -948,7 +948,7 @@ const binance = [
         "min_withdrawal": [
             0.75
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "BDOT",
@@ -962,7 +962,7 @@ const binance = [
         "min_withdrawal": [
             0
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "BAKE",
@@ -979,7 +979,7 @@ const binance = [
             0.37,
             1.18
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "BTTOLD",
@@ -999,7 +999,7 @@ const binance = [
             400,
             400
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "BETH",
@@ -1013,7 +1013,7 @@ const binance = [
         "min_withdrawal": [
             0.000057
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "BETA",
@@ -1030,7 +1030,7 @@ const binance = [
             0.87,
             37
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "BUSD",
@@ -1063,7 +1063,7 @@ const binance = [
             0.8,
             1
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "BSW",
@@ -1077,7 +1077,7 @@ const binance = [
         "min_withdrawal": [
             0.42
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "BAND",
@@ -1100,7 +1100,7 @@ const binance = [
             0.11,
             2.84
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "BTC",
@@ -1126,7 +1126,7 @@ const binance = [
             0.0005,
             0.00013
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "BTS",
@@ -1140,7 +1140,7 @@ const binance = [
         "min_withdrawal": [
             1
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "BTTC",
@@ -1157,7 +1157,7 @@ const binance = [
             129810,
             134000
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "BOLT",
@@ -1171,7 +1171,7 @@ const binance = [
         "min_withdrawal": [
             1086
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "BOND",
@@ -1185,7 +1185,7 @@ const binance = [
         "min_withdrawal": [
             0.4
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "BICO",
@@ -1199,7 +1199,7 @@ const binance = [
         "min_withdrawal": [
             13
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "BIDR",
@@ -1216,7 +1216,7 @@ const binance = [
             1392,
             1925
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "BGBP",
@@ -1230,7 +1230,7 @@ const binance = [
         "min_withdrawal": [
             2.81
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "BIFI",
@@ -1250,7 +1250,7 @@ const binance = [
             0.00033,
             0.00014
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "BAL",
@@ -1267,7 +1267,7 @@ const binance = [
             0.013,
             0.68
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "BAR",
@@ -1281,7 +1281,7 @@ const binance = [
         "min_withdrawal": [
             0
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "BAT",
@@ -1301,7 +1301,7 @@ const binance = [
             0.69,
             17
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "CFX",
@@ -1321,7 +1321,7 @@ const binance = [
             0.01,
             0.01
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "CHR",
@@ -1338,7 +1338,7 @@ const binance = [
             0.52,
             24
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "CHZ",
@@ -1355,7 +1355,7 @@ const binance = [
             1.51,
             38
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "CKB",
@@ -1369,7 +1369,7 @@ const binance = [
         "min_withdrawal": [
             1
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "CLV",
@@ -1386,7 +1386,7 @@ const binance = [
             1.15,
             88
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "CHESS",
@@ -1400,7 +1400,7 @@ const binance = [
         "min_withdrawal": [
             0.24
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "COS",
@@ -1420,7 +1420,7 @@ const binance = [
             24,
             628
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "CITY",
@@ -1437,7 +1437,7 @@ const binance = [
             0.02,
             0
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "CELR",
@@ -1454,7 +1454,7 @@ const binance = [
             4.38,
             209
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "CELO",
@@ -1468,7 +1468,7 @@ const binance = [
         "min_withdrawal": [
             0.001
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "CRV",
@@ -1482,7 +1482,7 @@ const binance = [
         "min_withdrawal": [
             4.43
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "CTK",
@@ -1499,7 +1499,7 @@ const binance = [
             0.11,
             0.01
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "CAKE",
@@ -1516,7 +1516,7 @@ const binance = [
             0.023,
             0.084
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "CVC",
@@ -1530,7 +1530,7 @@ const binance = [
         "min_withdrawal": [
             42
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "CVP",
@@ -1547,7 +1547,7 @@ const binance = [
             0.17,
             9.82
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "CVX",
@@ -1561,7 +1561,7 @@ const binance = [
         "min_withdrawal": [
             0.88
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "CTSI",
@@ -1578,7 +1578,7 @@ const binance = [
             0.54,
             23
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "C98",
@@ -1595,7 +1595,7 @@ const binance = [
             0.33,
             20
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "COCOS",
@@ -1615,7 +1615,7 @@ const binance = [
             0.09,
             0
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "COMBO",
@@ -1632,7 +1632,7 @@ const binance = [
             0.039,
             3.01
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "CTXC",
@@ -1649,7 +1649,7 @@ const binance = [
             0.1,
             22
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "COMP",
@@ -1669,7 +1669,7 @@ const binance = [
             0.0041,
             0.1
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "CAN",
@@ -1686,7 +1686,7 @@ const binance = [
             5,
             5
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "CREAM",
@@ -1703,7 +1703,7 @@ const binance = [
             0.0072,
             0.15
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "CBM",
@@ -1717,7 +1717,7 @@ const binance = [
         "min_withdrawal": [
             1257045
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "COTI",
@@ -1737,7 +1737,7 @@ const binance = [
             2.52,
             64
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "DGB",
@@ -1751,7 +1751,7 @@ const binance = [
         "min_withdrawal": [
             0.2
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "DGD",
@@ -1765,7 +1765,7 @@ const binance = [
         "min_withdrawal": [
             0.043
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "DIA",
@@ -1782,7 +1782,7 @@ const binance = [
             0.22,
             13
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "DF",
@@ -1799,7 +1799,7 @@ const binance = [
             1.65,
             82
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "DON",
@@ -1813,7 +1813,7 @@ const binance = [
         "min_withdrawal": [
             1.71
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "DOT",
@@ -1833,7 +1833,7 @@ const binance = [
             0.08,
             0.026
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "DEGO",
@@ -1850,7 +1850,7 @@ const binance = [
             12,
             12
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "DREP",
@@ -1867,7 +1867,7 @@ const binance = [
             0.18,
             10
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "DOCK",
@@ -1881,7 +1881,7 @@ const binance = [
         "min_withdrawal": [
             5
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "DENT",
@@ -1895,7 +1895,7 @@ const binance = [
         "min_withdrawal": [
             4414
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "DODO",
@@ -1912,7 +1912,7 @@ const binance = [
             0.35,
             30
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "DOGE",
@@ -1932,7 +1932,7 @@ const binance = [
             4,
             1.83
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "DUSK",
@@ -1952,7 +1952,7 @@ const binance = [
             1,
             25
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "DEGOOLD",
@@ -1966,7 +1966,7 @@ const binance = [
         "min_withdrawal": [
             12
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "DEXE",
@@ -1983,7 +1983,7 @@ const binance = [
             0.03,
             1.53
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "DAI",
@@ -2006,7 +2006,7 @@ const binance = [
             4,
             1
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "DAR",
@@ -2023,7 +2023,7 @@ const binance = [
             0.43,
             29
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "DASH",
@@ -2037,7 +2037,7 @@ const binance = [
         "min_withdrawal": [
             0.0016
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "DCR",
@@ -2051,7 +2051,7 @@ const binance = [
         "min_withdrawal": [
             0.01
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "DATA",
@@ -2071,7 +2071,7 @@ const binance = [
             135,
             5.78
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "DYDX",
@@ -2085,7 +2085,7 @@ const binance = [
         "min_withdrawal": [
             1.73
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "ELF",
@@ -2108,7 +2108,7 @@ const binance = [
             0.44,
             11
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "ENJ",
@@ -2122,7 +2122,7 @@ const binance = [
         "min_withdrawal": [
             11
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "ENS",
@@ -2136,7 +2136,7 @@ const binance = [
         "min_withdrawal": [
             0.37
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "EON",
@@ -2150,7 +2150,7 @@ const binance = [
         "min_withdrawal": [
             10
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "ELON",
@@ -2167,7 +2167,7 @@ const binance = [
             10000000,
             10000000
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "EOS",
@@ -2187,7 +2187,7 @@ const binance = [
             0.08,
             0.15
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "EPX",
@@ -2201,7 +2201,7 @@ const binance = [
         "min_withdrawal": [
             253
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "ERN",
@@ -2215,7 +2215,7 @@ const binance = [
         "min_withdrawal": [
             1.94
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "ETC",
@@ -2235,7 +2235,7 @@ const binance = [
             0.008,
             0.0077
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "ETH",
@@ -2261,7 +2261,7 @@ const binance = [
             0.000071,
             0.00035
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "EGLD",
@@ -2278,7 +2278,7 @@ const binance = [
             0.0019,
             0.0008
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "ETHW",
@@ -2300,7 +2300,7 @@ const binance = [
             0.024,
             0.05
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "ETHBNT",
@@ -2314,7 +2314,7 @@ const binance = [
         "min_withdrawal": [
             5
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "EDG",
@@ -2328,7 +2328,7 @@ const binance = [
         "min_withdrawal": [
             100
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "EDU",
@@ -2342,7 +2342,7 @@ const binance = [
         "min_withdrawal": [
             0.04
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "ENTRP",
@@ -2359,7 +2359,7 @@ const binance = [
             10,
             10
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "EFI",
@@ -2376,7 +2376,7 @@ const binance = [
             0,
             72
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "FARM",
@@ -2393,7 +2393,7 @@ const binance = [
             0.0023,
             0.13
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "FLM",
@@ -2410,7 +2410,7 @@ const binance = [
             0.5,
             0.5
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "FLOKI",
@@ -2427,7 +2427,7 @@ const binance = [
             2617,
             126724
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "FIDA",
@@ -2441,7 +2441,7 @@ const binance = [
         "min_withdrawal": [
             0.5
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "FOR",
@@ -2458,7 +2458,7 @@ const binance = [
             3.74,
             177
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "FUSDC",
@@ -2472,7 +2472,7 @@ const binance = [
         "min_withdrawal": [
             1
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "FUSDT",
@@ -2486,7 +2486,7 @@ const binance = [
         "min_withdrawal": [
             1
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "FLOW",
@@ -2503,7 +2503,7 @@ const binance = [
             0.076,
             0.008
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "FTM",
@@ -2526,7 +2526,7 @@ const binance = [
             0.46,
             11
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "FTT",
@@ -2540,7 +2540,7 @@ const binance = [
         "min_withdrawal": [
             3.61
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "FUN",
@@ -2554,7 +2554,7 @@ const binance = [
         "min_withdrawal": [
             776
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "FXS",
@@ -2571,7 +2571,7 @@ const binance = [
             0.0084,
             0.57
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "FLUX",
@@ -2588,7 +2588,7 @@ const binance = [
             0.11,
             7.43
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "FRONT",
@@ -2605,7 +2605,7 @@ const binance = [
             0.37,
             21
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "FIRO",
@@ -2622,7 +2622,7 @@ const binance = [
             0.037,
             0.02
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "FORTH",
@@ -2636,7 +2636,7 @@ const binance = [
         "min_withdrawal": [
             1.35
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "FET",
@@ -2656,7 +2656,7 @@ const binance = [
             0.5,
             15
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "FIL",
@@ -2679,7 +2679,7 @@ const binance = [
             0.032,
             0.83
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "FIO",
@@ -2693,7 +2693,7 @@ const binance = [
         "min_withdrawal": [
             5
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "FIS",
@@ -2710,7 +2710,7 @@ const binance = [
             0.11,
             10
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "GLM",
@@ -2724,7 +2724,7 @@ const binance = [
         "min_withdrawal": [
             17
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "GMT",
@@ -2744,7 +2744,7 @@ const binance = [
             14,
             0.6
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "GMX",
@@ -2762,7 +2762,7 @@ const binance = [
             0.02,
             0.006
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "GNO",
@@ -2776,7 +2776,7 @@ const binance = [
         "min_withdrawal": [
             0.029
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "GNS",
@@ -2793,7 +2793,7 @@ const binance = [
             0.3,
             0.035
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "GRT",
@@ -2813,7 +2813,7 @@ const binance = [
             30,
             1.31
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "GRS",
@@ -2827,7 +2827,7 @@ const binance = [
         "min_withdrawal": [
             0.2
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "GQ",
@@ -2841,7 +2841,7 @@ const binance = [
         "min_withdrawal": [
             150
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "GTC",
@@ -2855,7 +2855,7 @@ const binance = [
         "min_withdrawal": [
             2.99
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "GYEN",
@@ -2869,7 +2869,7 @@ const binance = [
         "min_withdrawal": [
             464
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "GLMR",
@@ -2886,7 +2886,7 @@ const binance = [
             0.01,
             0.21
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "GAL",
@@ -2903,7 +2903,7 @@ const binance = [
             0.047,
             2.96
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "GAS",
@@ -2920,7 +2920,7 @@ const binance = [
             0.05,
             0.005
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "GHST",
@@ -2937,7 +2937,7 @@ const binance = [
             3.51,
             0.15
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "GFT",
@@ -2951,7 +2951,7 @@ const binance = [
         "min_withdrawal": [
             1.16
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "GALA",
@@ -2965,7 +2965,7 @@ const binance = [
         "min_withdrawal": [
             133
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "HOT",
@@ -2979,7 +2979,7 @@ const binance = [
         "min_withdrawal": [
             2350
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "HARD",
@@ -2996,7 +2996,7 @@ const binance = [
             0.42,
             0.073
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "HOOK",
@@ -3010,7 +3010,7 @@ const binance = [
         "min_withdrawal": [
             0.039
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "HIGH",
@@ -3027,7 +3027,7 @@ const binance = [
             0.031,
             2.18
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "HIFI",
@@ -3041,7 +3041,7 @@ const binance = [
         "min_withdrawal": [
             10
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "HNST",
@@ -3058,7 +3058,7 @@ const binance = [
             10,
             10
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "HBAR",
@@ -3072,7 +3072,7 @@ const binance = [
         "min_withdrawal": [
             0.8
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "HFT",
@@ -3089,7 +3089,7 @@ const binance = [
             0.13,
             8.26
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "HIVE",
@@ -3103,7 +3103,7 @@ const binance = [
         "min_withdrawal": [
             0.01
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "IRIS",
@@ -3117,7 +3117,7 @@ const binance = [
         "min_withdrawal": [
             1
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "IDRT",
@@ -3140,7 +3140,7 @@ const binance = [
             49431,
             3000
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "ID",
@@ -3157,7 +3157,7 @@ const binance = [
             1,
             9.94
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "IQ",
@@ -3174,7 +3174,7 @@ const binance = [
             50,
             673
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "IOTX",
@@ -3197,7 +3197,7 @@ const binance = [
             6.44,
             0
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "IOST",
@@ -3214,7 +3214,7 @@ const binance = [
             1,
             392
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "IOTA",
@@ -3231,7 +3231,7 @@ const binance = [
             0.37,
             0.5
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "ICP",
@@ -3245,7 +3245,7 @@ const binance = [
         "min_withdrawal": [
             0.0003
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "ICX",
@@ -3259,7 +3259,7 @@ const binance = [
         "min_withdrawal": [
             0.02
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "IHC",
@@ -3273,7 +3273,7 @@ const binance = [
         "min_withdrawal": [
             1622
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "IDEX",
@@ -3290,7 +3290,7 @@ const binance = [
             1.49,
             50
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "ILV",
@@ -3307,7 +3307,7 @@ const binance = [
             0.0012,
             0.069
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "IMX",
@@ -3321,7 +3321,7 @@ const binance = [
         "min_withdrawal": [
             4.64
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "INJ",
@@ -3341,7 +3341,7 @@ const binance = [
             0.01,
             0.019
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "INS",
@@ -3355,7 +3355,7 @@ const binance = [
         "min_withdrawal": [
             628522
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "JST",
@@ -3372,7 +3372,7 @@ const binance = [
             3.02,
             50
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "JUV",
@@ -3389,7 +3389,7 @@ const binance = [
             0.01,
             0
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "JASMY",
@@ -3406,7 +3406,7 @@ const binance = [
             15,
             833
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "JEX",
@@ -3420,7 +3420,7 @@ const binance = [
         "min_withdrawal": [
             10.85
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "JOE",
@@ -3438,7 +3438,7 @@ const binance = [
             0.1,
             1
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "KLAY",
@@ -3452,7 +3452,7 @@ const binance = [
         "min_withdrawal": [
             0.005
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "KDA",
@@ -3469,7 +3469,7 @@ const binance = [
             0,
             0.1
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "KEY",
@@ -3483,7 +3483,7 @@ const binance = [
         "min_withdrawal": [
             575
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "KP3R",
@@ -3497,7 +3497,7 @@ const binance = [
         "min_withdrawal": [
             0.057
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "KAVA",
@@ -3514,7 +3514,7 @@ const binance = [
             0.01,
             0.14
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "KEYFI",
@@ -3528,7 +3528,7 @@ const binance = [
         "min_withdrawal": [
             17
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "KMD",
@@ -3545,7 +3545,7 @@ const binance = [
             0.31,
             0.002
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "KNC",
@@ -3562,7 +3562,7 @@ const binance = [
             0.11,
             4
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "KSM",
@@ -3579,7 +3579,7 @@ const binance = [
             0.0023,
             0.01
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "LUNC",
@@ -3593,7 +3593,7 @@ const binance = [
         "min_withdrawal": [
             22.66
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "LUNA",
@@ -3607,7 +3607,7 @@ const binance = [
         "min_withdrawal": [
             0.01
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "LQDR",
@@ -3621,7 +3621,7 @@ const binance = [
         "min_withdrawal": [
             0.3
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "LAZIO",
@@ -3635,7 +3635,7 @@ const binance = [
         "min_withdrawal": [
             0.028
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "LBA",
@@ -3652,7 +3652,7 @@ const binance = [
             10,
             10
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "LOOKS",
@@ -3669,7 +3669,7 @@ const binance = [
             0.49,
             43
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "LDO",
@@ -3683,7 +3683,7 @@ const binance = [
         "min_withdrawal": [
             1.61
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "LOKA",
@@ -3697,7 +3697,7 @@ const binance = [
         "min_withdrawal": [
             12
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "LIT",
@@ -3714,7 +3714,7 @@ const binance = [
             0.071,
             4.52
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "LOOM",
@@ -3731,7 +3731,7 @@ const binance = [
             1.58,
             72
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "LIF3",
@@ -3745,7 +3745,7 @@ const binance = [
         "min_withdrawal": [
             10
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "LQTY",
@@ -3759,7 +3759,7 @@ const binance = [
         "min_withdrawal": [
             3.34
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "LEVER",
@@ -3773,7 +3773,7 @@ const binance = [
         "min_withdrawal": [
             2541
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "LPT",
@@ -3787,7 +3787,7 @@ const binance = [
         "min_withdrawal": [
             0.73
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "LRC",
@@ -3804,7 +3804,7 @@ const binance = [
             0.25,
             13
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "LSK",
@@ -3818,7 +3818,7 @@ const binance = [
         "min_withdrawal": [
             0.1
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "LTC",
@@ -3838,7 +3838,7 @@ const binance = [
             0.001,
             0.0015
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "LTO",
@@ -3861,7 +3861,7 @@ const binance = [
             1.76,
             45
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "LTT",
@@ -3875,7 +3875,7 @@ const binance = [
         "min_withdrawal": [
             3.01
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "LINA",
@@ -3892,7 +3892,7 @@ const binance = [
             8.65,
             267
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "LINK",
@@ -3912,7 +3912,7 @@ const binance = [
             0.002,
             0.56
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "MIMATIC",
@@ -3926,7 +3926,7 @@ const binance = [
         "min_withdrawal": [
             0.3
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "MINA",
@@ -3940,7 +3940,7 @@ const binance = [
         "min_withdrawal": [
             0.5
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "MBL",
@@ -3957,7 +3957,7 @@ const binance = [
             23,
             3.76
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "MTLX",
@@ -3971,7 +3971,7 @@ const binance = [
         "min_withdrawal": [
             1.5
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "MULTI",
@@ -3985,7 +3985,7 @@ const binance = [
         "min_withdrawal": [
             0.0086
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "MC",
@@ -4002,7 +4002,7 @@ const binance = [
             0.23,
             16
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "MDT",
@@ -4019,7 +4019,7 @@ const binance = [
             1.52,
             78
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "MDX",
@@ -4033,7 +4033,7 @@ const binance = [
         "min_withdrawal": [
             0.92
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "MAGIC",
@@ -4047,7 +4047,7 @@ const binance = [
         "min_withdrawal": [
             0.3
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "MATIC",
@@ -4070,7 +4070,7 @@ const binance = [
             0.18,
             9.72
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "MBOX",
@@ -4084,7 +4084,7 @@ const binance = [
         "min_withdrawal": [
             0.17
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "MIR",
@@ -4098,7 +4098,7 @@ const binance = [
         "min_withdrawal": [
             0.69
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "MANA",
@@ -4115,7 +4115,7 @@ const binance = [
             0.14,
             8.41
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "MEETONE",
@@ -4129,7 +4129,7 @@ const binance = [
         "min_withdrawal": [
             300
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "MKR",
@@ -4149,7 +4149,7 @@ const binance = [
             0.00021,
             0.0053
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "MLN",
@@ -4163,7 +4163,7 @@ const binance = [
         "min_withdrawal": [
             0.01
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "MAPS",
@@ -4177,7 +4177,7 @@ const binance = [
         "min_withdrawal": [
             112
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "MASK",
@@ -4194,7 +4194,7 @@ const binance = [
             0.024,
             0.82
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "MOB",
@@ -4208,7 +4208,7 @@ const binance = [
         "min_withdrawal": [
             0.2
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "MDXT",
@@ -4222,7 +4222,7 @@ const binance = [
         "min_withdrawal": [
             446
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "MTL",
@@ -4236,7 +4236,7 @@ const binance = [
         "min_withdrawal": [
             2.88
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "MNTC",
@@ -4250,7 +4250,7 @@ const binance = [
         "min_withdrawal": [
             0
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "MOVR",
@@ -4264,7 +4264,7 @@ const binance = [
         "min_withdrawal": [
             0.003
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "NEAR",
@@ -4284,7 +4284,7 @@ const binance = [
             0.01,
             0.095
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "NSBT",
@@ -4298,7 +4298,7 @@ const binance = [
         "min_withdrawal": [
             0.002
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "NBT",
@@ -4312,7 +4312,7 @@ const binance = [
         "min_withdrawal": [
             16
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "NEO",
@@ -4329,7 +4329,7 @@ const binance = [
             0,
             0
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "NFT",
@@ -4346,7 +4346,7 @@ const binance = [
             50000,
             30600
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "NULS",
@@ -4363,7 +4363,7 @@ const binance = [
             0.32,
             0.01
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "NKN",
@@ -4377,7 +4377,7 @@ const binance = [
         "min_withdrawal": [
             32
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "NMR",
@@ -4391,7 +4391,7 @@ const binance = [
         "min_withdrawal": [
             0.25
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "NEXO",
@@ -4408,7 +4408,7 @@ const binance = [
             5.31,
             0.23
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "NVT",
@@ -4422,7 +4422,7 @@ const binance = [
         "min_withdrawal": [
             0.1
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "OCEAN",
@@ -4439,7 +4439,7 @@ const binance = [
             0.23,
             10
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "OAX",
@@ -4456,7 +4456,7 @@ const binance = [
             0.39,
             18
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "OGN",
@@ -4473,7 +4473,7 @@ const binance = [
             0.66,
             41
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "OGV",
@@ -4487,7 +4487,7 @@ const binance = [
         "min_withdrawal": [
             390
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "OG",
@@ -4504,7 +4504,7 @@ const binance = [
             0.02,
             0
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "OM",
@@ -4521,7 +4521,7 @@ const binance = [
             2.13,
             136
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "OP",
@@ -4535,7 +4535,7 @@ const binance = [
         "min_withdrawal": [
             0.09
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "OMG",
@@ -4549,7 +4549,7 @@ const binance = [
         "min_withdrawal": [
             5.1
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "ONE",
@@ -4566,7 +4566,7 @@ const binance = [
             0.1,
             0
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "ONG",
@@ -4580,7 +4580,7 @@ const binance = [
         "min_withdrawal": [
             0.043
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "ONT",
@@ -4600,7 +4600,7 @@ const binance = [
             1,
             0.68
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "ONX",
@@ -4614,7 +4614,7 @@ const binance = [
         "min_withdrawal": [
             31
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "OSMO",
@@ -4628,7 +4628,7 @@ const binance = [
         "min_withdrawal": [
             0.001
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "ORN",
@@ -4645,7 +4645,7 @@ const binance = [
             0.084,
             4.19
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "OMOLD",
@@ -4659,7 +4659,7 @@ const binance = [
         "min_withdrawal": [
             41
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "OOKI",
@@ -4676,7 +4676,7 @@ const binance = [
             1205,
             51
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "OXT",
@@ -4690,7 +4690,7 @@ const binance = [
         "min_withdrawal": [
             57
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "PAXG",
@@ -4704,7 +4704,7 @@ const binance = [
         "min_withdrawal": [
             0.005
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "PAX",
@@ -4721,7 +4721,7 @@ const binance = [
             0,
             0
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "PGALA",
@@ -4735,7 +4735,7 @@ const binance = [
         "min_withdrawal": [
             72
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "POWR",
@@ -4749,7 +4749,7 @@ const binance = [
         "min_withdrawal": [
             23
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "PHA",
@@ -4766,7 +4766,7 @@ const binance = [
             0.54,
             16
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "PHB",
@@ -4780,7 +4780,7 @@ const binance = [
         "min_withdrawal": [
             0.071
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "PURSE",
@@ -4794,7 +4794,7 @@ const binance = [
         "min_withdrawal": [
             526
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "PUNDIX",
@@ -4808,7 +4808,7 @@ const binance = [
         "min_withdrawal": [
             8.75
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "PLA",
@@ -4825,7 +4825,7 @@ const binance = [
             8,
             0.89
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "PNT",
@@ -4842,7 +4842,7 @@ const binance = [
             0.37,
             31
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "PIVX",
@@ -4856,7 +4856,7 @@ const binance = [
         "min_withdrawal": [
             0.2
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "POLYX",
@@ -4870,7 +4870,7 @@ const binance = [
         "min_withdrawal": [
             5
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "PEPE",
@@ -4884,7 +4884,7 @@ const binance = [
         "min_withdrawal": [
             2958449
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "PSG",
@@ -4901,7 +4901,7 @@ const binance = [
             0.01,
             0
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "PERL",
@@ -4918,7 +4918,7 @@ const binance = [
             3.77,
             198
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "PERP",
@@ -4935,7 +4935,7 @@ const binance = [
             0.095,
             6.62
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "PEOPLE",
@@ -4952,7 +4952,7 @@ const binance = [
             3.42,
             209
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "PROS",
@@ -4969,7 +4969,7 @@ const binance = [
             0.14,
             9.83
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "PROM",
@@ -4986,7 +4986,7 @@ const binance = [
             0.017,
             0.82
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "PORTO",
@@ -5000,7 +5000,7 @@ const binance = [
         "min_withdrawal": [
             0.033
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "PYR",
@@ -5017,7 +5017,7 @@ const binance = [
             1.05,
             0.045
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "PARA",
@@ -5031,7 +5031,7 @@ const binance = [
         "min_withdrawal": [
             10
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "POND",
@@ -5051,7 +5051,7 @@ const binance = [
             1,
             419
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "POLS",
@@ -5068,7 +5068,7 @@ const binance = [
             0.17,
             11
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "QUICK",
@@ -5085,7 +5085,7 @@ const binance = [
             0.063,
             0.0027
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "QKC",
@@ -5102,7 +5102,7 @@ const binance = [
             7.95,
             405
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "QISWAP",
@@ -5116,7 +5116,7 @@ const binance = [
         "min_withdrawal": [
             0.55
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "QNT",
@@ -5130,7 +5130,7 @@ const binance = [
         "min_withdrawal": [
             0.031
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "QI",
@@ -5148,7 +5148,7 @@ const binance = [
             7.95,
             5
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "QUINT",
@@ -5162,7 +5162,7 @@ const binance = [
         "min_withdrawal": [
             1
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "QTUM",
@@ -5176,7 +5176,7 @@ const binance = [
         "min_withdrawal": [
             0.01
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "RAY",
@@ -5190,7 +5190,7 @@ const binance = [
         "min_withdrawal": [
             0.71
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "REI",
@@ -5204,7 +5204,7 @@ const binance = [
         "min_withdrawal": [
             0.03
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "REN",
@@ -5218,7 +5218,7 @@ const binance = [
         "min_withdrawal": [
             46
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "REQ",
@@ -5232,7 +5232,7 @@ const binance = [
         "min_withdrawal": [
             42
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "RARE",
@@ -5246,7 +5246,7 @@ const binance = [
         "min_withdrawal": [
             46
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "RIF",
@@ -5260,7 +5260,7 @@ const binance = [
         "min_withdrawal": [
             3
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "RLC",
@@ -5274,7 +5274,7 @@ const binance = [
         "min_withdrawal": [
             2.44
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "ROSE",
@@ -5288,7 +5288,7 @@ const binance = [
         "min_withdrawal": [
             0.1
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "RDNTOLD",
@@ -5302,7 +5302,7 @@ const binance = [
         "min_withdrawal": [
             0.1
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "RPL",
@@ -5316,7 +5316,7 @@ const binance = [
         "min_withdrawal": [
             0.07
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "RSR",
@@ -5330,7 +5330,7 @@ const binance = [
         "min_withdrawal": [
             1429
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "REEF",
@@ -5350,7 +5350,7 @@ const binance = [
             10,
             1868
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "RVN",
@@ -5364,7 +5364,7 @@ const binance = [
         "min_withdrawal": [
             1
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "RUNE",
@@ -5378,7 +5378,7 @@ const binance = [
         "min_withdrawal": [
             0.025
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "RDNT",
@@ -5395,7 +5395,7 @@ const binance = [
             0.17,
             0.3
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "RNDR",
@@ -5409,7 +5409,7 @@ const binance = [
         "min_withdrawal": [
             1.49
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "RAD",
@@ -5423,7 +5423,7 @@ const binance = [
         "min_withdrawal": [
             1.98
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "STPT",
@@ -5437,7 +5437,7 @@ const binance = [
         "min_withdrawal": [
             82
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "SANTOS",
@@ -5451,7 +5451,7 @@ const binance = [
         "min_withdrawal": [
             0.017
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "SFM",
@@ -5465,7 +5465,7 @@ const binance = [
         "min_withdrawal": [
             360
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "SFP",
@@ -5479,7 +5479,7 @@ const binance = [
         "min_withdrawal": [
             0.17
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "SGB",
@@ -5493,7 +5493,7 @@ const binance = [
         "min_withdrawal": [
             0.01
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "STORJ",
@@ -5507,7 +5507,7 @@ const binance = [
         "min_withdrawal": [
             11
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "SGT",
@@ -5521,7 +5521,7 @@ const binance = [
         "min_withdrawal": [
             1808376
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "SAND",
@@ -5541,7 +5541,7 @@ const binance = [
             7.27,
             0.31
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "SCRT",
@@ -5558,7 +5558,7 @@ const binance = [
             0.11,
             0.1
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "SKL",
@@ -5572,7 +5572,7 @@ const binance = [
         "min_withdrawal": [
             117
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "SOLO",
@@ -5586,7 +5586,7 @@ const binance = [
         "min_withdrawal": [
             0.58
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "STEEM",
@@ -5600,7 +5600,7 @@ const binance = [
         "min_withdrawal": [
             0.01
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "SLP",
@@ -5620,7 +5620,7 @@ const binance = [
             1775,
             1
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "SNM",
@@ -5637,7 +5637,7 @@ const binance = [
             0.11,
             10
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "SNT",
@@ -5651,7 +5651,7 @@ const binance = [
         "min_withdrawal": [
             147
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "SNX",
@@ -5674,7 +5674,7 @@ const binance = [
             1.64,
             0.2
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "SOL",
@@ -5691,7 +5691,7 @@ const binance = [
             0.004,
             0.008
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "SPELL",
@@ -5709,7 +5709,7 @@ const binance = [
             0,
             6732
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "SRM",
@@ -5726,7 +5726,7 @@ const binance = [
             50,
             2.04
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "SPIRIT",
@@ -5740,7 +5740,7 @@ const binance = [
         "min_withdrawal": [
             60
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "SSV",
@@ -5754,7 +5754,7 @@ const binance = [
         "min_withdrawal": [
             0.17
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "STG",
@@ -5784,7 +5784,7 @@ const binance = [
             2.5,
             0.23
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "SHIB",
@@ -5801,7 +5801,7 @@ const binance = [
             7306,
             424677
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "STX",
@@ -5815,7 +5815,7 @@ const binance = [
         "min_withdrawal": [
             1.5
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "SUI",
@@ -5829,7 +5829,7 @@ const binance = [
         "min_withdrawal": [
             0.02
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "SUN",
@@ -5846,7 +5846,7 @@ const binance = [
             13,
             12
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "SUSHI",
@@ -5866,7 +5866,7 @@ const binance = [
             0.18,
             4.52
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "SC",
@@ -5880,7 +5880,7 @@ const binance = [
         "min_withdrawal": [
             0.1
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "SXP",
@@ -5894,7 +5894,7 @@ const binance = [
         "min_withdrawal": [
             0.1
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "SYN",
@@ -5927,7 +5927,7 @@ const binance = [
             0.3,
             0.23
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "SYS",
@@ -5941,7 +5941,7 @@ const binance = [
         "min_withdrawal": [
             1
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "STRAX",
@@ -5955,7 +5955,7 @@ const binance = [
         "min_withdrawal": [
             0.1
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "SUPER",
@@ -5972,7 +5972,7 @@ const binance = [
             0.6,
             27
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "STMX",
@@ -5986,7 +5986,7 @@ const binance = [
         "min_withdrawal": [
             842
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "T",
@@ -6000,7 +6000,7 @@ const binance = [
         "min_withdrawal": [
             150
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "TAROT",
@@ -6014,7 +6014,7 @@ const binance = [
         "min_withdrawal": [
             25
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "TREEB",
@@ -6028,7 +6028,7 @@ const binance = [
         "min_withdrawal": [
             20
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "TUSD",
@@ -6051,7 +6051,7 @@ const binance = [
             4.336,
             0.8
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "TKO",
@@ -6065,7 +6065,7 @@ const binance = [
         "min_withdrawal": [
             0.25
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "TFUEL",
@@ -6079,7 +6079,7 @@ const binance = [
         "min_withdrawal": [
             2.32
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "TROY",
@@ -6099,7 +6099,7 @@ const binance = [
             58,
             1511
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "TLM",
@@ -6116,7 +6116,7 @@ const binance = [
             4.01,
             273
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "TOMB",
@@ -6130,7 +6130,7 @@ const binance = [
         "min_withdrawal": [
             30
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "TOMO",
@@ -6150,7 +6150,7 @@ const binance = [
             0.09,
             2.3
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "TRB",
@@ -6164,7 +6164,7 @@ const binance = [
         "min_withdrawal": [
             0.32
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "TRU",
@@ -6181,7 +6181,7 @@ const binance = [
             1.31,
             84
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "TRX",
@@ -6204,7 +6204,7 @@ const binance = [
             1.83,
             46
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "TORN",
@@ -6221,7 +6221,7 @@ const binance = [
             0.011,
             0.88
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "TVK",
@@ -6235,7 +6235,7 @@ const binance = [
         "min_withdrawal": [
             116
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "TWT",
@@ -6252,7 +6252,7 @@ const binance = [
             0.067,
             0.14
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "THETA",
@@ -6266,7 +6266,7 @@ const binance = [
         "min_withdrawal": [
             0.12
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "TBCC",
@@ -6280,7 +6280,7 @@ const binance = [
         "min_withdrawal": [
             5
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "USDCE",
@@ -6295,7 +6295,7 @@ const binance = [
         "min_withdrawal": [
             1
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "UMA",
@@ -6309,7 +6309,7 @@ const binance = [
         "min_withdrawal": [
             1.97
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "UND",
@@ -6326,7 +6326,7 @@ const binance = [
             5,
             5
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "UNI",
@@ -6346,7 +6346,7 @@ const binance = [
             0.028,
             0.73
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "UNFI",
@@ -6363,7 +6363,7 @@ const binance = [
             0.015,
             0.84
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "UTK",
@@ -6380,7 +6380,7 @@ const binance = [
             43,
             1
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "USTC",
@@ -6394,7 +6394,7 @@ const binance = [
         "min_withdrawal": [
             0.6
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "USDTE",
@@ -6409,7 +6409,7 @@ const binance = [
         "min_withdrawal": [
             1
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "USDT",
@@ -6460,7 +6460,7 @@ const binance = [
             1,
             1
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "USDP",
@@ -6477,7 +6477,7 @@ const binance = [
             0.8,
             4.64
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "USDC",
@@ -6519,7 +6519,7 @@ const binance = [
             1,
             1
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "UFT",
@@ -6536,7 +6536,7 @@ const binance = [
             0.22,
             12
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "VITE",
@@ -6553,7 +6553,7 @@ const binance = [
             2.91,
             1
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "VELO",
@@ -6570,7 +6570,7 @@ const binance = [
             100,
             500
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "VTHO",
@@ -6584,7 +6584,7 @@ const binance = [
         "min_withdrawal": [
             200
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "VRT",
@@ -6598,7 +6598,7 @@ const binance = [
         "min_withdrawal": [
             47
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "VOXEL",
@@ -6612,7 +6612,7 @@ const binance = [
         "min_withdrawal": [
             0.97
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "VIDT",
@@ -6629,7 +6629,7 @@ const binance = [
             2.16,
             133
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "VAB",
@@ -6643,7 +6643,7 @@ const binance = [
         "min_withdrawal": [
             3198
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "VAI",
@@ -6657,7 +6657,7 @@ const binance = [
         "min_withdrawal": [
             0.8
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "VET",
@@ -6674,7 +6674,7 @@ const binance = [
             3.3,
             20
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "VGX",
@@ -6688,7 +6688,7 @@ const binance = [
         "min_withdrawal": [
             28
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "VIB",
@@ -6702,7 +6702,7 @@ const binance = [
         "min_withdrawal": [
             63
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "VRAB",
@@ -6719,7 +6719,7 @@ const binance = [
             100,
             300
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "WING",
@@ -6733,7 +6733,7 @@ const binance = [
         "min_withdrawal": [
             0.002
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "WNXM",
@@ -6747,7 +6747,7 @@ const binance = [
         "min_withdrawal": [
             0.12
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "WOO",
@@ -6764,7 +6764,7 @@ const binance = [
             0.42,
             16
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "WAVES",
@@ -6781,7 +6781,7 @@ const binance = [
             0.036,
             0.0016
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "WRX",
@@ -6801,7 +6801,7 @@ const binance = [
             1.29,
             33
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "WTC",
@@ -6818,7 +6818,7 @@ const binance = [
             0.01,
             20
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "WSOL",
@@ -6832,7 +6832,7 @@ const binance = [
         "min_withdrawal": [
             0.01
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "WBNB",
@@ -6846,7 +6846,7 @@ const binance = [
         "min_withdrawal": [
             0.002
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "WETH",
@@ -6863,7 +6863,7 @@ const binance = [
             0.0018,
             0.001
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "WBETH",
@@ -6880,7 +6880,7 @@ const binance = [
             0.000057,
             0.0018
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "WBTC",
@@ -6894,7 +6894,7 @@ const binance = [
         "min_withdrawal": [
             0.00013
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "WAN",
@@ -6908,7 +6908,7 @@ const binance = [
         "min_withdrawal": [
             0.1
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "WAXP",
@@ -6925,7 +6925,7 @@ const binance = [
             69,
             2
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "WIN",
@@ -6945,7 +6945,7 @@ const binance = [
             1930,
             1056
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "XNO",
@@ -6959,7 +6959,7 @@ const binance = [
         "min_withdrawal": [
             0.033
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "XPR",
@@ -6973,7 +6973,7 @@ const binance = [
         "min_withdrawal": [
             3214
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "XRP",
@@ -6996,7 +6996,7 @@ const binance = [
             0.24,
             6.22
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "XTZ",
@@ -7016,7 +7016,7 @@ const binance = [
             0.1,
             0.16
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "XVG",
@@ -7030,7 +7030,7 @@ const binance = [
         "min_withdrawal": [
             0.2
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "XVS",
@@ -7044,7 +7044,7 @@ const binance = [
         "min_withdrawal": [
             0.016
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "XYM",
@@ -7058,7 +7058,7 @@ const binance = [
         "min_withdrawal": [
             0.1
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "XEC",
@@ -7075,7 +7075,7 @@ const binance = [
             2617,
             1000
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "XEM",
@@ -7089,7 +7089,7 @@ const binance = [
         "min_withdrawal": [
             4
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "XLM",
@@ -7106,7 +7106,7 @@ const binance = [
             1.04,
             0.02
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "XMR",
@@ -7120,7 +7120,7 @@ const binance = [
         "min_withdrawal": [
             0.0001
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "YFII",
@@ -7140,7 +7140,7 @@ const binance = [
             0.00018,
             0.0046
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "YFI",
@@ -7160,7 +7160,7 @@ const binance = [
             0.000022,
             0.00057
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "YGG",
@@ -7177,7 +7177,7 @@ const binance = [
             0.29,
             20
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "ZRX",
@@ -7191,7 +7191,7 @@ const binance = [
         "min_withdrawal": [
             16
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "ZCX",
@@ -7205,7 +7205,7 @@ const binance = [
         "min_withdrawal": [
             46
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "ZEC",
@@ -7225,7 +7225,7 @@ const binance = [
             0.001,
             0.0045
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "ZEN",
@@ -7239,7 +7239,7 @@ const binance = [
         "min_withdrawal": [
             0.002
         ]
-    },
+    , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
     {
         "exchange_id": "binance",
         "symbol": "ZIL",
@@ -7255,7 +7255,8 @@ const binance = [
         "min_withdrawal": [
             2.84,
             0.2
-        ]
+        ],
+        "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250"
     }
 ];
 

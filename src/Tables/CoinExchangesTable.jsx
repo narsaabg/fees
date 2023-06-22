@@ -13,9 +13,9 @@ const CoinExchangesTable = ({data}) => {
               <tr className="css-0">
                 <th className="css-1wpjpgn"/>
                 <th className="css-1kcukf7">Exchange</th>
-                <th className="css-1kcukf7">Network</th>
-                <th className="css-fdqha2" style={{textAlign:'center'}}>Withdrawal Fee</th>
-                <th className="css-1dlal87" style={{textAlign:'center'}}>Min Withdrawal</th>
+                <th className="css-1kcukf7" style={{textAlign:'center'}}>Network</th>
+                <th className="css-fdqha2" style={{textAlign:'end'}}>Withdrawal Fee</th>
+                <th className="css-1dlal87" style={{textAlign:'end'}}>Min Withdrawal</th>
                </tr>
             </thead>
             <tbody className="css-0">

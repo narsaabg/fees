@@ -13,13 +13,13 @@ const TR = ({data,key}) => {
             </td>
             <td className="css-ex33ci">
                 <div className="chakra-stack css-1a1xprz"> <img src={data.image} style={{width: '25px'}} />
-                <div className="css-z2fbxz" style={{marginTop: '0px'}}><a target="_self" className="chakra-link css-emf8ld" href="#"><span>{data.symbol.toUpperCase()}</span></a></div>
+                <div className="css-z2fbxz" style={{marginTop: '0px'}}><a target="_self" className="chakra-link css-emf8ld" href={'/coins/'+data.id+'-withdrawal-fee'}><span>{data.symbol.toUpperCase()}</span></a></div>
                 </div>
             </td>
             <td className="css-pr32fc" style={{ color: data.price_change_percentage_24h < 0 ? 'red' : 'green' }}><span>{data.price_change_percentage_24h.toFixed(2).replace('-', '')}%</span></td>
             <td className="css-e30lz9"><a className="chakra-link css-5kc5f2" href="/block/257591">25-91</a></td>
-            <td data-is-numeric="true" className="css-e30lz9"><span className="css-75zybh"><p className="chakra-text css-1gdcvrl">${data.current_price}</p></span></td>
             <td data-is-numeric="true" className="css-e30lz9"><span className="css-75zybh"><p className="chakra-text css-1gdcvrl">43</p></span></td>
+            <td data-is-numeric="true" className="css-e30lz9"><span className="css-75zybh"><p className="chakra-text css-1gdcvrl">${data.current_price}</p></span></td>
         </tr>
     )
 }

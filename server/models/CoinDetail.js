@@ -35,7 +35,8 @@ const coinDetailSchema = new mongoose.Schema({
     type: [Number],
     required: true
   },
-  image : String
+  image : String,
+  exchange_image:String,
 }, { timestamps: true }, { _id: true });
 
 const CoinDetail = mongoose.model('coin_detail', coinDetailSchema);
@@ -88,6 +89,7 @@ CoinDetail.getCoinExchanges = async function (coinId, page, limit) {
   try {
     const skipAmount = (page - 1) * limit; 
 
+    console.log(coinId);
     const [exchanges, totalCount] = await Promise.all([
         this.find({ coin_id: coinId })
             .skip(skipAmount)
