@@ -1,18 +1,21 @@
-import react, { useState } from 'react'
+import { useState } from 'react'
 
 const BrowserHeader = () => {
     const [searchInput , setSearchInput] = useState('');
     const Menu = [{
+          'icon':'fa fa-house',
           'name':'Home',
           'style':'paddingLeft:0px',
           'link' : '/'
         },
         {
+          'icon':'fa-brands fa-bitcoin',
           'name':'Coin',
           'style':'',
           'link':'/coins',
         },
         {
+          'icon':'fa fa-money-bill-transfer',
           'name':'Exchanges',
           'style':'',
           'link':'/exchanges',
@@ -31,7 +34,7 @@ const BrowserHeader = () => {
               {
                 Menu.map(function(r,t){
                     return (
-                      <li key={t} style={{paddingLeft:'0px'}}><a href={r.link}>{r.name}</a></li>
+                      <li key={t} style={{paddingLeft:'0px',fontSize: '18px'}}> <i class={r.icon} style={{paddingRight: '5px'}}></i><a href={r.link}>{r.name}</a></li>
                     )
                 })
               }

@@ -33,6 +33,7 @@ html {
     --chakra-colors-white: #ffffff; 
     --chakra-colors-blackAlpha-200: RGBA(16, 17, 18, 0.08); 
     --chakra-colors-blackAlpha-800: RGBA(16, 17, 18, 0.80); 
+    --chakra-main-theme-color: #2c243c;
     --chakra-colors-gray-100: #EDF2F7; 
     --chakra-colors-gray-200: #E2E8F0; 
     --chakra-colors-gray-500: #718096; 
@@ -180,6 +181,7 @@ html {
 		--chakra-colors-teal-800: #234E52;
 		--chakra-colors-teal-900: #1D4044;
 		--chakra-colors-blue-50: #EBF8FF;
+		/* --chakra-colors-blue-50: #2c243c; */
 		--chakra-colors-blue-100: #BEE3F8;
 		--chakra-colors-blue-200: #90CDF4;
 		--chakra-colors-blue-300: #63B3ED;
@@ -1293,8 +1295,8 @@ html {
     @media screen and (min-width: 768px) {
         .css-fezzec.css-c9c2l4 {
             padding-top: 0% !important;
-            padding-left: 10%;
-            padding-right: 10%;
+            padding-left: 8%;
+            padding-right: 8%;
             margin: 4px;
         }
     }
@@ -1785,27 +1787,6 @@ html {
     isolation: isolate;
 }
  
-.css-1dj04ll {
-    left: 0;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-align-items: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    position: absolute;
-    top: 0px;
-    z-index: 2;
-    width: var(--chakra-sizes-4);
-    margin-left: var(--chakra-space-3);
-    height: 100%;
-}
 @media screen and (min-width: 1000px){
 .css-6ovpta {
     width: var(--chakra-sizes-6);
@@ -1896,37 +1877,6 @@ html {
     overflow-y: scroll;
 }
 
-@media screen and (min-width: 1000px){
-}
-.css-fezzec {
-    -webkit-padding-start: var(--chakra-space-12);
-    padding-inline-start: var(--chakra-space-12);
-    -webkit-padding-end: var(--chakra-space-12);
-    padding-inline-end: var(--chakra-space-12);
-    padding-top: var(--chakra-space-9);
-    display: none;
-}
-
-.css-2hzzd0 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-align-items: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-flex-direction: row;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    width: 100%;
-    gap: var(--chakra-space-12);
-    padding-bottom: 52px;
-}
 .css-8atqhb {
     width: 100%;
 }
@@ -1941,27 +1891,6 @@ html {
     isolation: isolate;
 }
 
-.css-1dj04ll {
-    left: 0;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-align-items: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    position: absolute;
-    top: 0px;
-    z-index: 2;
-    width: var(--chakra-sizes-4);
-    margin-left: var(--chakra-space-3);
-    height: 100%;
-}
 
 @media screen and (min-width: 1000px){
 .css-1dj04ll {
@@ -1986,7 +1915,8 @@ html {
     color: var(--chakra-colors-blackAlpha-600);
 }
 .css-1gmlvto:placeholder-shown:not(:focus-visible):not(:hover):not([aria-invalid=true]) {
-    border-color: var(--chakra-colors-blackAlpha-100);
+    /* border-color: var(--chakra-colors-blackAlpha-100); */
+    border-color: var(--chakra-main-theme-color);
 }
 
 @media screen and (min-width: 1001px){
@@ -2819,37 +2749,41 @@ margin-top: var(--chakra-space-6);
 }
 
 .css-1dlal87 {
+    background-color: var(--chakra-main-theme-color);
+    color: #fff;
     font-family: var(--chakra-fonts-body);
     font-weight: 500;
     text-transform: none;
     border-top-right-radius: 8px;
     text-align: start;
     overflow: hidden;
-    color: var(--chakra-colors-blackAlpha-700);
+    /* color: var(--chakra-colors-blackAlpha-700); */
     padding-inline: 6px;
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: var(--chakra-fontSizes-sm);
     border: 0px;
-    background-color: var(--chakra-colors-blackAlpha-100);
+    /* background-color: var(--chakra-colors-blackAlpha-100); */
     transition-property: background-color, color, border-color;
     transition-duration: var(--chakra-transition-duration-normal);
     transition-timing-function: ease;
     width: 20%;
 }
 .css-1u00tmx {
+    background-color: var(--chakra-main-theme-color);
+    color: #fff;
     font-family: var(--chakra-fonts-body);
     font-weight: 500;
     text-transform: none;
     text-align: center;
     overflow: hidden;
-    color: var(--chakra-colors-blackAlpha-700);
+    /* color: var(--chakra-colors-blackAlpha-700); */
     padding-inline: 6px;
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: var(--chakra-fontSizes-sm);
     border: 0px;
-    background-color: var(--chakra-colors-blackAlpha-100);
+    /* background-color: var(--chakra-colors-blackAlpha-100); */
     transition-property: background-color, color, border-color;
     transition-duration: var(--chakra-transition-duration-normal);
     transition-timing-function: ease;
@@ -2869,18 +2803,20 @@ margin-top: var(--chakra-space-6);
     justify-content: end;
 }
 .css-1nvtsnb {
+    background-color: var(--chakra-main-theme-color);
+    color: #fff;
     font-family: var(--chakra-fonts-body);
     font-weight: 500;
     text-transform: none;
     text-align: start;
     overflow: hidden;
-    color: var(--chakra-colors-blackAlpha-700);
+    /* color: var(--chakra-colors-blackAlpha-700); */
     padding-inline: 6px;
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: var(--chakra-fontSizes-sm);
     border: 0px;
-    background-color: var(--chakra-colors-blackAlpha-100);
+    /* background-color: var(--chakra-colors-blackAlpha-100); */
     transition-property: background-color, color, border-color;
     transition-duration: var(--chakra-transition-duration-normal);
     transition-timing-function: ease;
@@ -2888,55 +2824,61 @@ margin-top: var(--chakra-space-6);
     padding-right: var(--chakra-space-5);
 }
 .css-fdqha2 {
+    background-color: var(--chakra-main-theme-color);
+    color: #fff;
     font-family: var(--chakra-fonts-body);
     font-weight: 500;
     text-transform: none;
     text-align: start;
     overflow: hidden;
-    color: var(--chakra-colors-blackAlpha-700);
+    /* color: var(--chakra-colors-blackAlpha-700); */
     padding-inline: 6px;
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: var(--chakra-fontSizes-sm);
     border: 0px;
-    background-color: var(--chakra-colors-blackAlpha-100);
+    /* background-color: var(--chakra-colors-blackAlpha-100); */
     transition-property: background-color, color, border-color;
     transition-duration: var(--chakra-transition-duration-normal);
     transition-timing-function: ease;
     width: 160px;
 }
 .css-1kcukf7{
+    background-color: var(--chakra-main-theme-color);
+    color: #fff;
     font-family: var(--chakra-fonts-body);
     font-weight: 500;
     text-transform: none;
     text-align: start;
     overflow: hidden;
-    color: var(--chakra-colors-blackAlpha-700);
+    /* color: var(--chakra-colors-blackAlpha-700); */
     padding-inline: 6px;
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: var(--chakra-fontSizes-sm);
     border: 0px;
-    background-color: var(--chakra-colors-blackAlpha-100);
+    /* background-color: var(--chakra-colors-blackAlpha-100); */
     transition-property: background-color, color, border-color;
     transition-duration: var(--chakra-transition-duration-normal);
     transition-timing-function: ease;
     width: 22%;
 }
 .css-1wpjpgn{
+    background-color: var(--chakra-main-theme-color);
+    color: #fff;
     border-top-left-radius: 8px;
     font-family: var(--chakra-fonts-body);
     font-weight: 500;
     text-transform: none;
     text-align: start;
     overflow: hidden;
-    color: var(--chakra-colors-blackAlpha-700);
+    /* color: var(--chakra-colors-blackAlpha-700); */
     padding-inline: 6px;
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: var(--chakra-fontSizes-sm);
     border: 0px;
-    background-color: var(--chakra-colors-blackAlpha-100);
+    /* background-color: var(--chakra-colors-blackAlpha-100); */
     transition-property: background-color, color, border-color;
     transition-duration: var(--chakra-transition-duration-normal);
     transition-timing-function: ease;
@@ -2998,7 +2940,8 @@ margin-top: var(--chakra-space-6);
 }
 .css-19ypa6d {
     display: flex;
-    background-color: var(--chakra-colors-blue-50);
+    /* background-color: var(--chakra-colors-blue-50); */
+    background-color: var(--chakra-main-theme-color);
     padding: var(--chakra-space-3);
     border-radius: var(--chakra-radii-md);
     flex-direction: row;
@@ -3021,27 +2964,6 @@ margin-top: var(--chakra-space-6);
         grid-template-columns: repeat(5, 1fr);
         grid-template-rows: none;
     }
-}
-
-.css-2hzzd0 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-align-items: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-flex-direction: row;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    width: 100%;
-    gap: var(--chakra-space-12);
-    padding-bottom: 52px;
 }
 
 .css-2hzzd0>*:not(style)~*:not(style) {
@@ -3513,7 +3435,8 @@ margin-top: var(--chakra-space-6);
     -webkit-flex-shrink: 0;
     -ms-flex-negative: 0;
     flex-shrink: 0;
-    color: var(--chakra-colors-blackAlpha-600);
+    /* color: var(--chakra-colors-blackAlpha-600); */
+    color: var(--chakra-main-theme-color);
 }
 
 @media screen and (min-width: 1000px) {
@@ -3523,20 +3446,6 @@ margin-top: var(--chakra-space-6);
     }
 }
 
-.css-fezzec {
-    -webkit-padding-start: var(--chakra-space-12);
-    padding-inline-start: var(--chakra-space-12);
-    -webkit-padding-end: var(--chakra-space-12);
-    padding-inline-end: var(--chakra-space-12);
-    padding-top: var(--chakra-space-9);
-    display: none;
-}
-
-@media screen and (min-width: 1000px) {
-    .css-fezzec {
-        display: block;
-    }
-}
 .css-8atqhb {
     width: 100%;
 }
@@ -3596,8 +3505,8 @@ margin-top: var(--chakra-space-6);
 @media screen and (min-width: 1000px){ 
   .css-fezzec { 
     display: block;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 8%;
+    padding-right: 8%;
   } 
 
   .css-4epjj6 { 
@@ -3724,7 +3633,8 @@ svg {
     display: inline-block;
     line-height: 1em;
     flex-shrink: 0;
-    color: currentcolor;
+    /* color: currentcolor; */
+    color: #fff;
 }
 
 .main-nav {

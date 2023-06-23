@@ -16,8 +16,8 @@ const CoinsTable = ({coins}) => {
                 <th className="css-1kcukf7">Coin</th>
                 <th className="css-1u00tmx" style={{textAlign:'center'}}>24Hr</th>
                 <th className="css-1u00tmx">Min - Max</th>
-                <th data-is-numeric="true" className="css-1nvtsnb"> <a href="#" className="chakra-link css-1cvy0v">Exchanges</a> </th>
-                <th data-is-numeric="true" className="css-1dlal87"> <a href="#" className="chakra-link css-1cvy0v">Price</a> </th>
+                <th data-is-numeric="true" className="css-1nvtsnb" style={{textAlign:'end'}}>Exchanges</th>
+                <th data-is-numeric="true" className="css-1dlal87"style={{textAlign:'end'}}>Price</th>
               </tr>
             </thead>
             <tbody className="css-0">
