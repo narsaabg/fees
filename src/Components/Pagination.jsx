@@ -64,7 +64,7 @@ const Pagination = ({pagination,loadPagination}) => {
         </div>
         <div className="css-zdpt2t">
           <div className="css-1a8sicp">
-            <button type="button" className="chakra-button css-1op4o60" disabled={!(currentPage > 1)} onClick={()=>changePage(false,true)}>First</button>
+            {/* <button type="button" className="chakra-button css-1op4o60" disabled={!(currentPage > 1)} onClick={()=>changePage(false,true)}>First</button> */}
             <button type="button" className="chakra-button css-1owoio2" aria-label="Next page" disabled={!hasPrev} onClick={()=>changePage(false)}>
               <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" focusable="false" className="chakra-icon css-w3c4vt" aria-hidden="true">
                 <path d="M11.535 11.293a1 1 0 0 0 0 1.414l3.536 3.536a1 1 0 1 1-1.414 1.414l-4.95-4.95a1 1 0 0 1 0-1.414l4.95-4.95a1 1 0 1 1 1.414 1.414l-3.536 3.536Z" fill="currentColor" />
@@ -73,7 +73,7 @@ const Pagination = ({pagination,loadPagination}) => {
           
             <button type="button" data-active className="chakra-button css-m9lah3">{currentPage}</button>
             
-            <button type="button" className="chakra-button css-ohpl07" aria-label="Next page" disabled={!hasNext} onClick={()=>changePage()}>
+            <button type="button" className="chakra-button css-1owoio2" style={{marginLeft: 'var(--chakra-space-3)'}} aria-label="Next page" disabled={!hasNext} onClick={()=>changePage()}>
               <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" focusable="false" className="chakra-icon css-1qemq9c" aria-hidden="true">
                 <path d="M11.535 11.293a1 1 0 0 0 0 1.414l3.536 3.536a1 1 0 1 1-1.414 1.414l-4.95-4.95a1 1 0 0 1 0-1.414l4.95-4.95a1 1 0 1 1 1.414 1.414l-3.536 3.536Z" fill="currentColor" />
               </svg>

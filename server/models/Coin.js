@@ -118,4 +118,34 @@ Coin.insertFilteredCoins = async function (page) {
     }
   }
 
+  /**
+   * Method is used to make search on coins
+   * @author Lovedeep
+   * @created 24/06/2023
+   * @param {*} query 
+   * @returns 
+   */
+  Coin.search = async function (query) {
+    try {
+      // Perform the search query
+      const searchResults = await Coin.find({
+        $or: [
+          { name: { $regex: query, $options: 'i' } }, // Search by name (case-insensitive)
+          { symbol: { $regex: query, $options: 'i' } } // Search by symbol (case-insensitive)
+        ]
+      });
+  
+      const modifiedResults = searchResults.map((result) => {
+        return {
+          ...result,
+          is: 'coin'
+        };
+      });
+      
+      return searchResults;
+    } catch (err) {
+      console.error('Error occurred while searching:', err);
+    }
+  }
+
 module.exports = Coin;

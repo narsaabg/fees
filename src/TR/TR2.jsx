@@ -12,7 +12,7 @@ const TR = ({data}) => {
                 <section id="popover-content-:r72:" tabIndex={-1} role="dialog" className="chakra-popover__content css-1qj38v6" style={{transformOrigin: 'var(--popper-transform-origin)', opacity: 0, visibility: 'hidden', transform: 'scale(0.95) translateZ(0px)'}} />
                 </div>
             </td>
-            <td className="css-ex33ci">
+            <td className="css-ex33ci" style={{backgroundColor:'#fff'}}>
                 <div className="chakra-stack css-1a1xprz"> <img src={data.image} style={{width: '25px'}} />
                 <div className="css-z2fbxz" style={{marginTop: '0px'}}><a target="_self" className="chakra-link css-emf8ld" href={'/exchanges/'+data.id}><span>{data.name}</span></a></div>
                 </div>

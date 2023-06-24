@@ -30,6 +30,9 @@ function App() {
         <Route path="/coins/:slug" element={<Coins sttc={sttc}/>} />
         <Route path="/exchanges" element={<Exchanges sttc={sttc}/>} />
         <Route path="/exchanges/:exchange" element={<Exchanges sttc={sttc}/>} />
+
+        <Route path="/*" element={<Coins sttc={sttc}/>} />
+
       </Routes>
     </Router>
   );

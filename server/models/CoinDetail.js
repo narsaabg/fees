@@ -138,4 +138,47 @@ CoinDetail.upsertData = async (jsonData) =>  {
   }
 }
 
+/**
+ * Method to find the lowest and maximum withdrawal fee
+ * @author Lovedeep
+ * @created 24/06/2023 19:04
+ * @param {*} coinId 
+ * @returns 
+ */
+CoinDetail.minMaxWithdrawalFee = async (coinId) =>  {
+  try {
+    const coins = await CoinDetail.find({ coin_id: coinId });
+    if (!coins || coins.length === 0) {
+      throw new Error('No coins found');
+    }
+
+    let lowestFee = Infinity;
+    let maximumFee = Infinity;
+
+    coins.forEach((coin) => {
+      let wFee = coin.withdrawal_fee.map(Number);
+      const minFee = Math.min(...wFee);
+      if (minFee < lowestFee) {
+        lowestFee = minFee;
+      }
+    });
+
+
+
+    coins.forEach((coin) => {
+      let wFee = coin.withdrawal_fee;
+      const maxFee = Math.max(...wFee);
+      if (maxFee < maximumFee) {
+        maximumFee = maxFee;
+      }
+    });
+
+console.log(lowestFee,maximumFee)
+    return {lowestFee,maximumFee};
+  } catch (error) {
+    throw new Error(`Error finding lowest withdrawal fee: ${error.message}`);
+  } 
+}
+
+
 module.exports = CoinDetail;

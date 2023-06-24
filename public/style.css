@@ -71,9 +71,6 @@ html {
     --chakra-colors-chakra-placeholder-color: var(--chakra-colors-gray-500);
 } 
 
-.css-iy22zq { 
-    z-index: var(--chakra-zIndices-popover);
-} 
 
 *,:before,:after { 
     border-width:  0; 
@@ -731,10 +728,6 @@ html {
         color: var(--chakra-colors-link);
     }
     
-    .css-iy22zq {
-        z-index: var(--chakra-zIndices-popover);
-    }
-    
     .css-1qj38v6 {
         position: relative;
         display: flex;
@@ -1387,10 +1380,6 @@ html {
         visibility: hidden;
     }
     
-    .css-iy22zq {
-        z-index: var(--chakra-zIndices-popover);
-    }
-    
     .css-89zcca {
         position: relative;
         display: -webkit-box;
@@ -1503,8 +1492,8 @@ html {
         padding-inline-start: var(--chakra-space-3);
         padding-inline-end: var(--chakra-space-3);
         border-image: initial;
-        border-color: var(--chakra-colors-blue-600);
-        color: var(--chakra-colors-blue-600);
+        border-color: var(--chakra-main-theme-color);
+        color: var(--chakra-main-theme-color);
         background: var(--chakra-colors-transparent);
         border-width: 2px;
         border-style: solid;
@@ -1524,9 +1513,13 @@ html {
     
     .css-m9lah3:active,
     .css-m9lah3[data-active] {
-        background: var(--chakra-colors-blue-50);
+        /* background: var(--chakra-colors-blue-50);
         border-color: var(--chakra-colors-blue-50);
         color: var(--chakra-colors-blue-600);
+         */
+        background: var(--chakra-main-theme-color);
+        border-color: var(--chakra-main-theme-color);
+        color: #fff;
     }
     
     .css-m9lah3 {
@@ -1735,25 +1728,6 @@ html {
     width: var(--chakra-sizes-10);
     height: var(--chakra-sizes-10);
 }
-@media screen and (min-width: 1000px)
-{
-.css-5zxsuc {
-    border-radius: var(--chakra-radii-base);
-    position: static;
-    top: 0px;
-    z-index: var(--chakra-zIndices-auto);
-    -webkit-padding-start: 0px;
-    padding-inline-start: 0px;
-    -webkit-padding-end: 0px;
-    padding-inline-end: 0px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    -webkit-transform: none;
-    -moz-transform: none;
-    -ms-transform: none;
-    transform: none;
-}
-}
 .css-5zxsuc {
     width: 100%;
     background-color: var(--chakra-colors-white);
@@ -1845,9 +1819,7 @@ html {
     border-color: var(--chakra-colors-blackAlpha-100);
     color: var(--chakra-colors-black);
 }
-.css-iy22zq {
-    z-index: var(--chakra-zIndices-popover);
-}
+
 @media screen and (min-width: 1000px){
 .css-d0tw53 {
     max-height: 500px;
@@ -1961,7 +1933,8 @@ html {
 }
 
 .css-iy22zq {
-    z-index: var(--chakra-zIndices-popover);
+    /* z-index: var(--chakra-zIndices-popover); */
+    z-index: 2;
 }
 
 @media screen and (min-width: 1000px){
@@ -3118,9 +3091,7 @@ margin-top: var(--chakra-space-6);
         opacity: 1;
     }
 }
-.css-iy22zq {
-    z-index: var(--chakra-zIndices-popover);
-}
+
 .css-1cs5lkz {
     list-style-type: none;
     width: 100%;
@@ -3507,6 +3478,7 @@ margin-top: var(--chakra-space-6);
     display: block;
     padding-left: 8%;
     padding-right: 8%;
+    padding-top: 1%;
   } 
 
   .css-4epjj6 { 
@@ -3517,8 +3489,8 @@ margin-top: var(--chakra-space-6);
 .css-uz7m33 { 
     padding-inline-start: var(--chakra-space-4); 
     padding-inline-end: var(--chakra-space-4); 
-    padding-top: var(--chakra-space-6); 
-    padding-bottom: var(--chakra-space-6);
+    /* padding-top: var(--chakra-space-6); 
+    padding-bottom: var(--chakra-space-6); */
 } 
 
 p { 
@@ -3622,7 +3594,7 @@ svg {
     margin: 0px;  
     overflow: hidden;  
     padding: 0px;  
-    background-color: rgb(21, 134, 242);  
+    /* background-color: rgb(21, 134, 242);      */
     height: 24px;  
     width: 24px;  
 }  

@@ -1,25 +1,31 @@
-import react, { useState } from 'react'
+import { useState } from 'react'
 import SearchModal from './SearchModal';
 import api from '../api';
 
 const MobileHeader = ({showSidebar}) => {
     const [searchInput,setSearchInput] = useState('');
     const [isModalVisible,setIsModalVisible] = useState(false);
+    const [searchResult,setSearchResult] = useState([]);
 
-    const upSertData = async () => {
-      try {
-        const response = await api.get(`/api/exchange-coins-upsert`);
-      } catch (error) {
+    const searchCoinExchange = async(input) => {
+      const params = {query: input };
+      try{
+          const data = await api.get(`/api/search`,{params:params});
+          setSearchResult(data.data)
+      }catch(error){
         console.error('Error fetching data:', error);
       }
-    };
+    }
+
 
     const search = (e) => {
         console.log(e.target.value)
         const input = e.target.value;
-        setSearchInput(input);
-        upSertData();
-        if(input.length > 0){
+        setSearchInput(input); 
+
+        if(input.length > 1){
+            // search function
+            searchCoinExchange(input);
             setIsModalVisible(true);
         }else{
             setIsModalVisible(false);
@@ -35,7 +41,7 @@ const MobileHeader = ({showSidebar}) => {
             </svg>
           </div>
           <a href="/" aria-label="Link to main page" className="css-shjlma">
-            <img alt="Zora Testnet network logo" src="/favicon.ico" className="chakra-image css-14bjcpq" />
+            <img alt="Zora Testnet network logo" src="/logo.png" className="chakra-image css-14bjcpq" />
           </a>
           <div className="css-1d5wfwy" />
         </header>
@@ -50,7 +56,7 @@ const MobileHeader = ({showSidebar}) => {
           </div>
         </form>
 
-        { isModalVisible && <SearchModal />}
+        { isModalVisible && <SearchModal searchResult={searchResult}/>}
 
 
       </div>

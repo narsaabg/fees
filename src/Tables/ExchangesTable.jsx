@@ -12,9 +12,9 @@ const ExchangesTable = ({exchanges}) => {
                 <th className="css-1wpjpgn" />
                 <th className="css-1kcukf7">Exchange</th>
                 <th className="css-fdqha2">Coin Listed</th>
-                <th className="css-1dlal87" style={{borderTopRightRadius: '0px'}}>Trust Score</th>
-                <th className="css-1u00tmx">Founded</th>
-                <th data-is-numeric="true" className="css-1dlal87"> <a className="chakra-link css-1cvy0v">Volume</a> </th>
+                <th className="css-1dlal87" style={{borderTopRightRadius: '0px',textAlign:'center'}}>Trust Score</th>
+                <th className="css-1u00tmx" style={{textAlign:'end'}}>Founded</th>
+                <th data-is-numeric="true" className="css-1dlal87" style={{textAlign:'end'}}>Volume</th>
               </tr>
             </thead>
             <tbody className="css-0">

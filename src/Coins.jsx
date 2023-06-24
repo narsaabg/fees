@@ -10,6 +10,7 @@ import MobileSidebar from './Components/MobileSidebar';
 import { useState,useRef,useEffect } from 'react';
 import api from './api';
 import { useParams } from 'react-router-dom';
+import CoinExchangesCard from './Components/CoinExchangesCard';
 
 const Coins = ({sttc}) => { 
 
@@ -96,7 +97,10 @@ const Coins = ({sttc}) => {
             <main className="css-fezzec css-c9c2l4" style={{display: 'block'}}>
 
               <div className="css-glegxw">
-              <Card sttc={sttc}/>
+                {
+                  isCoin ? <CoinExchangesCard card={card} /> : <Card sttc={sttc} />
+                }
+              
               </div>
 
               <div className="css-10klw3m" style={{height: '100%'}}>

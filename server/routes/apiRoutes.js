@@ -8,12 +8,16 @@ router.use(bodyParser.json());
 const {
   getCoinExchanges,
   getExchangeCoins,
-  exchangeCoinsUpsert
+  exchangeCoinsUpsert,
+  searchCoinExchange,
+  minMaxWithdrawalFee
 } = require('../controllers/CoinDetailController');
 
 router.get('/coin/exchanges', getCoinExchanges);
 router.get('/exchange/coins', getExchangeCoins);
-router.get('/exchange-coins-upsert', exchangeCoinsUpsert);
+router.get('/search', searchCoinExchange);
+router.get('/min-max', minMaxWithdrawalFee);
+// router.get('/exchange-coins-upsert', exchangeCoinsUpsert);
 // coin detail routes end
 
 

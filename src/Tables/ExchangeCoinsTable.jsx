@@ -15,7 +15,7 @@ const ExchangeCoinsTable = ({data}) => {
                 <th className="css-fdqha2" style={{textAlign: 'center'}}>Network</th>
                 <th className="css-fdqha2" style={{textAlign: 'end'}}>Min Withdrawal</th>
                 <th className="css-fdqha2" style={{textAlign: 'end'}}>Withdrawal Fee</th>
-                <th data-is-numeric="true" className="css-1dlal87"> <a className="chakra-link css-1cvy0v">Price</a> </th>
+                <th data-is-numeric="true" className="css-1dlal87">Price</th>
               </tr>
             </thead>
             <tbody className="css-0">
