@@ -1751,21 +1751,20 @@ html {
     transition-duration: var(--chakra-transition-duration-normal);
     transition-timing-function: ease;
 }
-.css-bx0blc {
-    width: 100%;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    position: relative;
-    isolation: isolate;
-}
  
 @media screen and (min-width: 1000px){
 .css-6ovpta {
     width: var(--chakra-sizes-6);
     height: var(--chakra-sizes-6);
 }
+
+#style-6YfqI.style-6YfqI {
+  visibility: visible;
+  min-width: max-content;
+  --popper-transform-origin: top left;
+  position: absolute;
+}
+
 }
 
 .css-6ovpta {
@@ -1853,16 +1852,6 @@ html {
     width: 100%;
 }
 
-.css-bx0blc {
-    width: 100%;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    position: relative;
-    isolation: isolate;
-}
-
 
 @media screen and (min-width: 1000px){
 .css-1dj04ll {
@@ -1937,33 +1926,14 @@ html {
     z-index: 2;
 }
 
-@media screen and (min-width: 1000px){
 .css-4epjj6 {
-    max-height: 500px;
-}
-}
-
-.css-4epjj6 {
-    position: relative;
+    /* position: relative; */
+    width: 235px;
     display: flex;
     flex-direction: column;
     --popper-bg: var(--chakra-colors-white);
     --popper-arrow-bg: var(--popper-bg);
     --popper-arrow-shadow-color: var(--chakra-colors-blackAlpha-200);
-    width: 1087.73px;
-    border-top-style: ;
-    border-top-width: ;
-    border-right-style: ;
-    border-right-width: ;
-    border-bottom-style: ;
-    border-bottom-width: ;
-    border-left-style: ;
-    border-left-width: ;
-    border-image-source: ;
-    border-image-slice: ;
-    border-image-width: ;
-    border-image-outset: ;
-    border-image-repeat: ;
     box-shadow: var(--chakra-shadows-2xl);
     z-index: inherit;
     max-height: 300px;
@@ -3570,18 +3540,19 @@ svg {
     display: block;
 } 
 
-
-/* These were inline style tags. Uses id+class to override almost everything */
-#style-6YfqI.style-6YfqI {  
-   visibility: visible;  
-    min-width: max-content;  
-    --popper-transform-origin: top left;  
-    position: absolute;  
-    inset: 0px auto auto 0px;  
-    margin: 0px;  
-    /* transform: translate3d(140px, 103.704px, 0px);   */
-    transform: translate3d(18px, 103.704px, 0px);
-}  
+@media screen and (max-width: 1000px){
+    #style-6YfqI.style-6YfqI {  
+        visibility: visible;  
+        min-width: max-content;  
+        --popper-transform-origin: top left;  
+        position: absolute;  
+        inset: 0px auto auto 0px;  
+        margin: 0px;  
+        /* transform: translate3d(140px, 103.704px, 0px);   */
+        transform: translate3d(18px, 103.704px, 0px);
+    }
+}
+  
 #popover-content-:r62:.style-Ytg9B {  
    transform-origin: var(--popper-transform-origin);  
     opacity: 1;  

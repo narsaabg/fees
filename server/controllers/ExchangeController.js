@@ -31,7 +31,6 @@ const getExchanges = async (req, res) => {
  */
 const exchangeCronJob = async(req, res) => {
     const {page } = req.query;
-    console.log(page);
     try {
       const exchanges = await Exchange.insertFilteredExchanges(page);
       res.json(exchanges);

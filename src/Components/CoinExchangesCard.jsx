@@ -1,5 +1,3 @@
-import React,{useEffect, useState} from "react";
-
 const CoinExchangesCard = ({card}) => {
 
     return (
@@ -15,8 +13,8 @@ const CoinExchangesCard = ({card}) => {
                     <path d="M18.134 22.343c-1.52 0-2.96-.33-4.055-.93-1.236-.676-1.917-1.626-1.917-2.673a.74.74 0 1 1 1.481 0c0 .474.418.976 1.148 1.374.868.476 2.086.748 3.343.748 1.258 0 2.476-.272 3.344-.748.728-.398 1.148-.9 1.148-1.374a.74.74 0 1 1 1.48 0c0 1.047-.68 1.997-1.917 2.674-1.095.599-2.535.929-4.055.929Zm4.726-6.673a.74.74 0 0 1-.74-.741v-2.073a.74.74 0 1 1 1.48 0v2.073a.74.74 0 0 1-.74.74Z"></path>
                 </svg>
                 <div className="css-2kgh3g" style={{display: 'flex', flexDirection: 'column', WebkitBoxAlign: 'start', alignItems: 'start'}}>
-                    <p className="chakra-text css-1lh8eyo" style={{color: '#fff', fontSize: 'var(--chakra-fontSizes-xs)', lineHeight: '16px'}}>{coin[0].title}</p>
-                    <p className="chakra-text css-10v4ets" style={{fontWeight: 500, fontSize: 'var(--chakra-fontSizes-md)', color: '#fff'}}>{cCount}</p>
+                    <p className="chakra-text css-1lh8eyo" style={{color: '#fff', fontSize: 'var(--chakra-fontSizes-xs)', lineHeight: '16px'}}>Price</p>
+                    <p className="chakra-text css-10v4ets" style={{fontWeight: 500, fontSize: 'var(--chakra-fontSizes-md)', color: '#fff'}}>{card && (card.price || 0)}</p>
                 </div>
             </div>
             <div className="css-19ypa6d">
@@ -24,17 +22,8 @@ const CoinExchangesCard = ({card}) => {
                     <path fill="currentColor" fill-rule="evenodd" d="M14.688 4.75c-5.482 0-9.938 4.456-9.938 9.938 0 5.481 4.456 9.937 9.938 9.937 5.481 0 9.937-4.456 9.937-9.938 0-5.481-4.456-9.937-9.938-9.937Zm3.499 5.781a14.655 14.655 0 0 0-1.813-3.855 8.151 8.151 0 0 1 5.359 3.855h-3.546Zm-7.219 0H7.644a8.16 8.16 0 0 1 5.094-3.787 14.079 14.079 0 0 0-1.77 3.787Zm5.39 0h-3.56a12.705 12.705 0 0 1 1.78-3.382 12.64 12.64 0 0 1 1.78 3.382ZM6.5 14.687c0-.831.131-1.65.369-2.406h3.692a14.62 14.62 0 0 0-.013 4.737l-3.695.027a7.864 7.864 0 0 1-.353-2.358Zm5.83 2.327c-.3-1.57-.3-3.176 0-4.733h4.496c.3 1.555.3 3.147.028 4.705l-4.524.028Zm6.295-.047a14.364 14.364 0 0 0-.029-4.686h3.91c.238.756.369 1.575.369 2.406 0 .783-.116 1.542-.313 2.252l-3.937.028Zm-2.246 5.73a14.004 14.004 0 0 0 1.843-3.98l3.596-.026a8.21 8.21 0 0 1-5.439 4.005Zm-1.802-.472a12.283 12.283 0 0 1-1.8-3.462l3.613-.026a12.946 12.946 0 0 1-1.813 3.488Zm-1.84.406a8.208 8.208 0 0 1-5.128-3.837l3.328-.027c.394 1.347 1 2.657 1.8 3.864Z" clip-rule="evenodd"></path>
                 </svg>
                 <div className="css-2kgh3g" style={{display: 'flex', flexDirection: 'column', WebkitBoxAlign: 'start', alignItems: 'start'}}>
-                    <p className="chakra-text css-1lh8eyo" style={{color: '#fff', fontSize: 'var(--chakra-fontSizes-xs)', lineHeight: '16px'}}>{coin[1].title}</p>
-                    <p className="chakra-text css-10v4ets" style={{fontWeight: 500, fontSize: 'var(--chakra-fontSizes-md)', color: '#fff'}}>{eCount}</p>
-                </div>
-            </div>
-            <div className="css-19ypa6d">
-                <svg viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" focusable="false" class="chakra-icon css-1ev3uyk">
-                    <path d="M17.5 23.75h1.25v2.5H2.5v-2.5h1.25V5A1.25 1.25 0 0 1 5 3.75h11.25A1.25 1.25 0 0 1 17.5 5v10H20a2.5 2.5 0 0 1 2.5 2.5v5a1.25 1.25 0 0 0 2.5 0v-8.75h-2.5a1.25 1.25 0 0 1-1.25-1.25V8.018l-2.071-2.072 1.767-1.767 6.188 6.187a1.244 1.244 0 0 1 .366.884V22.5a3.75 3.75 0 0 1-7.5 0v-5h-2.5v6.25Zm-11.25 0H15v-7.5H6.25v7.5Zm0-17.5v7.5H15v-7.5H6.25Z" fill="currentColor"></path>
-                </svg>
-                <div className="css-2kgh3g" style={{display: 'flex', flexDirection: 'column', WebkitBoxAlign: 'start', alignItems: 'start'}}>
-                    <p className="chakra-text css-1lh8eyo" style={{color: '#fff', fontSize: 'var(--chakra-fontSizes-xs)', lineHeight: '16px'}}>{coin[2].title}</p>
-                    <p className="chakra-text css-10v4ets" style={{fontWeight: 500, fontSize: 'var(--chakra-fontSizes-md)', color: '#fff'}}>{coin[2].count}</p>
+                    <p className="chakra-text css-1lh8eyo" style={{color: '#fff', fontSize: 'var(--chakra-fontSizes-xs)', lineHeight: '16px'}}>Exchanges</p>
+                    <p className="chakra-text css-10v4ets" style={{fontWeight: 500, fontSize: 'var(--chakra-fontSizes-md)', color: '#fff'}}>{card && (card.listed_on || 0)}</p>
                 </div>
             </div>
             <div className="css-19ypa6d">
@@ -42,8 +31,17 @@ const CoinExchangesCard = ({card}) => {
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M23.433 12.64a1.212 1.212 0 0 1-.857.354H6.212a1.212 1.212 0 0 1-1.12-.745 1.212 1.212 0 0 1 .266-1.321L8.994 7.29A1.212 1.212 0 0 1 10.704 9L9.14 10.57h13.436a1.212 1.212 0 0 1 .857 2.068ZM7.424 17.236h16.363a1.213 1.213 0 0 1 1.121.745 1.212 1.212 0 0 1-.266 1.321l-3.636 3.637a1.213 1.213 0 1 1-1.71-1.71l1.564-1.569H7.424a1.212 1.212 0 0 1 0-2.424Z" fill="currentColor"></path>
                 </svg>
                 <div className="css-2kgh3g" style={{display: 'flex', flexDirection: 'column', WebkitBoxAlign: 'start', alignItems: 'start'}}>
-                    <p className="chakra-text css-1lh8eyo" style={{color: '#fff', fontSize: 'var(--chakra-fontSizes-xs)', lineHeight: '16px'}}>Wallet addresses</p>
-                    <p className="chakra-text css-10v4ets" style={{fontWeight: 500, fontSize: 'var(--chakra-fontSizes-md)', color: '#fff'}}>7,736</p>
+                    <p className="chakra-text css-1lh8eyo" style={{color: '#fff', fontSize: 'var(--chakra-fontSizes-xs)', lineHeight: '16px'}}>Lowest Fee</p>
+                    <p className="chakra-text css-10v4ets" style={{fontWeight: 500, fontSize: 'var(--chakra-fontSizes-md)', color: '#fff'}}>{card && (card.lowest_fee || 0)}</p>
+                </div>
+            </div>
+            <div className="css-19ypa6d">
+                <svg  fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" focusable="false" class="chakra-icon css-1ev3uyk">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M23.433 12.64a1.212 1.212 0 0 1-.857.354H6.212a1.212 1.212 0 0 1-1.12-.745 1.212 1.212 0 0 1 .266-1.321L8.994 7.29A1.212 1.212 0 0 1 10.704 9L9.14 10.57h13.436a1.212 1.212 0 0 1 .857 2.068ZM7.424 17.236h16.363a1.213 1.213 0 0 1 1.121.745 1.212 1.212 0 0 1-.266 1.321l-3.636 3.637a1.213 1.213 0 1 1-1.71-1.71l1.564-1.569H7.424a1.212 1.212 0 0 1 0-2.424Z" fill="currentColor"></path>
+                </svg>
+                <div className="css-2kgh3g" style={{display: 'flex', flexDirection: 'column', WebkitBoxAlign: 'start', alignItems: 'start'}}>
+                    <p className="chakra-text css-1lh8eyo" style={{color: '#fff', fontSize: 'var(--chakra-fontSizes-xs)', lineHeight: '16px'}}>Maximum Fee</p>
+                    <p className="chakra-text css-10v4ets" style={{fontWeight: 500, fontSize: 'var(--chakra-fontSizes-md)', color: '#fff'}}>{card && (card.maximum_fee|| 0)}</p>
                 </div>
             </div>
         </>

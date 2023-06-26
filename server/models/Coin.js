@@ -22,6 +22,23 @@ const coinSchema = new mongoose.Schema({
 
 const Coin = mongoose.model('coin', coinSchema);
 
+/**
+ * Method is created to find the single coin record
+ * @author Lovedeep
+ * @created 25/06/2023
+ * 
+ * @param {*} coinId 
+ * @returns 
+ */
+Coin.getCoin = async (coinId) => {
+  try {
+    const coin = await Coin.findOne({ id: coinId});
+    return coin;
+  }catch(error){
+    console.error('Error retrieving coins:', error);
+    throw error;
+  }
+}
 
 /**
  * Method is used to get the coins by exchnage Id
@@ -80,7 +97,6 @@ Coin.insertFilteredCoins = async function (page) {
             coinDetail.coin_id = coin.id;
             coinDetail.image = coin.image;
             await coinDetail.save();
-            console.log(coinDetail.image)
 
             coin.slug = `${coin.id}-withdrawal-fee`;
             const existingCoin = await Coin.findOne({ id: coin.id });
@@ -135,13 +151,6 @@ Coin.insertFilteredCoins = async function (page) {
         ]
       });
   
-      const modifiedResults = searchResults.map((result) => {
-        return {
-          ...result,
-          is: 'coin'
-        };
-      });
-      
       return searchResults;
     } catch (err) {
       console.error('Error occurred while searching:', err);

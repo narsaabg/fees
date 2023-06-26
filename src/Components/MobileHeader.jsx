@@ -19,7 +19,6 @@ const MobileHeader = ({showSidebar}) => {
 
 
     const search = (e) => {
-        console.log(e.target.value)
         const input = e.target.value;
         setSearchInput(input); 
 

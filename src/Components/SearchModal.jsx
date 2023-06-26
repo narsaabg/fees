@@ -5,7 +5,7 @@ const SearchModal = ({searchResult}) => {
 
     return (
         <div  className="chakra-popover__popper css-iy22zq snipcss-aUnSp style-6YfqI" data-popper-placement="bottom-start" id="style-6YfqI">
-        <section id="popover-content-:r62:" tabIndex={-1} role="dialog" className="chakra-popover__content css-4epjj6 style-Ytg9B" aria-describedby="popover-body-:r62:" style={{width: '340px'}}>
+        <section id="popover-content-:r62:" tabIndex={-1} role="dialog" className="chakra-popover__content css-4epjj6 style-Ytg9B" aria-describedby="popover-body-:r62:" >
           <div id="popover-body-:r62:" className="chakra-popover__body css-uz7m33">
           {
             searchResult.length === 0 ? (

@@ -73,7 +73,6 @@ const exchangeCoinsUpsert = async (req, res) => {
  */
 const searchCoinExchange = async (req, res) => {
   const searchTerm = req.query.query;
-  console.log(searchTerm)
   try {
     const coins = await Coin.search(searchTerm);
     const mCoins = coins.map((result) => {
@@ -82,7 +81,6 @@ const searchCoinExchange = async (req, res) => {
         is: 'coin'
       };
     });
-    console.log(mCoins);
     
     const exchange = await Exchange.search(searchTerm);
 
@@ -101,17 +99,23 @@ const searchCoinExchange = async (req, res) => {
 };
 
 /**
- * Method is used to get the min and max withdrawal fee of coin
+ * Method is used to get the coin statistics
  * @author Lovedeep
  * @created 24/06/2023 21:40
  * 
  * @param {*} req 
  * @param {*} res 
  */
-const minMaxWithdrawalFee = async (req,res) => {
+const coinStatistics = async (req,res) => {
   const coinId = req.query.coin_id;
   try{
-    const result = await CoinDetail.minMaxWithdrawalFee(coinId);
+    const result = await CoinDetail.coinStatistics(coinId);
+    const coin = await Coin.getCoin(coinId);
+    const exchangesListed = await Coin.find({id:coinId}).count();
+    if(coin){
+      result.price = coin.current_price;
+      result.listed_on = exchangesListed;
+    }
     res.json(result);
   }catch(error){
     console.error('Error retrieving coins:', error);
@@ -124,5 +128,5 @@ module.exports = {
   getCoinExchanges,
   exchangeCoinsUpsert,
   searchCoinExchange,
-  minMaxWithdrawalFee
+  coinStatistics
 };

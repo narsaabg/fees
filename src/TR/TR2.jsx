@@ -3,7 +3,6 @@ import React from "react";
 // Exchanges Table
 const TR = ({data}) => {
 
-    console.log(data);
     return (
         <tr className="css-11ri2jo" style={{opacity: 1, transform: 'none'}}>
             <td className="css-18hygz9">

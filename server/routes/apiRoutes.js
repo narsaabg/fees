@@ -10,13 +10,13 @@ const {
   getExchangeCoins,
   exchangeCoinsUpsert,
   searchCoinExchange,
-  minMaxWithdrawalFee
+  coinStatistics
 } = require('../controllers/CoinDetailController');
 
 router.get('/coin/exchanges', getCoinExchanges);
 router.get('/exchange/coins', getExchangeCoins);
 router.get('/search', searchCoinExchange);
-router.get('/min-max', minMaxWithdrawalFee);
+router.get('/coin-stats', coinStatistics);
 // router.get('/exchange-coins-upsert', exchangeCoinsUpsert);
 // coin detail routes end
 

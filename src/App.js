@@ -12,7 +12,6 @@ function App() {
     try{
         const data = await api.get(`/api/statistics`);
         setSttc(data.data);
-        console.log(data.data)
     }catch(error){
       console.error('Error fetching data:', error);
     }
@@ -25,7 +24,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Home sttc={sttc}/>} />
+        {/* <Route path="/" element={<Home sttc={sttc}/>} /> */}
         <Route path="/coins" element={<Coins sttc={sttc}/>} />
         <Route path="/coins/:slug" element={<Coins sttc={sttc}/>} />
         <Route path="/exchanges" element={<Exchanges sttc={sttc}/>} />

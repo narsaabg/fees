@@ -129,14 +129,7 @@ Exchange.getExchanges = async function (page, limit) {
         ]
       });
   
-      const modifiedResults = searchResults.map((result) => {
-        return {
-          ...result,
-          is: 'coin'
-        };
-      });
-      
-      return modifiedResults;
+      return searchResults;
     } catch (err) {
       console.error('Error occurred while searching:', err);
     }

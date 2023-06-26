@@ -1,7 +1,11 @@
 import { useState } from 'react'
+import SearchModal from './SearchModal';
+import api from '../api';
 
 const BrowserHeader = () => {
     const [searchInput , setSearchInput] = useState('');
+    const [isModalVisible,setIsModalVisible] = useState(false);
+    const [searchResult,setSearchResult] = useState([]);
     const Menu = [{
           'icon':'fa fa-house',
           'name':'Home',
@@ -23,7 +27,25 @@ const BrowserHeader = () => {
 
     const searchWeb = (e) => {
       const input = e.target.value;
-      setSearchInput(input);
+      setSearchInput(input); 
+
+      if(input.length > 1){
+          // search function
+          searchCoinExchange(input);
+          setIsModalVisible(true);
+      }else{
+          setIsModalVisible(false);
+      }
+    }
+
+    const searchCoinExchange = async(input) => {
+      const params = {query: input };
+      try{
+          const data = await api.get(`/api/search`,{params:params});
+          setSearchResult(data.data)
+      }catch(error){
+        console.error('Error fetching data:', error);
+      }
     }
 
     return (
@@ -34,14 +56,14 @@ const BrowserHeader = () => {
               {
                 Menu.map(function(r,t){
                     return (
-                      <li key={t} style={{paddingLeft:'0px',fontSize: '18px'}}> <i class={r.icon} style={{paddingRight: '5px'}}></i><a href={r.link}>{r.name}</a></li>
+                      <li key={t} style={{paddingLeft:'0px',fontSize: 'var(--chakra-fontSizes-sm)'}}> <i class={r.icon} style={{paddingRight: '5px'}}></i><a href={r.link}>{r.name}</a></li>
                     )
                 })
               }
             </ul>
           </div>
         </div>
-        <div className="css-8atqhb" style={{width: 'auto'}}>
+        <div className="css-8atqhb" style={{width: '30%'}}>
           <form noValidate className="css-5zxsuc">
             <div className="chakra-input__group css-bx0blc" data-group="true">
               <div className="chakra-input__left-element css-1dj04ll">
@@ -52,6 +74,7 @@ const BrowserHeader = () => {
               <input placeholder="Search by token" className="chakra-input css-1gmlvto" value={searchInput} onChange={(e)=>searchWeb(e)}/>
             </div>
           </form>
+          { isModalVisible && <SearchModal searchResult={searchResult}/>}
         </div>
       </header> 
     )

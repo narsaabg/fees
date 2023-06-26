@@ -22,7 +22,6 @@ mongoose.connect(process.env.MONGO_DB, {
 
 
 const port = process.env.PORT || 8000;
-console.log(port);
 
 // api routes
 const apiRoutes = require('./routes/apiRoutes');

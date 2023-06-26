@@ -36,7 +36,6 @@ const Exchanges = ({sttc}) => {
 
   const fetchExchangeCoins = async () => {
     const params = { exchange: exchange, page: page };
-    console.log(params);
     try {
       const response = await api.get(`/api/exchange/coins`,{params:params});
       const data = response.data;

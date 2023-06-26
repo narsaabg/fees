@@ -23,11 +23,21 @@ const Coins = ({sttc}) => {
   const [coins, setCoins] = useState(null); 
   const [pagination, setPagination] = useState(null); 
   const [coin, setCoin] = useState(null); 
+  const [coinStatistics,setCoinStatistics] = useState(null);
 
+  /**
+   * Method to toggle the sidebar
+   * @author Lovedeep
+   */
   const showSidebar = () =>{
     setIsSideBarVisible(!isSidebarVisible);
   }
 
+  /**
+   * Method is used to handle thw sidebar button click
+   * @author Lovedeep
+   * @param {*} event 
+   */
   const handleClickOutside = (event) => {
     const Id = event.target.id;
     const isShow = (Id === '__showSideBar' || Id === '__showSideBar_svg') ? true : false;
@@ -36,6 +46,10 @@ const Coins = ({sttc}) => {
     }
   };
 
+  /**
+   * Method is used to fetch coin's exchanges
+   * @author Lovedeep
+   */
   const fetchCoinExchanges = async () => {
     const params = { coin: coin, page: page };
     console.log(params);
@@ -49,6 +63,10 @@ const Coins = ({sttc}) => {
     }
   };
 
+  /**
+   * Method is used to fetch coins for main view
+   * @author Lovedeep
+   */
   const fetchCoins = async () => {
     const params = {page: page };
     try {
@@ -61,6 +79,10 @@ const Coins = ({sttc}) => {
     }
   };
   
+  /**
+   * hook to handle the conditions
+   * @author Lovedeep
+   */
   useEffect(() => {
     if(slug){
       var parts = slug.split('-');
@@ -69,6 +91,7 @@ const Coins = ({sttc}) => {
       setIsCoin(true);
       if(coin){
         fetchCoinExchanges();
+        coinStatisticsFunc();
       }
     }else{
       fetchCoins();
@@ -80,8 +103,28 @@ const Coins = ({sttc}) => {
     };
   }, [page,coin]);
 
+  /**
+   * Method to set the next prev pagination
+   * @author Lovedeep
+   * @param {*} page
+   */
   const loadPagination = (page) => {
     setPage(page); 
+  }
+
+  /**
+   * Method is used to load coin statistics
+   * @author Lovedeep
+   */
+  const coinStatisticsFunc = async () => {
+    const params = {coin_id: coin};
+    try {
+      const response = await api.get(`/api/coin-stats`,{params:params});
+      const data = response.data;
+      setCoinStatistics(data); 
+    } catch (error) {
+      console.error('Error fetching data:', error);
+    }
   }
 
   return (
@@ -95,14 +138,11 @@ const Coins = ({sttc}) => {
               <BrowserHeader />
             </div>
             <main className="css-fezzec css-c9c2l4" style={{display: 'block'}}>
-
               <div className="css-glegxw">
                 {
-                  isCoin ? <CoinExchangesCard card={card} /> : <Card sttc={sttc} />
+                  isCoin ? <CoinExchangesCard card={coinStatistics} /> : <Card sttc={sttc} />
                 }
-              
               </div>
-
               <div className="css-10klw3m" style={{height: '100%'}}>
 						    <div className="css-1ei1k4u"> </div>
                 <div className="chakra-tabs css-1h73gvd" style={{display: 'block', position: 'relative'}}>
@@ -112,7 +152,6 @@ const Coins = ({sttc}) => {
                   </div>
                 </div>
               </div>
-
             </main>
             <Footer />
           </div>
