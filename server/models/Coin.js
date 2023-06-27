@@ -12,6 +12,8 @@ const coinSchema = new mongoose.Schema({
   current_price: { type: Number, required: true },
   total_volume: { type: Number, required: true },
   price_change_percentage_24h: { type: Number, required: true },
+  lowest_fee: Number,
+  maximum_fee: Number,
   circulating_supply: Number,
   total_supply: Number,
   max_supply: Number,
@@ -94,21 +96,39 @@ Coin.insertFilteredCoins = async function (page) {
       for (const coin of coinsFromAPI) {
         const coinDetail = await CoinDetail.findOne({ symbol: coin.symbol.toUpperCase()});
         if (coinDetail) {
+          console.log(`Coin found: ${coin.id}`);
+            
             coinDetail.coin_id = coin.id;
             coinDetail.image = coin.image;
             await coinDetail.save();
 
             coin.slug = `${coin.id}-withdrawal-fee`;
+
+            // add lowest and maximum fees 
+            const sttc = await CoinDetail.coinStatistics(coin.id);
+            console.log(sttc);
+            if (sttc !== null && typeof sttc !== 'undefined') {
+              coin.lowest_fee = sttc.lowest_fee;
+              coin.maximum_fee = sttc.maximum_fee;
+            }
+
+            // add exchanges compared
+            const exCompared = await CoinDetail.countDocuments({ coin_id: coin.id });
+            if (exCompared !== null && typeof exCompared !== 'undefined') {
+              coin.exchanges_compared = exCompared;
+            }
+
+            
             const existingCoin = await Coin.findOne({ id: coin.id });
-          if (existingCoin) {
-            // Update existing coin
-            await Coin.updateOne({ id: coin.id }, coin);
-            console.log(`Coin updated: ${coin.id}`);
-          } else {
-            // Insert new coin
-            await Coin.create(coin);
-            console.log(`Coin inserted: ${coin.id}`);
-          }
+            if (existingCoin) {
+              // Update existing coin
+              await Coin.updateOne({ id: coin.id }, coin);
+              console.log(`Coin updated: ${coin.id}`);
+            } else {
+              // Insert new coin
+              await Coin.create(coin);
+              console.log(`Coin inserted: ${coin.id}`);
+            }
         }
       }
   

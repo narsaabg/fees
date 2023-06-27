@@ -17,7 +17,7 @@ const CoinsTable = ({coins}) => {
                 <th className="css-1u00tmx" style={{textAlign:'center'}}>24Hr</th>
                 <th className="css-1u00tmx">Min - Max</th>
                 <th data-is-numeric="true" className="css-1nvtsnb" style={{textAlign:'end'}}>Exchanges</th>
-                <th data-is-numeric="true" className="css-1dlal87"style={{textAlign:'end'}}>Price</th>
+                <th data-is-numeric="true" className="css-1dlal87"style={{textAlign:'end',paddingRight: 'var(--chakra-space-5)'}}>Price</th>
               </tr>
             </thead>
             <tbody className="css-0">

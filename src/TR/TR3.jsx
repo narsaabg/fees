@@ -7,7 +7,6 @@ const TR3 = ({data}) => {
     const [minWithdrawal,setMinWithdrawal] = useState(data.min_withdrawal[0]);
     
     const onNetworkChange = (e) => {
-        const selectedOption = e.target.value;
         const withdrawalFee = e.target.options[e.target.selectedIndex].getAttribute('data-withdrawal_fee');
         const minWithdrawal = e.target.options[e.target.selectedIndex].getAttribute('data-min_withdrawal');
 
@@ -43,12 +42,12 @@ const TR3 = ({data}) => {
             </td>
             <td data-is-numeric="true" className="css-e30lz9">
                 <span className="css-75zybh">
-                    <p className="chakra-text css-1gdcvrl">{minWithdrawal}</p>
+                    <p className="chakra-text css-1gdcvrl">{withdrawalFee}</p>
                 </span>
             </td>
             <td data-is-numeric="true" className="css-e30lz9">
                 <span className="css-75zybh">
-                    <p className="chakra-text css-1gdcvrl">{withdrawalFee}</p>
+                    <p className="chakra-text css-1gdcvrl">{minWithdrawal}</p>
                 </span>
             </td>
         </tr>

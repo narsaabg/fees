@@ -89,7 +89,6 @@ CoinDetail.getCoinExchanges = async function (coinId, page, limit) {
   try {
     const skipAmount = (page - 1) * limit; 
 
-    console.log(coinId);
     const [exchanges, totalCount] = await Promise.all([
         this.find({ coin_id: coinId })
             .skip(skipAmount)
@@ -151,7 +150,8 @@ CoinDetail.coinStatistics = async (coinId) =>  {
 
     
     if (!coins || coins.length === 0) {
-      throw new Error('No coins found');
+      return null;
+      // throw new Error('No coins found');
     }
 
     let lowest_fee = Infinity;

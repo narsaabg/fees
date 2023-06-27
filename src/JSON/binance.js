@@ -7,11 +7,11 @@ const binance = [
             "BEP20",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.32,
             20
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.16,
             10
         ]
@@ -23,10 +23,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             13
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             6.9
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -38,11 +38,11 @@ const binance = [
             "BEP20",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.5,
             1
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.2,
             0.4
         ]
@@ -54,10 +54,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             32
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             16
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -68,10 +68,10 @@ const binance = [
         "network": [
             "Arweave"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.1
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.03
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -82,10 +82,10 @@ const binance = [
         "network": [
             "Acala"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             1
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.2
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -96,10 +96,10 @@ const binance = [
         "network": [
             "Ardor"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             4
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             2
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -111,11 +111,11 @@ const binance = [
             "BEP20",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             4.6,
             292
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             2.3,
             146
         ]
@@ -127,10 +127,10 @@ const binance = [
         "network": [
             "Chiliz Chain (CHZ)"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             1
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -143,12 +143,12 @@ const binance = [
             " Cardano",
             " BEP2"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.5,
             10,
             0.9
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.25,
             0.8,
             0.45
@@ -161,10 +161,10 @@ const binance = [
         "network": [
             "EOS"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             200
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             100
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -176,11 +176,11 @@ const binance = [
             "BEP20",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.94,
             44
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.47,
             22
         ]
@@ -194,12 +194,12 @@ const binance = [
             " Cosmos",
             " BEP2"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.014,
             0.01,
             0.028
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.0072,
             0.004,
             0.014
@@ -212,10 +212,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             6.2
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             3.1
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -227,11 +227,11 @@ const binance = [
             "BEP20",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.03,
             1.58
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.015,
             0.79
         ]
@@ -244,11 +244,11 @@ const binance = [
             "Ambrosus",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             2,
             738
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             1,
             369
         ]
@@ -260,10 +260,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             64
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             32
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -274,10 +274,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             3060
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             1530
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -288,10 +288,10 @@ const binance = [
         "network": [
             "Terra Classic"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             75
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             2.5
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -302,10 +302,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             2.02
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             1.01
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -317,11 +317,11 @@ const binance = [
             "BEP20",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.094,
             6.18
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.047,
             3.09
         ]
@@ -334,11 +334,11 @@ const binance = [
             "BEP20",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.036,
             2.4
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.018,
             1.2
         ]
@@ -352,12 +352,12 @@ const binance = [
             " BEP2",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             4.3,
             4.88,
             124
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             2.15,
             2.44,
             62
@@ -370,10 +370,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.42
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.21
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -384,10 +384,10 @@ const binance = [
         "network": [
             "APT"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.02
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.01
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -398,10 +398,10 @@ const binance = [
         "network": [
             "Astar Network"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             5
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             2
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -413,11 +413,11 @@ const binance = [
             "Arbitrum One",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             2,
             5.92
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.019,
             2.96
         ]
@@ -429,10 +429,10 @@ const binance = [
         "network": [
             "Ark"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.4
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.2
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -445,12 +445,12 @@ const binance = [
             " BEP2",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             4.36,
             11,
             284
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             2.18,
             5.57,
             142
@@ -463,10 +463,10 @@ const binance = [
         "network": [
             "Algorand"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             10
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.008
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -478,11 +478,11 @@ const binance = [
             "BEP20",
             " Chiliz Chain (CHZ)"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.04,
             1
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.02,
             0
         ]
@@ -494,10 +494,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             58
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             29
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -509,11 +509,11 @@ const binance = [
             "BEP20",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             1.04,
             62
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.52,
             31
         ]
@@ -525,10 +525,10 @@ const binance = [
         "network": [
             "EOS"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             200
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             10
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -540,11 +540,11 @@ const binance = [
             "BEP20",
             " Chiliz Chain (CHZ)"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.04,
             1
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.02,
             0
         ]
@@ -557,11 +557,11 @@ const binance = [
             "BEP20",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             1.34,
             58
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.67,
             29
         ]
@@ -575,12 +575,12 @@ const binance = [
             " BEP2",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.24,
             0.56,
             14
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.12,
             0.28,
             7.3
@@ -595,12 +595,12 @@ const binance = [
             " BEP2",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.0022,
             0.0044,
             0.11
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.0011,
             0.0022,
             0.056
@@ -615,12 +615,12 @@ const binance = [
             "ERC20",
             " Ronin"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.018,
             1.12,
             0.2
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.0092,
             0.56,
             0.005
@@ -633,10 +633,10 @@ const binance = [
         "network": [
             "BEP20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.056
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.028
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -647,15 +647,14 @@ const binance = [
         "network": [
             "BEP20",
             " Avalanche",
-            " AVAX C",
-            "Chain"
+            " AVAX C-Chain"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.01,
             0.1,
             0.1
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.0051,
             0.008,
             0.008
@@ -669,11 +668,11 @@ const binance = [
             "BEP20",
             " Fantom"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.56,
             5
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.28,
             0.12
         ]
@@ -685,10 +684,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             26
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             13
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -699,10 +698,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             1490
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             745
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -716,13 +715,13 @@ const binance = [
             " BEP2",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.0014,
             0.002,
             0.0024,
             0.06
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.00068,
             0.00064,
             0.0012,
@@ -736,10 +735,10 @@ const binance = [
         "network": [
             "Fantom"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             20
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             8
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -752,12 +751,12 @@ const binance = [
             " BEP2",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.24,
             0.4,
             10
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.12,
             0.2,
             5.15
@@ -770,10 +769,10 @@ const binance = [
         "network": [
             "Fantom"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             60
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             20
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -784,10 +783,10 @@ const binance = [
         "network": [
             "BEP20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.0056
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.0028
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -799,11 +798,11 @@ const binance = [
             "BEP2",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             100,
             100
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             50,
             50
         ]
@@ -816,11 +815,11 @@ const binance = [
             "BEP20",
             " BEP2"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.24,
             0.64
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.12,
             0.32
         ]
@@ -833,11 +832,11 @@ const binance = [
             "BEP20",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             1.58,
             116
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.79,
             58
         ]
@@ -849,10 +848,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             40
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             20
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -863,10 +862,10 @@ const binance = [
         "network": [
             "BIFROSTKUSAMA"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.2
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.1
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -879,12 +878,12 @@ const binance = [
             " BEP2",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.01,
             0.01,
             0.012
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.0005,
             0.0005,
             0
@@ -897,10 +896,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             3.02
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             1.51
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -912,11 +911,11 @@ const binance = [
             "BEP20",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.38,
             17
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.19,
             8.76
         ]
@@ -928,10 +927,10 @@ const binance = [
         "network": [
             "BEP20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.16
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.082
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -942,10 +941,10 @@ const binance = [
         "network": [
             "Fantom"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             2
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.75
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -956,10 +955,10 @@ const binance = [
         "network": [
             "STAKING"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -971,11 +970,11 @@ const binance = [
             "BEP20",
             " BEP2"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.74,
             2.36
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.37,
             1.18
         ]
@@ -989,12 +988,12 @@ const binance = [
             " BEP2",
             " TRC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             800,
             800,
             800
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             400,
             400,
             400
@@ -1007,10 +1006,10 @@ const binance = [
         "network": [
             "BEP20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.00011
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.000057
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -1022,11 +1021,11 @@ const binance = [
             "BEP20",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             1.74,
             74
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.87,
             37
         ]
@@ -1037,15 +1036,14 @@ const binance = [
         "coin": "BUSD",
         "network": [
             "BEP20",
-            " AVAX C",
-            "Chain",
+            " AVAX C-Chain",
             " BEP2",
             "ERC20",
             " Optimism",
             " Polygon",
             " TRC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             9,
             10,
             10,
@@ -1054,7 +1052,7 @@ const binance = [
             10,
             10
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.7,
             0.8,
             0.7,
@@ -1071,10 +1069,10 @@ const binance = [
         "network": [
             "BEP20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.84
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.42
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -1088,13 +1086,13 @@ const binance = [
             " BEP2",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.09,
             0.02,
             0.22,
             5.68
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.045,
             0.01,
             0.11,
@@ -1112,14 +1110,14 @@ const binance = [
             " BTC(SegWit)",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.0000078,
             0.0004,
             0.0000098,
             0.001,
             0.00026
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.0000039,
             0.0001,
             0.0000049,
@@ -1134,10 +1132,10 @@ const binance = [
         "network": [
             "BitShares"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             2
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             1
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -1149,11 +1147,11 @@ const binance = [
             "BEP20",
             " TRC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             259620,
             268000
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             129810,
             134000
         ]
@@ -1165,10 +1163,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             2172
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             1086
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -1179,10 +1177,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.8
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.4
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -1193,10 +1191,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             26
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             13
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -1208,11 +1206,11 @@ const binance = [
             "BEP20",
             " BEP2"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             2784,
             3850
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             1392,
             1925
         ]
@@ -1224,10 +1222,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             5.62
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             2.81
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -1240,12 +1238,12 @@ const binance = [
             " BEP2",
             " Fantom"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.0004,
             0.00066,
             0.0003
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.0002,
             0.00033,
             0.00014
@@ -1259,11 +1257,11 @@ const binance = [
             "BEP20",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.026,
             1.36
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.013,
             0.68
         ]
@@ -1275,10 +1273,10 @@ const binance = [
         "network": [
             "Chiliz Chain (CHZ)"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             1
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -1291,12 +1289,12 @@ const binance = [
             " BEP2",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.6,
             1.38,
             34
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.3,
             0.69,
             17
@@ -1311,12 +1309,12 @@ const binance = [
             " CFX",
             " CFX eSpace"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.82,
             0.1,
             0.1
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.41,
             0.01,
             0.01
@@ -1330,11 +1328,11 @@ const binance = [
             "BEP20",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             1.04,
             48
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.52,
             24
         ]
@@ -1347,11 +1345,11 @@ const binance = [
             "BEP2",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             3.02,
             76
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             1.51,
             38
         ]
@@ -1363,10 +1361,10 @@ const binance = [
         "network": [
             "Nervos Network"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             100
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             1
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -1378,11 +1376,11 @@ const binance = [
             "BEP20",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             2.3,
             176
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             1.15,
             88
         ]
@@ -1394,10 +1392,10 @@ const binance = [
         "network": [
             "BEP20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.48
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.24
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -1410,12 +1408,12 @@ const binance = [
             " BEP2",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             24,
             48,
             1256
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             12,
             24,
             628
@@ -1429,11 +1427,11 @@ const binance = [
             "BEP20",
             " Chiliz Chain (CHZ)"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.04,
             1
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.02,
             0
         ]
@@ -1446,11 +1444,11 @@ const binance = [
             "BEP20",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             8.76,
             418
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             4.38,
             209
         ]
@@ -1462,10 +1460,10 @@ const binance = [
         "network": [
             "CELO"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.002
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.001
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -1476,10 +1474,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             8.86
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             4.43
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -1491,11 +1489,11 @@ const binance = [
             "BEP20",
             " CertiK"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.22,
             0.02
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.11,
             0.01
         ]
@@ -1508,11 +1506,11 @@ const binance = [
             "BEP20",
             " BEP2"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.046,
             0.17
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.023,
             0.084
         ]
@@ -1524,10 +1522,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             84
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             42
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -1539,11 +1537,11 @@ const binance = [
             "BEP20",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.34,
             19
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.17,
             9.82
         ]
@@ -1555,10 +1553,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             1.76
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.88
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -1570,11 +1568,11 @@ const binance = [
             "BEP20",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             1.08,
             46
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.54,
             23
         ]
@@ -1587,11 +1585,11 @@ const binance = [
             "BEP20",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.66,
             40
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.33,
             20
         ]
@@ -1605,12 +1603,12 @@ const binance = [
             " BEP2",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.078,
             0.18,
             6.82
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.039,
             0.09,
             0
@@ -1624,11 +1622,11 @@ const binance = [
             "BEP20",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.78,
             6.02
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.039,
             3.01
         ]
@@ -1641,11 +1639,11 @@ const binance = [
             "Cortex",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.2,
             44
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.1,
             22
         ]
@@ -1656,15 +1654,15 @@ const binance = [
         "coin": "Compound",
         "network": [
             "BEP20",
-            " BEP2",
+            "BEP2",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.0036,
             0.0082,
             0.2
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.0018,
             0.0041,
             0.1
@@ -1678,11 +1676,11 @@ const binance = [
             "BEP2",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             10,
             10
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             5,
             5
         ]
@@ -1695,11 +1693,11 @@ const binance = [
             "BEP20",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.014,
             0.3
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.0072,
             0.15
         ]
@@ -1711,10 +1709,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             2514090
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             1257045
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -1727,12 +1725,12 @@ const binance = [
             " BEP2",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             2.08,
             5.04,
             128
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             1.04,
             2.52,
             64
@@ -1745,10 +1743,10 @@ const binance = [
         "network": [
             "DigiByte"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.4
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.2
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -1759,10 +1757,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.086
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.043
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -1774,11 +1772,11 @@ const binance = [
             "BEP20",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.44,
             26
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.22,
             13
         ]
@@ -1791,11 +1789,11 @@ const binance = [
             "BEP20",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             3.3,
             164
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             1.65,
             82
         ]
@@ -1807,10 +1805,10 @@ const binance = [
         "network": [
             "IOST"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             3.42
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             1.71
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -1823,12 +1821,12 @@ const binance = [
             " Polkadot",
             " BEP2"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.028,
             1.5,
             0.052
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.014,
             0.08,
             0.026
@@ -1842,11 +1840,11 @@ const binance = [
             "BEP20",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             20,
             20
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             12,
             12
         ]
@@ -1859,11 +1857,11 @@ const binance = [
             "BEP20",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.36,
             20
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.18,
             10
         ]
@@ -1875,10 +1873,10 @@ const binance = [
         "network": [
             "DOCK"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             10
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             5
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -1889,10 +1887,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             8828
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             4414
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -1904,11 +1902,11 @@ const binance = [
             "BEP20",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.7,
             60
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.35,
             30
         ]
@@ -1922,12 +1920,12 @@ const binance = [
             " dogecoin",
             " BEP2"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             2.2,
             80,
             3.66
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             1.1,
             4,
             1.83
@@ -1942,12 +1940,12 @@ const binance = [
             " BEP2",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.86,
             2,
             50
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.43,
             1,
             25
@@ -1960,10 +1958,10 @@ const binance = [
         "network": [
             "BEP20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             20
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             12
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -1975,11 +1973,11 @@ const binance = [
             "BEP20",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.06,
             3.06
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.03,
             1.53
         ]
@@ -1994,13 +1992,13 @@ const binance = [
             "ERC20",
             " Polygon"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             10,
             10,
             15,
             10
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.8,
             1,
             4,
@@ -2015,11 +2013,11 @@ const binance = [
             "BEP20",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.86,
             58
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.43,
             29
         ]
@@ -2031,10 +2029,10 @@ const binance = [
         "network": [
             "Dash"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.004
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.0016
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -2045,10 +2043,10 @@ const binance = [
         "network": [
             "Decred"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.02
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.01
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -2061,12 +2059,12 @@ const binance = [
             "ERC20",
             " Polygon"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             4.4,
             270,
             11
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             2.2,
             135,
             5.78
@@ -2079,10 +2077,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             3.46
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             1.73
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -2096,13 +2094,13 @@ const binance = [
             " BEP2",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.68,
             2,
             0.88,
             22
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.34,
             1,
             0.44,
@@ -2116,10 +2114,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             22
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             11
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -2130,10 +2128,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.74
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.37
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -2144,10 +2142,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             20
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             10
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -2159,11 +2157,11 @@ const binance = [
             "BEP20",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             20000000,
             20000000
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             10000000,
             10000000
         ]
@@ -2177,12 +2175,12 @@ const binance = [
             " EOS",
             " BEP2"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.16,
             0.2,
             0.3
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.081,
             0.08,
             0.15
@@ -2195,10 +2193,10 @@ const binance = [
         "network": [
             "BEP20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             506
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             253
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -2209,10 +2207,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             3.88
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             1.94
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -2225,12 +2223,12 @@ const binance = [
             " Ethereum Classic",
             " BEP2"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.0086,
             0.02,
             0.015
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.0043,
             0.008,
             0.0077
@@ -2247,14 +2245,14 @@ const binance = [
             " BEP2",
             " Optimism"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.00011,
             0.0098,
             0.0008,
             0.00014,
             0.001
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.000056,
             0.00088,
             0.00035,
@@ -2270,11 +2268,11 @@ const binance = [
             "BEP20",
             " MultiversX eGold"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.0038,
             0.01
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.0019,
             0.0008
         ]
@@ -2290,12 +2288,12 @@ const binance = [
             "of",
             "Work)"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.15,
             0.048,
             0.12
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.076,
             0.024,
             0.05
@@ -2308,10 +2306,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             5
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             5
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -2322,10 +2320,10 @@ const binance = [
         "network": [
             "Edgeware"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             200
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             100
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -2336,10 +2334,10 @@ const binance = [
         "network": [
             "BEP20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             10
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.04
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -2351,11 +2349,11 @@ const binance = [
             "BEP2",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             20,
             20
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             10,
             10
         ]
@@ -2368,11 +2366,11 @@ const binance = [
             "Efinity",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0,
             144
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0,
             72
         ]
@@ -2385,11 +2383,11 @@ const binance = [
             "BEP20",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.0046,
             0.26
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.0023,
             0.13
         ]
@@ -2402,11 +2400,11 @@ const binance = [
             "NEO N3",
             " Neo Legacy"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             2,
             2
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.5,
             0.5
         ]
@@ -2419,11 +2417,11 @@ const binance = [
             "BEP20",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             5234,
             253448
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             2617,
             126724
         ]
@@ -2435,10 +2433,10 @@ const binance = [
         "network": [
             "Solana"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             1
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.5
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -2450,11 +2448,11 @@ const binance = [
             "BEP20",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             7.48,
             354
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             3.74,
             177
         ]
@@ -2466,10 +2464,10 @@ const binance = [
         "network": [
             "Fantom"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             4
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             1
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -2480,10 +2478,10 @@ const binance = [
         "network": [
             "Fantom"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             4
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             1
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -2495,11 +2493,11 @@ const binance = [
             "BEP20",
             " Flow"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.15,
             2.7
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.076,
             0.008
         ]
@@ -2514,13 +2512,13 @@ const binance = [
             " BEP2",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.4,
             10,
             0.92,
             22
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.2,
             0.3,
             0.46,
@@ -2534,10 +2532,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             7.22
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             3.61
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -2548,10 +2546,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             1552
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             776
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -2563,11 +2561,11 @@ const binance = [
             "BEP20",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.017,
             1.14
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.0084,
             0.57
         ]
@@ -2580,11 +2578,11 @@ const binance = [
             "BEP20",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.22,
             14
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.11,
             7.43
         ]
@@ -2597,11 +2595,11 @@ const binance = [
             "BEP20",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.74,
             42
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.37,
             21
         ]
@@ -2614,11 +2612,11 @@ const binance = [
             "BEP20",
             " Firo"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.074,
             0.04
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.037,
             0.02
         ]
@@ -2630,10 +2628,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             2.7
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             1.35
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -2646,12 +2644,12 @@ const binance = [
             " Fetch.ai",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.42,
             1.5,
             30
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.21,
             0.5,
             15
@@ -2667,13 +2665,13 @@ const binance = [
             " BEP2",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.026,
             0.01,
             0.064,
             1.66
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.013,
             0.001,
             0.032,
@@ -2687,10 +2685,10 @@ const binance = [
         "network": [
             "FIO Protocol"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             10
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             5
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -2702,11 +2700,11 @@ const binance = [
             "BEP20",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.22,
             20
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.11,
             10
         ]
@@ -2718,10 +2716,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             34
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             17
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -2734,12 +2732,12 @@ const binance = [
             "ERC20",
             " Solana"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.48,
             28,
             1.2
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.24,
             14,
             0.6
@@ -2750,15 +2748,14 @@ const binance = [
         "symbol": "GMX",
         "coin": "GMX",
         "network": [
-            "AVAX C",
-            "Chain",
+            "AVAX C-Chain",
             " Arbitrum One"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.1,
             0.1
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.02,
             0.006
         ]
@@ -2770,10 +2767,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.058
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.029
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -2785,11 +2782,11 @@ const binance = [
             "Arbitrum One",
             " Polygon"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             1,
             0.07
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.3,
             0.035
         ]
@@ -2803,12 +2800,12 @@ const binance = [
             "ERC20",
             " Polygon"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             10,
             60,
             2.62
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             5,
             30,
             1.31
@@ -2821,10 +2818,10 @@ const binance = [
         "network": [
             "Groestlcoin"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.4
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.2
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -2835,10 +2832,10 @@ const binance = [
         "network": [
             "BEP20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             500
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             150
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -2849,10 +2846,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             5.98
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             2.99
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -2863,10 +2860,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             928
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             464
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -2878,11 +2875,11 @@ const binance = [
             "Moonbeam",
             " BEP20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             1,
             0.42
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.01,
             0.21
         ]
@@ -2895,11 +2892,11 @@ const binance = [
             "BEP20",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.094,
             5.92
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.047,
             2.96
         ]
@@ -2912,11 +2909,11 @@ const binance = [
             "NEO N3",
             " Neo Legacy"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.1,
             1
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.05,
             0.005
         ]
@@ -2929,11 +2926,11 @@ const binance = [
             "ERC20",
             " Polygon"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             7.02,
             0.3
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             3.51,
             0.15
         ]
@@ -2945,10 +2942,10 @@ const binance = [
         "network": [
             "BEP20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             2.32
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             1.16
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -2959,10 +2956,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             266
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             133
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -2973,10 +2970,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             4700
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             2350
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -2988,11 +2985,11 @@ const binance = [
             "BEP20",
             " KAVA"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.84,
             0.15
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.42,
             0.073
         ]
@@ -3004,10 +3001,10 @@ const binance = [
         "network": [
             "BEP20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.078
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.039
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -3019,11 +3016,11 @@ const binance = [
             "BEP20",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.062,
             4.36
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.031,
             2.18
         ]
@@ -3035,10 +3032,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             20
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             10
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -3050,11 +3047,11 @@ const binance = [
             "BEP2",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             20,
             20
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             10,
             10
         ]
@@ -3066,10 +3063,10 @@ const binance = [
         "network": [
             "Hedera Hashgraph"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             2
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.8
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -3081,11 +3078,11 @@ const binance = [
             "BEP20",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.26,
             16
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.13,
             8.26
         ]
@@ -3097,10 +3094,10 @@ const binance = [
         "network": [
             "HIVE"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.02
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.01
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -3111,10 +3108,10 @@ const binance = [
         "network": [
             "IRISnet"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             2
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             1
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -3128,13 +3125,13 @@ const binance = [
             "ERC20",
             " Polygon"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             2788,
             3850,
             98862,
             6000
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             1394,
             1925,
             49431,
@@ -3149,11 +3146,11 @@ const binance = [
             "BEP20",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             2,
             19
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             1,
             9.94
         ]
@@ -3166,11 +3163,11 @@ const binance = [
             "EOS",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             100,
             1346
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             50,
             673
         ]
@@ -3185,13 +3182,13 @@ const binance = [
             " BEP2",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             6.54,
             1,
             12,
             10
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             3.27,
             0.1,
             6.44,
@@ -3206,11 +3203,11 @@ const binance = [
             "IOST",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             2,
             784
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             1,
             392
         ]
@@ -3223,11 +3220,11 @@ const binance = [
             "BEP20",
             " MIOTA"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.74,
             69
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.37,
             0.5
         ]
@@ -3239,10 +3236,10 @@ const binance = [
         "network": [
             "Internet Computer"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.001
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.0003
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -3253,10 +3250,10 @@ const binance = [
         "network": [
             "ICON"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.04
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.02
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -3267,10 +3264,10 @@ const binance = [
         "network": [
             "BEP20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             3244
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             1622
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -3282,11 +3279,11 @@ const binance = [
             "BEP20",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             2.98,
             100
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             1.49,
             50
         ]
@@ -3299,11 +3296,11 @@ const binance = [
             "BEP20",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.0024,
             0.14
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.0012,
             0.069
         ]
@@ -3315,10 +3312,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             9.28
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             4.64
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -3331,12 +3328,12 @@ const binance = [
             " Injective Protocol",
             " BEP2"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.05,
             0.02,
             0.038
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.025,
             0.01,
             0.019
@@ -3349,10 +3346,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             1257044
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             628522
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -3364,11 +3361,11 @@ const binance = [
             "BEP20",
             " TRC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             6.04,
             100
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             3.02,
             50
         ]
@@ -3381,11 +3378,11 @@ const binance = [
             "BEP20",
             " Chiliz Chain (CHZ)"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.02,
             1
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.01,
             0
         ]
@@ -3398,11 +3395,11 @@ const binance = [
             "BEP20",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             30,
             1666
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             15,
             833
         ]
@@ -3414,10 +3411,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             21.7
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             10.85
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -3426,15 +3423,14 @@ const binance = [
         "symbol": "JOE",
         "coin": "JOE",
         "network": [
-            "AVAX C",
-            "Chain",
+            "AVAX C-Chain",
             " Arbitrum One"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             1,
             10
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.1,
             1
         ]
@@ -3446,10 +3442,10 @@ const binance = [
         "network": [
             "Klaytn"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             1
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.005
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -3461,11 +3457,11 @@ const binance = [
             "Kadena",
             " Kadena"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0,
             0.2
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0,
             0.1
         ]
@@ -3477,10 +3473,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             1150
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             575
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -3491,10 +3487,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.11
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.057
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -3506,11 +3502,11 @@ const binance = [
             "KAVA",
             " BEP2"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             2,
             0.28
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.01,
             0.14
         ]
@@ -3522,10 +3518,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             34
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             17
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -3537,11 +3533,11 @@ const binance = [
             "BEP20",
             " Komodo"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.62,
             0.004
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.31,
             0.002
         ]
@@ -3554,11 +3550,11 @@ const binance = [
             "BEP20",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.22,
             8
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.11,
             4
         ]
@@ -3571,11 +3567,11 @@ const binance = [
             "BEP20",
             " Kusama"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.0046,
             1.01
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.0023,
             0.01
         ]
@@ -3587,10 +3583,10 @@ const binance = [
         "network": [
             "Terra Classic"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             30000
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             22.66
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -3601,10 +3597,10 @@ const binance = [
         "network": [
             "Terra"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             10
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.01
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -3615,10 +3611,10 @@ const binance = [
         "network": [
             "Fantom"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             1
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.3
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -3629,10 +3625,10 @@ const binance = [
         "network": [
             "BEP20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.056
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.028
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -3644,11 +3640,11 @@ const binance = [
             "BEP2",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             20,
             20
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             10,
             10
         ]
@@ -3661,11 +3657,11 @@ const binance = [
             "BEP20",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.98,
             86
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.49,
             43
         ]
@@ -3677,10 +3673,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             3.22
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             1.61
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -3691,10 +3687,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             24
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             12
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -3706,11 +3702,11 @@ const binance = [
             "BEP20",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.14,
             9.04
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.071,
             4.52
         ]
@@ -3723,11 +3719,11 @@ const binance = [
             "BEP20",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             3.16,
             144
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             1.58,
             72
         ]
@@ -3739,10 +3735,10 @@ const binance = [
         "network": [
             "Fantom"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             30
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             10
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -3753,10 +3749,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             6.68
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             3.34
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -3767,10 +3763,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             5082
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             2541
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -3781,10 +3777,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             1.46
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.73
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -3796,11 +3792,11 @@ const binance = [
             "BEP20",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.5,
             26
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.25,
             13
         ]
@@ -3812,10 +3808,10 @@ const binance = [
         "network": [
             "Lisk"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.2
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.1
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -3828,12 +3824,12 @@ const binance = [
             " Litecoin",
             " BEP2"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.0019,
             0.002,
             0.003
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.00097,
             0.001,
             0.0015
@@ -3849,13 +3845,13 @@ const binance = [
             " BEP2",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             1.5,
             10,
             3.52,
             90
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.75,
             5,
             1.76,
@@ -3869,10 +3865,10 @@ const binance = [
         "network": [
             "BEP20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             6.02
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             3.01
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -3884,11 +3880,11 @@ const binance = [
             "BEP20",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             17,
             534
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             8.65,
             267
         ]
@@ -3902,12 +3898,12 @@ const binance = [
             " BEP2",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.026,
             0.01,
             1.12
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.013,
             0.002,
             0.56
@@ -3920,10 +3916,10 @@ const binance = [
         "network": [
             "Fantom"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             1
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.3
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -3934,10 +3930,10 @@ const binance = [
         "network": [
             "Mina"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             2.5
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.5
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -3949,11 +3945,11 @@ const binance = [
             "BEP20",
             " Ontology"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             46,
             7.52
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             23,
             3.76
         ]
@@ -3965,10 +3961,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             3
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             1.5
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -3979,10 +3975,10 @@ const binance = [
         "network": [
             "BEP20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.017
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.0086
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -3994,11 +3990,11 @@ const binance = [
             "BEP20",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.46,
             32
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.23,
             16
         ]
@@ -4011,11 +4007,11 @@ const binance = [
             "BEP20",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             3.04,
             156
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             1.52,
             78
         ]
@@ -4027,10 +4023,10 @@ const binance = [
         "network": [
             "BEP20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             1.84
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.92
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -4041,10 +4037,10 @@ const binance = [
         "network": [
             "Arbitrum One"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             2
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.3
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -4058,13 +4054,13 @@ const binance = [
             " BEP2",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.15,
             10,
             0.36,
             19.44
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.074,
             0.1,
             0.18,
@@ -4078,10 +4074,10 @@ const binance = [
         "network": [
             "BEP20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.34
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.17
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -4092,10 +4088,10 @@ const binance = [
         "network": [
             "BEP20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             1.38
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.69
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -4107,11 +4103,11 @@ const binance = [
             "BEP20",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.28,
             16
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.14,
             8.41
         ]
@@ -4123,10 +4119,10 @@ const binance = [
         "network": [
             "EOS"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             600
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             300
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -4139,12 +4135,12 @@ const binance = [
             " BEP2",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.00024,
             0.00042,
             0.011
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.00012,
             0.00021,
             0.0053
@@ -4157,10 +4153,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.02
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.01
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -4171,10 +4167,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             224
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             112
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -4186,11 +4182,11 @@ const binance = [
             "BEP20",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.048,
             1.64
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.024,
             0.82
         ]
@@ -4202,10 +4198,10 @@ const binance = [
         "network": [
             "MobileCoin"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.4
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.2
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -4216,10 +4212,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             892
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             446
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -4230,10 +4226,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             5.76
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             2.88
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -4244,10 +4240,10 @@ const binance = [
         "network": [
             "BEP20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -4258,10 +4254,10 @@ const binance = [
         "network": [
             "Moonriver"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.006
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.003
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -4274,12 +4270,12 @@ const binance = [
             " NEAR Protocol",
             " BEP2"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.078,
             0.2,
             0.19
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.039,
             0.01,
             0.095
@@ -4292,10 +4288,10 @@ const binance = [
         "network": [
             "Waves"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.004
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.002
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -4306,10 +4302,10 @@ const binance = [
         "network": [
             "BEP20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             32
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             16
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -4321,11 +4317,11 @@ const binance = [
             "Neo Legacy",
             " NEO N3"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             1,
             1
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0,
             0
         ]
@@ -4338,11 +4334,11 @@ const binance = [
             "BEP20",
             " TRC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             100000,
             61200
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             50000,
             30600
         ]
@@ -4355,11 +4351,11 @@ const binance = [
             "BEP20",
             " Nuls"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.64,
             0.02
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.32,
             0.01
         ]
@@ -4371,10 +4367,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             64
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             32
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -4385,10 +4381,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.5
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.25
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -4400,11 +4396,11 @@ const binance = [
             "ERC20",
             " Polygon"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             10,
             0.46
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             5.31,
             0.23
         ]
@@ -4416,10 +4412,10 @@ const binance = [
         "network": [
             "Nuls"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             1
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.1
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -4431,11 +4427,11 @@ const binance = [
             "BEP20",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.46,
             20
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.23,
             10
         ]
@@ -4448,11 +4444,11 @@ const binance = [
             "BEP20",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.78,
             36
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.39,
             18
         ]
@@ -4465,11 +4461,11 @@ const binance = [
             "BEP20",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             1.32,
             82
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.66,
             41
         ]
@@ -4481,10 +4477,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             780
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             390
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -4496,11 +4492,11 @@ const binance = [
             "BEP20",
             " Chiliz Chain (CHZ)"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.04,
             1
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.02,
             0
         ]
@@ -4513,11 +4509,11 @@ const binance = [
             "BEP20",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             4.26,
             272
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             2.13,
             136
         ]
@@ -4529,10 +4525,10 @@ const binance = [
         "network": [
             "Optimism"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             2
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.09
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -4543,10 +4539,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             10
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             5.1
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -4558,11 +4554,11 @@ const binance = [
             "Harmony",
             " BEP2"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             60,
             8
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.1,
             0
         ]
@@ -4574,10 +4570,10 @@ const binance = [
         "network": [
             "Ontology"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.086
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.043
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -4590,12 +4586,12 @@ const binance = [
             " Ontology",
             " BEP2"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.7,
             2,
             1.36
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.35,
             1,
             0.68
@@ -4608,10 +4604,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             62
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             31
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -4622,10 +4618,10 @@ const binance = [
         "network": [
             "Osmosis"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.1
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.001
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -4637,11 +4633,11 @@ const binance = [
             "BEP20",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.17,
             8.38
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.084,
             4.19
         ]
@@ -4653,10 +4649,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             82
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             41
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -4668,11 +4664,11 @@ const binance = [
             "ERC20",
             " Polygon"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             2410,
             102
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             1205,
             51
         ]
@@ -4684,10 +4680,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             114
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             57
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -4698,10 +4694,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.01
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.005
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -4713,11 +4709,11 @@ const binance = [
             "BEP20",
             " BEP2"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             10,
             10
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0,
             0
         ]
@@ -4729,10 +4725,10 @@ const binance = [
         "network": [
             "BEP20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             144
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             72
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -4743,10 +4739,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             46
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             23
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -4758,11 +4754,11 @@ const binance = [
             "BEP20",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             1.08,
             32
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.54,
             16
         ]
@@ -4774,10 +4770,10 @@ const binance = [
         "network": [
             "BEP20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.14
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.071
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -4788,10 +4784,10 @@ const binance = [
         "network": [
             "BEP20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             1052
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             526
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -4802,10 +4798,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             17
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             8.75
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -4817,11 +4813,11 @@ const binance = [
             "ERC20",
             " Polygon"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             16,
             1.78
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             8,
             0.89
         ]
@@ -4834,11 +4830,11 @@ const binance = [
             "BEP20",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.74,
             62
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.37,
             31
         ]
@@ -4850,10 +4846,10 @@ const binance = [
         "network": [
             "PIVX"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.4
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.2
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -4864,10 +4860,10 @@ const binance = [
         "network": [
             "POLYX"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             10
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             5
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -4878,10 +4874,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             5916898
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             2958449
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -4893,11 +4889,11 @@ const binance = [
             "BEP20",
             " Chiliz Chain (CHZ)"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.02,
             1
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.01,
             0
         ]
@@ -4910,11 +4906,11 @@ const binance = [
             "BEP20",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             7.54,
             396
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             3.77,
             198
         ]
@@ -4927,11 +4923,11 @@ const binance = [
             "BEP20",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.19,
             13
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.095,
             6.62
         ]
@@ -4944,11 +4940,11 @@ const binance = [
             "BEP20",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             6.84,
             418
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             3.42,
             209
         ]
@@ -4961,11 +4957,11 @@ const binance = [
             "BEP20",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.28,
             19
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.14,
             9.83
         ]
@@ -4978,11 +4974,11 @@ const binance = [
             "BEP20",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.034,
             1.64
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.017,
             0.82
         ]
@@ -4994,10 +4990,10 @@ const binance = [
         "network": [
             "BEP20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.066
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.033
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -5009,11 +5005,11 @@ const binance = [
             "ERC20",
             " Polygon"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             2.1,
             0.09
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             1.05,
             0.045
         ]
@@ -5025,10 +5021,10 @@ const binance = [
         "network": [
             "Parallel Finance"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             50
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             10
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -5041,12 +5037,12 @@ const binance = [
             " Arbitrum One",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             15,
             20,
             838
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             7.64,
             1,
             419
@@ -5060,11 +5056,11 @@ const binance = [
             "BEP20",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.34,
             22
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.17,
             11
         ]
@@ -5077,11 +5073,11 @@ const binance = [
             "ERC20",
             " Polygon"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.13,
             0.0054
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.063,
             0.0027
         ]
@@ -5094,11 +5090,11 @@ const binance = [
             "BEP20",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             15,
             810
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             7.95,
             405
         ]
@@ -5110,10 +5106,10 @@ const binance = [
         "network": [
             "Qtum"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             1.1
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.55
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -5124,10 +5120,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.062
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.031
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -5137,14 +5133,13 @@ const binance = [
         "coin": "BENQI",
         "network": [
             "BEP20",
-            " AVAX C",
-            "Chain"
+            "AVAX C-Chain"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             15,
             10
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             7.95,
             5
         ]
@@ -5156,10 +5151,10 @@ const binance = [
         "network": [
             "BEP20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             5
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             1
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -5170,10 +5165,10 @@ const binance = [
         "network": [
             "Qtum"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.02
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.01
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -5184,10 +5179,10 @@ const binance = [
         "network": [
             "Solana"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             1.42
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.71
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -5198,10 +5193,10 @@ const binance = [
         "network": [
             "REI Network"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.06
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.03
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -5212,10 +5207,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             92
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             46
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -5226,10 +5221,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             84
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             42
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -5240,10 +5235,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             92
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             46
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -5254,10 +5249,10 @@ const binance = [
         "network": [
             "RSK"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             6
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             3
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -5268,10 +5263,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             4.88
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             2.44
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -5282,10 +5277,10 @@ const binance = [
         "network": [
             "Oasis Network"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             1
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.1
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -5296,10 +5291,10 @@ const binance = [
         "network": [
             "Arbitrum One"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             1
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.1
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -5310,10 +5305,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.14
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.07
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -5324,10 +5319,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             2858
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             1429
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -5340,12 +5335,12 @@ const binance = [
             " Reef",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             54,
             20,
             3736
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             27,
             10,
             1868
@@ -5358,10 +5353,10 @@ const binance = [
         "network": [
             "Ravencoin"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             2
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             1
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -5372,10 +5367,10 @@ const binance = [
         "network": [
             "THORChain"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.5
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.025
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -5387,11 +5382,11 @@ const binance = [
             "BEP20",
             " Arbitrum One"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.34,
             1
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.17,
             0.3
         ]
@@ -5403,10 +5398,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             2.98
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             1.49
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -5417,10 +5412,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             3.96
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             1.98
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -5431,10 +5426,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             164
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             82
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -5445,10 +5440,10 @@ const binance = [
         "network": [
             "BEP20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.034
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.017
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -5459,10 +5454,10 @@ const binance = [
         "network": [
             "BEP20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             720
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             360
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -5473,10 +5468,10 @@ const binance = [
         "network": [
             "BEP20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.34
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.17
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -5487,10 +5482,10 @@ const binance = [
         "network": [
             "Songbird"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.02
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.01
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -5501,10 +5496,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             22
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             11
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -5515,10 +5510,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             3616752
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             1808376
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -5531,12 +5526,12 @@ const binance = [
             "ERC20",
             " Polygon"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.26,
             14,
             0.62
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.13,
             7.27,
             0.31
@@ -5550,11 +5545,11 @@ const binance = [
             "BEP20",
             " Secret"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.22,
             0.2
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.11,
             0.1
         ]
@@ -5566,10 +5561,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             234
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             117
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -5580,10 +5575,10 @@ const binance = [
         "network": [
             "BEP20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             1.16
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.58
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -5594,10 +5589,10 @@ const binance = [
         "network": [
             "Steem"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.02
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.01
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -5610,12 +5605,12 @@ const binance = [
             "ERC20",
             " Ronin"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             54,
             3550,
             154
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             27,
             1775,
             1
@@ -5629,11 +5624,11 @@ const binance = [
             "BEP20",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.22,
             20
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.11,
             10
         ]
@@ -5645,10 +5640,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             294
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             147
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -5662,13 +5657,13 @@ const binance = [
             "ERC20",
             " Optimism"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.064,
             0.13,
             3.28,
             1
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.032,
             0.064,
             1.64,
@@ -5683,11 +5678,11 @@ const binance = [
             "BEP20",
             " Solana"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.008,
             0.02
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.004,
             0.008
         ]
@@ -5697,15 +5692,14 @@ const binance = [
         "symbol": "SPELL",
         "coin": "Spell Token",
         "network": [
-            "AVAX C",
-            "Chain",
+            "AVAX C-Chain",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             100,
             13464
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0,
             6732
         ]
@@ -5718,11 +5712,11 @@ const binance = [
             "ERC20",
             " Solana"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             100,
             4.08
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             50,
             2.04
         ]
@@ -5734,10 +5728,10 @@ const binance = [
         "network": [
             "Fantom"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             150
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             60
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -5748,10 +5742,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.34
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.17
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -5760,15 +5754,14 @@ const binance = [
         "symbol": "STG",
         "coin": "Stargate Finance",
         "network": [
-            "AVAX C",
-            "Chain",
+            "AVAX C-Chain",
             " Arbitrum One",
             " BEP20",
             "ERC20",
             " Fantom",
             " Polygon"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             5,
             5,
             0.17,
@@ -5776,7 +5769,7 @@ const binance = [
             5,
             0.46
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             2.5,
             0.2,
             0.085,
@@ -5793,11 +5786,11 @@ const binance = [
             "BEP20",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             14612,
             849354
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             7306,
             424677
         ]
@@ -5809,10 +5802,10 @@ const binance = [
         "network": [
             "Stacks"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             5
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             1.5
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -5823,10 +5816,10 @@ const binance = [
         "network": [
             "Sui"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             1
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.02
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -5838,11 +5831,11 @@ const binance = [
             "BEP20",
             " TRC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             26,
             24
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             13,
             12
         ]
@@ -5856,12 +5849,12 @@ const binance = [
             " BEP2",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.14,
             0.36,
             9.04
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.071,
             0.18,
             4.52
@@ -5874,10 +5867,10 @@ const binance = [
         "network": [
             "Siacoin"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.2
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.1
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -5888,10 +5881,10 @@ const binance = [
         "network": [
             "Solar"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.2
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.1
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -5901,15 +5894,14 @@ const binance = [
         "coin": "Synapse",
         "network": [
             "BEP20",
-            " AVAX C",
-            "Chain",
+            " AVAX C-Chain",
             " Arbitrum One",
             "ERC20",
             " Fantom",
             " Optimism",
             " Polygon"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.14,
             3.2,
             0.28,
@@ -5918,7 +5910,7 @@ const binance = [
             0.6,
             0.46
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.07,
             1.67,
             0.14,
@@ -5935,10 +5927,10 @@ const binance = [
         "network": [
             "Syscoin"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             2
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             1
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -5949,10 +5941,10 @@ const binance = [
         "network": [
             "Stratis"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.2
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.1
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -5964,11 +5956,11 @@ const binance = [
             "BEP20",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             1.2,
             54
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.6,
             27
         ]
@@ -5980,10 +5972,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             1684
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             842
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -5994,10 +5986,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             300
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             150
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -6008,10 +6000,10 @@ const binance = [
         "network": [
             "Fantom"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             100
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             25
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -6022,10 +6014,10 @@ const binance = [
         "network": [
             "Fantom"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             40
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             20
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -6039,13 +6031,13 @@ const binance = [
             "ERC20",
             " TRC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.44,
             10,
             30,
             10
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0,
             0.6,
             4.336,
@@ -6059,10 +6051,10 @@ const binance = [
         "network": [
             "BEP20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.5
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.25
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -6073,10 +6065,10 @@ const binance = [
         "network": [
             "Theta Token"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             4.64
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             2.32
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -6089,12 +6081,12 @@ const binance = [
             " BEP2",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             54,
             116,
             3022
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             27,
             58,
             1511
@@ -6108,11 +6100,11 @@ const binance = [
             "BEP20",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             8.02,
             546
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             4.01,
             273
         ]
@@ -6124,10 +6116,10 @@ const binance = [
         "network": [
             "Fantom"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             60
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             30
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -6140,12 +6132,12 @@ const binance = [
             " BEP2",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.02,
             0.18,
             4.6
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.01,
             0.09,
             2.3
@@ -6158,10 +6150,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.64
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.32
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -6173,11 +6165,11 @@ const binance = [
             "BEP20",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             2.62,
             168
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             1.31,
             84
         ]
@@ -6192,13 +6184,13 @@ const binance = [
             " BEP2",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             2.62,
             15,
             3.66,
             92
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             1.31,
             1,
             1.83,
@@ -6213,11 +6205,11 @@ const binance = [
             "BEP20",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.022,
             1.76
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.011,
             0.88
         ]
@@ -6229,10 +6221,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             232
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             116
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -6244,11 +6236,11 @@ const binance = [
             "BEP20",
             " BEP2"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.13,
             0.28
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.067,
             0.14
         ]
@@ -6260,10 +6252,10 @@ const binance = [
         "network": [
             "Theta Token"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.24
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.12
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -6274,10 +6266,10 @@ const binance = [
         "network": [
             "BEP20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             10
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             5
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -6286,13 +6278,12 @@ const binance = [
         "symbol": "USDCE",
         "coin": "Avalanche C-Chain USD Coin",
         "network": [
-            "AVAX C",
-            "Chain"
-        ],
-        "withdrawal_fee": [
-            11
+            "AVAX C-Chain"
         ],
         "min_withdrawal": [
+            11
+        ],
+        "withdrawal_fee": [
             1
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -6303,10 +6294,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             3.94
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             1.97
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -6318,11 +6309,11 @@ const binance = [
             "BEP2",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             10,
             10
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             5,
             5
         ]
@@ -6336,12 +6327,12 @@ const binance = [
             " BEP2",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.028,
             0.056,
             1.46
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.014,
             0.028,
             0.73
@@ -6355,11 +6346,11 @@ const binance = [
             "BEP20",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.03,
             1.68
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.015,
             0.84
         ]
@@ -6372,11 +6363,11 @@ const binance = [
             "ERC20",
             " MultiversX eGold"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             86,
             20
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             43,
             1
         ]
@@ -6388,10 +6379,10 @@ const binance = [
         "network": [
             "Terra Classic"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             200
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.6
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -6400,13 +6391,12 @@ const binance = [
         "symbol": "USDTE",
         "coin": "Tether USD",
         "network": [
-            "AVAX C",
-            "Chain"
-        ],
-        "withdrawal_fee": [
-            21
+            "AVAX C-Chain"
         ],
         "min_withdrawal": [
+            21
+        ],
+        "withdrawal_fee": [
             1
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -6418,8 +6408,7 @@ const binance = [
             "BEP20",
             " EOS",
             " NEAR Protocol",
-            " AVAX C",
-            "Chain",
+            " AVAX C-Chain",
             " Arbitrum One",
             " BEP2",
             "ERC20",
@@ -6430,7 +6419,7 @@ const binance = [
             " Tezos",
             " TRC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             10,
             10,
             10,
@@ -6445,7 +6434,7 @@ const binance = [
             10,
             10
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.29,
             1,
             1,
@@ -6469,11 +6458,11 @@ const binance = [
             "BEP20",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             10,
             30
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.8,
             4.64
         ]
@@ -6484,8 +6473,7 @@ const binance = [
         "coin": "USD Coin",
         "network": [
             "BEP20",
-            " AVAX C",
-            "Chain",
+            " AVAX C-Chain",
             " Algorand",
             " BEP2",
             "ERC20",
@@ -6495,7 +6483,7 @@ const binance = [
             " Stellar Network",
             " TRC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             10,
             50,
             10,
@@ -6507,7 +6495,7 @@ const binance = [
             2,
             10
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.145,
             1,
             1,
@@ -6528,11 +6516,11 @@ const binance = [
             "BEP20",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.44,
             24
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.22,
             12
         ]
@@ -6545,11 +6533,11 @@ const binance = [
             "BEP20",
             " VITE"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             5.82,
             2
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             2.91,
             1
         ]
@@ -6562,11 +6550,11 @@ const binance = [
             "BEP20",
             " Stellar Network"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             500,
             1000
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             100,
             500
         ]
@@ -6578,10 +6566,10 @@ const binance = [
         "network": [
             "VeChain"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             400
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             200
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -6592,10 +6580,10 @@ const binance = [
         "network": [
             "BEP20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             94
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             47
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -6606,10 +6594,10 @@ const binance = [
         "network": [
             "Polygon"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             1.94
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.97
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -6621,11 +6609,11 @@ const binance = [
             "BEP20",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             4.32,
             266
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             2.16,
             133
         ]
@@ -6637,10 +6625,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             6396
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             3198
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -6651,10 +6639,10 @@ const binance = [
         "network": [
             "BEP20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             10
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.8
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -6666,11 +6654,11 @@ const binance = [
             "BEP20",
             " VeChain"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             6.6,
             40
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             3.3,
             20
         ]
@@ -6682,10 +6670,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             56
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             28
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -6696,10 +6684,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             126
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             63
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -6711,11 +6699,11 @@ const binance = [
             "BEP2",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             200,
             600
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             100,
             300
         ]
@@ -6727,10 +6715,10 @@ const binance = [
         "network": [
             "Ontology"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.004
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.002
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -6741,10 +6729,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.24
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.12
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -6756,11 +6744,11 @@ const binance = [
             "BEP20",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.84,
             32
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.42,
             16
         ]
@@ -6773,11 +6761,11 @@ const binance = [
             "BEP20",
             " Waves"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.072,
             0.0032
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.036,
             0.0016
         ]
@@ -6791,12 +6779,12 @@ const binance = [
             " BEP2",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.96,
             2.58,
             66
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.48,
             1.29,
             33
@@ -6810,11 +6798,11 @@ const binance = [
             "Walton",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             1,
             40
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.01,
             20
         ]
@@ -6826,10 +6814,10 @@ const binance = [
         "network": [
             "Solana"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.3
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.01
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -6840,10 +6828,10 @@ const binance = [
         "network": [
             "BEP20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.01
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.002
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -6855,11 +6843,11 @@ const binance = [
             "ERC20",
             " Ronin"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.0036,
             0.01
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.0018,
             0.001
         ]
@@ -6872,11 +6860,11 @@ const binance = [
             "BEP20",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.00011,
             0.0036
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.000057,
             0.0018
         ]
@@ -6888,10 +6876,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.00026
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.00013
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -6902,10 +6890,10 @@ const binance = [
         "network": [
             "Wanchain"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.2
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.1
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -6917,11 +6905,11 @@ const binance = [
             "ERC20",
             " WAX"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             138,
             7
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             69,
             2
         ]
@@ -6935,12 +6923,12 @@ const binance = [
             " BEP2",
             " TRC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             1808,
             3860,
             2112
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             904,
             1930,
             1056
@@ -6953,10 +6941,10 @@ const binance = [
         "network": [
             "NANO"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.066
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.033
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -6967,10 +6955,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             6428
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             3214
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -6984,13 +6972,13 @@ const binance = [
             " BEP2",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.48,
             30,
             0.48,
             12
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.24,
             0.2,
             0.24,
@@ -7006,12 +6994,12 @@ const binance = [
             " Tezos",
             " BEP2"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.1,
             1,
             0.32
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.02,
             0.1,
             0.16
@@ -7024,10 +7012,10 @@ const binance = [
         "network": [
             "Verge"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.4
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.2
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -7038,10 +7026,10 @@ const binance = [
         "network": [
             "BEP20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.032
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.016
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -7052,10 +7040,10 @@ const binance = [
         "network": [
             "Symbol"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.2
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.1
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -7067,11 +7055,11 @@ const binance = [
             "BEP20",
             " eCash"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             5234,
             20000
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             2617,
             1000
         ]
@@ -7083,10 +7071,10 @@ const binance = [
         "network": [
             "NEM"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             8
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             4
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -7098,11 +7086,11 @@ const binance = [
             "BEP20",
             " Stellar Network"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             2.08,
             40
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             1.04,
             0.02
         ]
@@ -7114,10 +7102,10 @@ const binance = [
         "network": [
             "Monero"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.0002
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.0001
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -7130,12 +7118,12 @@ const binance = [
             " BEP2",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.00014,
             0.00036,
             0.0092
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.000069,
             0.00018,
             0.0046
@@ -7150,12 +7138,12 @@ const binance = [
             " BEP2",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.00002,
             0.000044,
             0.0011
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.0000098,
             0.000022,
             0.00057
@@ -7169,11 +7157,11 @@ const binance = [
             "BEP20",
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.58,
             40
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.29,
             20
         ]
@@ -7185,10 +7173,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             32
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             16
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -7199,10 +7187,10 @@ const binance = [
         "network": [
             "ERC20"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             92
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             46
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -7215,12 +7203,12 @@ const binance = [
             " Zcash",
             " BEP2"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.0042,
             0.01,
             0.009
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.0021,
             0.001,
             0.0045
@@ -7233,10 +7221,10 @@ const binance = [
         "network": [
             "Horizen"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             0.004
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             0.002
         ]
     , "exchange_image" : "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250" },
@@ -7248,11 +7236,11 @@ const binance = [
             "BEP20",
             " Zilliqa"
         ],
-        "withdrawal_fee": [
+        "min_withdrawal": [
             5.68,
             0.4
         ],
-        "min_withdrawal": [
+        "withdrawal_fee": [
             2.84,
             0.2
         ],

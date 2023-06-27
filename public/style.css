@@ -1224,6 +1224,7 @@ html {
     
     .css-e30lz9[data-is-numeric="true"] {
         text-align: end;
+        padding-right: var(--chakra-space-5);
     }
     
     .css-75zybh {
