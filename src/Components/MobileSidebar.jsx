@@ -18,7 +18,7 @@ const MobileSidebar = ({sidebarRef}) => {
                           <div aria-label="Blockchain link group" className="css-4npbiv">
                             <div className="css-9su1t3">
                               <div className="chakra-stack css-h2qvpe">
-                              <i class="fa fa-house" style={{paddingRight: '5px'}}></i>
+                              <i className="fa fa-house" style={{paddingRight: '5px'}}></i>
                                 <p className="chakra-text css-1qkro23">Home</p>
                               </div>
                             </div>
@@ -27,7 +27,7 @@ const MobileSidebar = ({sidebarRef}) => {
                         <li className="css-1cs5lkz">
                           <a target="_self" className="chakra-link css-o2e9ro" href="/tokens" aria-label="Tokens link">
                             <div className="chakra-stack css-h2qvpe">
-                              <i class="fa-brands fa-bitcoin" style={{paddingRight: '5px'}}></i>
+                              <i className="fa-brands fa-bitcoin" style={{paddingRight: '5px'}}></i>
                               <p className="chakra-text css-1qkro23">Tokens</p>
                             </div>
                           </a>
@@ -35,7 +35,7 @@ const MobileSidebar = ({sidebarRef}) => {
                         <li className="css-1cs5lkz">
                           <a target="_self" className="chakra-link css-o2e9ro" href="/stats" aria-label="Charts & stats link">
                             <div className="chakra-stack css-h2qvpe">
-                            <i class="fa fa-money-bill-transfer" style={{paddingRight: '5px'}}></i>
+                            <i className="fa fa-money-bill-transfer" style={{paddingRight: '5px'}}></i>
                               <p className="chakra-text css-1qkro23">Exchanges</p>
                             </div>
                           </a>

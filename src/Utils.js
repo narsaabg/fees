@@ -9,6 +9,7 @@ export const statistics = async () => {
 };
 
 export const multiplyAndFormat = (amount) => {
+  
   const parts = amount.toString().split('.');
   if (parts.length === 1) {
     return amount;

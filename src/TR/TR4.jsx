@@ -1,7 +1,9 @@
 import React, { useState } from "react";
+import {multiplyAndFormat} from '../Utils'
 
 // ExchangeCoins Table
 const TR = ({data}) => {
+    console.log(data);
     const [withdrawalFee,setWithdrawalFee] = useState(data.withdrawal_fee[0]);
     const [minWithdrawal,setMinWithdrawal] = useState(data.min_withdrawal[0]);
     
@@ -42,17 +44,18 @@ const TR = ({data}) => {
             </td>
             <td data-is-numeric="true" className="css-e30lz9">
                 <span className="css-75zybh">
-                    <p className="chakra-text css-1gdcvrl">{minWithdrawal}</p>
-                </span>
-            </td>
-            <td data-is-numeric="true" className="css-e30lz9">
-                <span className="css-75zybh">
                     <p className="chakra-text css-1gdcvrl">{withdrawalFee}</p>
                 </span>
             </td>
             <td data-is-numeric="true" className="css-e30lz9">
                 <span className="css-75zybh">
-                    <p className="chakra-text css-1gdcvrl">43</p>
+                    <p className="chakra-text css-1gdcvrl">{minWithdrawal}</p>
+                </span>
+            </td>
+            
+            <td data-is-numeric="true" className="css-e30lz9">
+                <span className="css-75zybh">
+                    <p className="chakra-text css-1gdcvrl">{multiplyAndFormat(parseFloat(data.price))}</p>
                 </span>
             </td>
         </tr>

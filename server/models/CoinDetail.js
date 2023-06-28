@@ -37,6 +37,7 @@ const coinDetailSchema = new mongoose.Schema({
   },
   image : String,
   exchange_image:String,
+  price : Number,
 }, { timestamps: true }, { _id: true });
 
 const CoinDetail = mongoose.model('coin_detail', coinDetailSchema);

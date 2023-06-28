@@ -11,7 +11,7 @@ const coinSchema = new mongoose.Schema({
   image: String,
   current_price: { type: Number, required: true },
   total_volume: { type: Number, required: true },
-  price_change_percentage_24h: { type: Number, required: true },
+  price_change_percentage_24h: { type: Number },
   lowest_fee: Number,
   maximum_fee: Number,
   circulating_supply: Number,
@@ -92,7 +92,7 @@ Coin.insertFilteredCoins = async function (page) {
         `${COINGECKO_API_URL}/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=${page}&sparkline=false&locale=en`
       );
       const coinsFromAPI = response.data;
-  
+        
       for (const coin of coinsFromAPI) {
         const coinDetail = await CoinDetail.findOne({ symbol: coin.symbol.toUpperCase()});
         if (coinDetail) {
@@ -100,6 +100,7 @@ Coin.insertFilteredCoins = async function (page) {
             
             coinDetail.coin_id = coin.id;
             coinDetail.image = coin.image;
+            coinDetail.price = coin.current_price;
             await coinDetail.save();
 
             coin.slug = `${coin.id}-withdrawal-fee`;
