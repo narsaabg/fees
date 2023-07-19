@@ -16,7 +16,7 @@ const TR = ({data}) => {
                 <div className="css-z2fbxz" style={{marginTop: '0px'}}><a target="_self" className="chakra-link css-emf8ld" href={'/exchanges/'+data.id}><span>{data.name}</span></a></div>
                 </div>
             </td>
-            <td className="css-pr32fc"><span>{data.coin_listed}</span></td>
+            <td className="css-pr32fc"><span>{data.coins_listed}</span></td>
             <td className="css-e30lz9"><a className="chakra-link css-5kc5f2" href="/block/257591">{data.trust_score}</a></td>
             <td data-is-numeric="true" className="css-e30lz9"><span className="css-75zybh"><p className="chakra-text css-1gdcvrl">{data.country}</p></span></td>
             <td data-is-numeric="true" className="css-e30lz9"><span className="css-75zybh"><p className="chakra-text css-1gdcvrl">{parseFloat(data.trade_volume_24h_btc).toFixed(2)}</p></span></td>

@@ -76,8 +76,10 @@ Exchange.getExchanges = async function (page, limit) {
         const coinDetail = await CoinDetail.findOne({ exchange_id: exchange.id});
         
         if (coinDetail) {
+            const coinCount = await CoinDetail.countDocuments({ exchange_id: exchange.id });
 
-          exchange.slug = `${exchange.id}-withdrawal-fee`;
+            exchange.slug = `${exchange.id}-withdrawal-fee`;
+            exchange.coins_listed = coinCount;
             const existingCoin = await Exchange.findOne({ id: exchange.id });
           if (existingCoin) {
             // Update existing coin

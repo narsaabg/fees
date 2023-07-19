@@ -14,7 +14,7 @@ const ExchangesTable = ({exchanges}) => {
                 <th className="css-fdqha2">Coin Listed</th>
                 <th className="css-1dlal87" style={{borderTopRightRadius: '0px',textAlign:'center'}}>Trust Score</th>
                 <th className="css-1u00tmx" style={{textAlign:'end'}}>Founded</th>
-                <th data-is-numeric="true" className="css-1dlal87" style={{textAlign:'end'}}>Volume</th>
+                <th data-is-numeric="true" className="css-1dlal87" style={{textAlign:'end'}}>Volume <span style={{fontSize:"12px"}}>(BTC)</span></th>
               </tr>
             </thead>
             <tbody className="css-0">
