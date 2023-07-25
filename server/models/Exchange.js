@@ -137,4 +137,62 @@ Exchange.getExchanges = async function (page, limit) {
     }
   }
 
+/**
+ * Method is used to get the select options of exchanges
+ * @author Lovedeep
+ * @created 19/07/2023 08:34
+ * */
+Exchange.exchangesSelectOptions = async function () {
+    try {
+        const exchanges = await this.find();
+        console.log(exchanges);
+        return exchanges.map((exchange) => ({
+            value: exchange.id,
+            label: exchange.name
+        }));
+    } catch (error) {
+        console.error('Error retrieving exchanges:', error);
+        throw error;
+    }
+};
+
+/**
+ * Insert single exchange or update
+ * @author Lovedeep
+ * @created 25/07/2023 14:29
+ *
+ * */
+Exchange.insertSingleExchange = async function (exchangeId) {
+    try {
+        let operation = 'Created' ;
+        // Fetch coins from API
+        const response = await axios.get(
+            `${COINGECKO_API_URL}/v3/exchanges/${exchangeId}`
+        );
+        const exchangeFromAPI = response.data;
+        console.log(exchangeFromAPI);
+        if(exchangeFromAPI){
+                exchangeFromAPI.id = exchangeId;
+                exchangeFromAPI.slug = `${exchangeId}-withdrawal-fee`;
+                const existingCoin = await Exchange.findOne({ id: exchangeId });
+                if (existingCoin) {
+                    // Update existing coin
+                    await Exchange.updateOne({ id: exchangeId }, exchangeFromAPI);
+                    console.log(`Exchange updated: ${exchangeId}`);
+                    operation = `Exchange updated: ${exchangeId}`;
+                } else {
+                    // Insert new coin
+                    await Exchange.create(exchangeFromAPI);
+                    console.log(`Coin inserted: ${exchangeId}`);
+
+                    operation = `Exchange inserted: ${exchangeId}`;
+                }
+                return operation;
+            }
+        console.log('Insertion and update completed!');
+    } catch (error) {
+        console.error('An error occurred:', error.message);
+    }
+};
+
 module.exports = Exchange;

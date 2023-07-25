@@ -1,0 +1,32 @@
+.coin-detail-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.coin-detail-form div {
+    margin-bottom: 10px;
+}
+
+.coin-detail-form label {
+    display: block;
+}
+
+.coin-detail-form select,
+.coin-detail-form input[type="number"],
+.coin-detail-form button {
+    width: 100%;
+    padding: 5px;
+}
+
+.coin-detail-form button {
+    padding: 10px;
+}
+.coin-detail-form label {
+    float: left;
+    padding: 5px;
+    text-decoration: gainsboro;
+}
+.coin-detail-form input,select{
+    border: 1px solid #f7f7f7;
+    /*padding: 10px !important;*/
+}

@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+const Coin = require('./Coin');
 
 /**
  * coin_detail collection schema
@@ -28,11 +29,11 @@ const coinDetailSchema = new mongoose.Schema({
     required: true
   },
   withdrawal_fee: {
-    type: [Number],
+    type: [],
     required: true
   },
   min_withdrawal: {
-    type: [Number],
+    type: [],
     required: true
   },
   image : String,
@@ -179,6 +180,49 @@ CoinDetail.coinStatistics = async (coinId) =>  {
     throw new Error(`Error finding lowest withdrawal fee: ${error.message}`);
   } 
 }
+
+
+CoinDetail.insertOrUpdateSingleCoinDetail = async (data) => {
+    try{
+      let coinId = data.coin_id;
+      const coin = await Coin.getCoin(coinId);
+      let coinData = {};
+      var responseText = '';
+      if(coin){
+        const { exchange_id, coin_id , network ,withdrawal_fee, min_withdrawal } = data;
+
+        data.symbol = coin.symbol;
+        data.coin = coin.name;
+        data.image = coin.image;
+        data.withdrawal_fee = JSON.parse(withdrawal_fee);
+        data.min_withdrawal = JSON.parse(min_withdrawal);
+        data.network = JSON.parse(network);
+        // data.exchange_image = String;
+        data.price = coin.current_price;
+
+        console.log(data);
+
+        const filter = { exchange_id, coin_id };
+        const update = { $set: data };
+        const options = { upsert: true };
+
+        const savedCoinDetails = await CoinDetail.findOneAndUpdate(filter, update, options);
+        console.log(savedCoinDetails)
+        if (savedCoinDetails === null) {
+          console.log(`Document added: ${data.symbol} - ${exchange_id}`);
+          responseText = `Document added: ${data.symbol} - ${exchange_id}`;
+        } else {
+          console.log(`Document updated: ${data.symbol} - ${exchange_id}`);
+          responseText = `Document updated: ${data.symbol} - ${exchange_id}`;
+        }
+          return savedCoinDetails;
+      }
+      return 'coin not existed';
+    }catch(error){
+      throw new Error(`Error finding lowest withdrawal fee: ${error}`);
+    }
+}
+
 
 
 module.exports = CoinDetail;

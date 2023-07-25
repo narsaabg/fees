@@ -123,10 +123,24 @@ const coinStatistics = async (req,res) => {
   }
 }
 
+
+const insertOrUpdateSingleCoinDetail = async (req,res) => {
+  const data = req.query;
+  try{
+    const result = CoinDetail.insertOrUpdateSingleCoinDetail(data);
+    console.log(result);
+    res.json(result);
+  }catch(error){
+    console.error('Error retrieving coins:', error);
+    res.status(500).json({ error: 'Internal server error' });
+  }
+}
+
 module.exports = {
   getExchangeCoins,
   getCoinExchanges,
   exchangeCoinsUpsert,
   searchCoinExchange,
-  coinStatistics
+  coinStatistics,
+  insertOrUpdateSingleCoinDetail
 };

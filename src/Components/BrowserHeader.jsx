@@ -56,7 +56,7 @@ const BrowserHeader = () => {
               {
                 Menu.map(function(r,t){
                     return (
-                      <li key={t} style={{paddingLeft:'0px',fontSize: 'var(--chakra-fontSizes-sm)'}}> <i class={r.icon} style={{paddingRight: '5px'}}></i><a href={r.link}>{r.name}</a></li>
+                      <li key={t} style={{paddingLeft:'0px',fontSize: 'var(--chakra-fontSizes-sm)'}}> <i className={r.icon} style={{paddingRight: '5px'}}></i><a href={r.link}>{r.name}</a></li>
                     )
                 })
               }

@@ -4,7 +4,9 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './Home';
 import Coins from './Coins';
 import Exchanges from './Exchanges';
+import CoinDetail from './Admin/CoinDetail'
 import api from './api';
+import  './jQuery';
 
 function App() {
   const [sttc,setSttc] = useState(null);
@@ -29,6 +31,9 @@ function App() {
         <Route path="/coins/:slug" element={<Coins sttc={sttc}/>} />
         <Route path="/exchanges" element={<Exchanges sttc={sttc}/>} />
         <Route path="/exchanges/:exchange" element={<Exchanges sttc={sttc}/>} />
+
+        // admin routes
+        <Route path="/admin/coin-detail/create" element={<CoinDetail />} />
 
         <Route path="/*" element={<Coins sttc={sttc}/>} />
 

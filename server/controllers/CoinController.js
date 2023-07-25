@@ -40,8 +40,46 @@ const coinCronJob = async(req, res) => {
     }
 }
 
+/**
+ * Method is get select options array
+ * @author Lovedeep
+ * @created 19/07/2023 08:36
+ *
+ * @param {*} req
+ * @param {*} res
+ */
+const coinsSelectOptions = async(req, res) => {
+    try {
+        const coins = await Coin.coinsSelectOptions();
+        res.json(coins);
+    } catch (error) {
+        console.error('Error retrieving coins:', error);
+        res.status(500).json({error: 'Internal server error'});
+    }
+};
+
+/**
+ * Insert Single coin by id
+ * @author Lovedeep
+ * @created 25/07/2023 14:37
+ *
+ * @param {*} req
+ * @param {*} res
+ */
+const insertSingleCoin = async(req, res) => {
+    const {coin_id } = req.query;
+    try {
+        const coin = await Coin.insertSingleCoin(coin_id);
+        res.json(coin);
+    } catch (error) {
+        console.error('Error retrieving coins:', error);
+        res.status(500).json({error: 'Internal server error'});
+    }
+};
 
 module.exports = {
     coinCronJob,
-    getCoins
+    getCoins,
+    coinsSelectOptions,
+    insertSingleCoin
   };

@@ -11,7 +11,7 @@ const TR = ({data}) => {
         const selectedOption = e.target.value;
         const withdrawalFee = e.target.options[e.target.selectedIndex].getAttribute('data-withdrawal_fee');
         const minWithdrawal = e.target.options[e.target.selectedIndex].getAttribute('data-min_withdrawal');
-
+        console.log(withdrawalFee +' '+minWithdrawal);
         setWithdrawalFee(withdrawalFee);
         setMinWithdrawal(minWithdrawal);
 
@@ -52,7 +52,6 @@ const TR = ({data}) => {
                     <p className="chakra-text css-1gdcvrl">{minWithdrawal}</p>
                 </span>
             </td>
-            
             <td data-is-numeric="true" className="css-e30lz9">
                 <span className="css-75zybh">
                     <p className="chakra-text css-1gdcvrl">{multiplyAndFormat(parseFloat(data.price))}</p>
